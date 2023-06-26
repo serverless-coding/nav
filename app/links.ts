@@ -85,7 +85,7 @@ export default async function getNavLinks(): Promise<CategoryWithLinks[]> {
     controller.abort();
   }, 50); // 5000ms 超时时间
 
-  const result: CategoryData = await fetch("https://nav.programnotes.cn/api/link", { signal: controller.signal })
+  const result: CategoryData = await fetch("https://nav-api.programnotes.cn/api/link", { signal: controller.signal })
     .then(res => {
       if (res.ok) {
         return res.json();
