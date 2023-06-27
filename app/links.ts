@@ -58,7 +58,7 @@ const _default: CategoryData = {
   data: [
     new category("Tool", "", [
       new siteLink("frp", "https://github.com/fatedier/frp", "", "A fast reverse proxy,反向代理工具"),
-      new siteLink("xxxx", "https://github.com/serverless-coding/frontend-nav", "", ""),
+      new siteLink("{JSON} Placeholder", "https://jsonplaceholder.typicode.com", "", "fake data api,提供测试数据的api"),
       new siteLink("xxxx", "https://github.com/serverless-coding/frontend-nav", "", ""),
       new siteLink("xxxx", "https://github.com/serverless-coding/frontend-nav", "", "")]),
     new category("Serverless", "", [
