@@ -1,5 +1,5 @@
 import { siteConfig } from '@/config/site';
-import type { Prisma, Link as SiteLink, Category } from '@prisma/client';
+import type { Link as SiteLink } from '@prisma/client';
 import { randomInt, randomUUID } from 'crypto';
 
 
