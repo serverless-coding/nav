@@ -66,12 +66,12 @@ const _default: CategoryData = {
       new siteLink("xxxx", "https://github.com/serverless-coding/frontend-nav", "", "")]),
     new category("Go", "", [
       new siteLink("Site", "https://golang.google.cn/", "/go.svg", "Go doc,Effective Go,官方文档,下载链接,example"),
-      new siteLink("xxxx", "https://github.com/serverless-coding/frontend-nav", "", ""),
+      new siteLink("xxxx", "https://github.com/serverless-coding/frontend-nav", "/solid.svg", ""),
       new siteLink("xxxx", "https://github.com/serverless-coding/frontend-nav", "", "")]),
     new category("Frontend", "", [
       new siteLink("Next.js", "https://nextjs.org/", "/next.svg", "React framework,React 框架"),
-      new siteLink("xxxx", "https://github.com/serverless-coding/frontend-nav", "", ""),
-      new siteLink("xxxx", "https://github.com/serverless-coding/frontend-nav", "", "")]),
+      new siteLink("xxxx", "https://github.com/serverless-coding/frontend-nav", "/acer.svg", ""),
+      new siteLink("xxxx", "https://github.com/serverless-coding/frontend-nav", "/snyk.svg", "")]),
     new category("Article", "", [
       new siteLink("notes", "https://programnotes.cn", "https://programnotes.cn/Image/logo.png", "programnotes")]),
   ]
