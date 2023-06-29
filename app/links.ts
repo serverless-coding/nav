@@ -59,7 +59,7 @@ const _default: CategoryData = {
     new category("Tool", "", [
       new siteLink("frp", "https://github.com/fatedier/frp", "", "A fast reverse proxy,反向代理工具"),
       new siteLink("{JSON} Placeholder", "https://jsonplaceholder.typicode.com", "", "fake data api,提供测试数据的api"),
-      new siteLink("xxxx", "https://github.com/serverless-coding/frontend-nav", "", ""),
+      new siteLink("apifox echo", "https://echo.apifox.com/", "https://cdn.apifox.cn/logo/apifox-logo-512.png", "Apifox Echo is a simple HTTP Request & Response Service,简单的monk接口"),
       new siteLink("xxxx", "https://github.com/serverless-coding/frontend-nav", "", "")]),
     new category("Serverless", "", [
       new siteLink("Netlify", "https://functions.netlify.com/", "", "Serverless platforms,网站托管"),
