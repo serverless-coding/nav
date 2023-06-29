@@ -56,23 +56,23 @@ const _default: CategoryData = {
   code: 200,
   message: "success",
   data: [
-    new category("Tool", "", [
+    new category("Tool", "/toml.svg", [
       new siteLink("frp", "https://github.com/fatedier/frp", "/accenture.svg", "A fast reverse proxy,反向代理工具"),
-      new siteLink("apifox echo", "https://echo.apifox.com/", "https://cdn.apifox.cn/logo/apifox-logo-512.png", "Apifox Echo is a simple HTTP Request & Response Service,简单的monk接口"),
-      new siteLink("simple icon", "https://github.com/simple-icons/simple-icons", "", "")]),
-    new category("Serverless", "", [
+      new siteLink("apifox echo", "https://echo.apifox.com/", "/solus.svg", "Apifox Echo is a simple HTTP Request & Response Service,简单的monk接口"),
+      new siteLink("simple icon", "https://github.com/simple-icons/simple-icons", "/thirteen.svg", "svg icon")]),
+    new category("Serverless", "/serverless.svg", [
       new siteLink("Netlify", "https://functions.netlify.com/", "/netlify.svg", "Serverless platforms,网站托管"),
-      new siteLink("Vercel", "https://vercel.com/", "", "Serverless platforms,网站托管"),
+      new siteLink("Vercel", "https://vercel.com/", "/vercel.svg", "Serverless platforms,网站托管"),
       new siteLink("xxxx", "https://github.com/serverless-coding/frontend-nav", "", "")]),
-    new category("Go", "", [
+    new category("Go", "/go.svg", [
       new siteLink("Site", "https://golang.google.cn/", "/go.svg", "Go doc,Effective Go,官方文档,下载链接,example"),
       new siteLink("xxxx", "https://github.com/serverless-coding/frontend-nav", "/solid.svg", ""),
       new siteLink("xxxx", "https://github.com/serverless-coding/frontend-nav", "", "")]),
-    new category("Frontend", "", [
+    new category("Frontend", "/frontify.svg", [
       new siteLink("Next.js", "https://nextjs.org/", "/next.svg", "React framework,React 框架"),
       new siteLink("xxxx", "https://github.com/serverless-coding/frontend-nav", "/acer.svg", ""),
       new siteLink("xxxx", "https://github.com/serverless-coding/frontend-nav", "/snyk.svg", "")]),
-    new category("Article", "", [
+    new category("Article", "/bloglovin.svg", [
       new siteLink("notes", "https://programnotes.cn", "https://programnotes.cn/Image/logo.png", "programnotes")]),
   ]
 }
