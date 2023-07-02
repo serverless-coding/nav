@@ -59,7 +59,8 @@ const _default: CategoryData = {
     new category("Tool", "/toml.svg", [
       new siteLink("frp", "https://github.com/fatedier/frp", "/accenture.svg", "A fast reverse proxy,反向代理工具"),
       new siteLink("apifox echo", "https://echo.apifox.com/", "/solus.svg", "Apifox Echo is a simple HTTP Request & Response Service,简单的monk接口"),
-      new siteLink("simple icon", "https://github.com/simple-icons/simple-icons", "/thirteen.svg", "svg icon")]),
+      new siteLink("simple icon", "https://github.com/simple-icons/simple-icons", "/thirteen.svg", "svg icon"),
+      new siteLink("gitpod", "https://gitpod.io/workspaces", "/Gitpod.svg", "browser editor:vscode,idea,goland...浏览器里用vscode,idea等")]),
     new category("Serverless", "/serverless.svg", [
       new siteLink("Netlify", "https://functions.netlify.com/", "/netlify.svg", "Serverless platforms,网站托管"),
       new siteLink("Vercel", "https://vercel.com/", "/vercel.svg", "Serverless platforms,网站托管"),
