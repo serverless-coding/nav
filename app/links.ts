@@ -65,8 +65,8 @@ const _default: CategoryData = {
       new siteLink("Vercel", "https://vercel.com/", "/vercel.svg", "Serverless platforms,网站托管"),
       new siteLink("xxxx", "https://github.com/serverless-coding/frontend-nav", "", "")]),
     new category("Go", "/go.svg", [
-      new siteLink("Site", "https://golang.google.cn/", "/go.svg", "Go doc,Effective Go,官方文档,下载链接,example"),
-      new siteLink("xxxx", "https://github.com/serverless-coding/frontend-nav", "/solid.svg", ""),
+      new siteLink("go doc", "https://golang.google.cn/", "/go.svg", "Go doc,Effective Go,官方文档,下载链接,example"),
+      new siteLink("go-zero", "https://go-zero.dev/", "/solid.svg", "a web and rpc framework,go微服务框架"),
       new siteLink("xxxx", "https://github.com/serverless-coding/frontend-nav", "", "")]),
     new category("Frontend", "/frontify.svg", [
       new siteLink("Next.js", "https://nextjs.org/", "/next.svg", "React framework,React 框架"),
