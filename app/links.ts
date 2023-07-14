@@ -75,6 +75,9 @@ const _default: CategoryData = {
       new siteLink("xxxx", "https://github.com/serverless-coding/frontend-nav", "/snyk.svg", "")]),
     new category("Article", "/bloglovin.svg", [
       new siteLink("notes", "https://programnotes.cn", "https://programnotes.cn/Image/logo.png", "programnotes")]),
+    new category("CodeStyle", "/CodePen.svg", [
+      new siteLink("uber/go", "https://github.com/xxjwxc/uber_go_guide_cn", "/go.svg", "uber/go code style guide,Uber go规范"),
+      new siteLink("shimohq/react", "https://github.com/shimohq/react-cookbook", "/React.svg", "shimo react cookbook,石墨文档 react")]),
   ]
 }
 
