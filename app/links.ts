@@ -60,7 +60,8 @@ const _default: CategoryData = {
       new siteLink("frp", "https://github.com/fatedier/frp", "/accenture.svg", "A fast reverse proxy,反向代理工具"),
       new siteLink("apifox echo", "https://echo.apifox.com/", "/solus.svg", "Apifox Echo is a simple HTTP Request & Response Service,简单的monk接口"),
       new siteLink("simple icon", "https://github.com/simple-icons/simple-icons", "/thirteen.svg", "svg icon"),
-      new siteLink("gitpod", "https://gitpod.io/workspaces", "/Gitpod.svg", "browser editor:vscode,idea,goland...浏览器里用vscode,idea等")]),
+      new siteLink("gitpod", "https://gitpod.io/workspaces", "/Gitpod.svg", "browser editor:vscode,idea,goland...浏览器里用vscode,idea等"),
+      new siteLink("m3u8-downloader", "https://www.yeyulingfeng.com/tools/m3u8-downloader/", "/docusign.svg", "m3u8 video downloader,视频下载器")]),
     new category("Serverless", "/serverless.svg", [
       new siteLink("Netlify", "https://functions.netlify.com/", "/netlify.svg", "Serverless platforms,网站托管"),
       new siteLink("Vercel", "https://vercel.com/", "/vercel.svg", "Serverless platforms,网站托管"),
@@ -77,7 +78,10 @@ const _default: CategoryData = {
       new siteLink("notes", "https://programnotes.cn", "https://programnotes.cn/Image/logo.png", "programnotes")]),
     new category("CodeStyle", "/CodePen.svg", [
       new siteLink("uber/go", "https://github.com/xxjwxc/uber_go_guide_cn", "/go.svg", "uber/go code style guide,Uber go规范"),
-      new siteLink("shimohq/react", "https://github.com/shimohq/react-cookbook", "/React.svg", "shimo react cookbook,石墨文档 react")]),
+      new siteLink("shimohq/react", "https://github.com/shimohq/react-cookbook", "/React.svg", "shimo react cookbook,石墨文档 react")],),
+    new category("Remote", "/remote.svg", [
+      new siteLink("eleduck", "https://eleduck.com/", "/eleduck.png", "eleduck,电鸭,远程工作社区"),
+    ],)
   ]
 }
 
