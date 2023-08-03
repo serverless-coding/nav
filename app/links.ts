@@ -69,7 +69,7 @@ const _default: CategoryData = {
     new category("Go", "/go.svg", [
       new siteLink("go doc", "https://golang.google.cn/", "/go.svg", "Go doc,Effective Go,官方文档,下载链接,example"),
       new siteLink("go-zero", "https://go-zero.dev/", "/go-zero.svg", "a web and rpc framework,go微服务框架"),
-      new siteLink("xxxx", "https://github.com/serverless-coding/frontend-nav", "", "")]),
+      new siteLink("beego-v2 doc", "https://beego.programnotes.cn", "/beego.jpg", "beego,go web框架,文档")]),
     new category("Frontend", "/frontify.svg", [
       new siteLink("Next.js", "https://nextjs.org/", "/next.svg", "React framework,React 框架"),
       new siteLink("xxxx", "https://github.com/serverless-coding/frontend-nav", "/acer.svg", ""),
