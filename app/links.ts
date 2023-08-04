@@ -84,7 +84,7 @@ const _default: CategoryData = {
       new siteLink("eleduck", "https://eleduck.com/", "/eleduck.png", "eleduck,电鸭,远程工作社区"),
     ],),
     new category("AI", "/ai-resize-20.png", [
-      new siteLink("魔搭", "https://modelscope.cn/", "/modelscopeIcon.svg", "开源的模型即服务共享平台,为泛AI开发者提供灵活、易用、低成本的一站式模型服务产品,让模型应用更简单"),
+      new siteLink("魔搭", "https://modelscope.cn/", "/modelscopeIcon.png", "开源的模型即服务共享平台,为泛AI开发者提供灵活、易用、低成本的一站式模型服务产品,让模型应用更简单"),
       new siteLink("通义千问", "https://qianwen.aliyun.com/chat", "/qianwen.png", "阿里云研发的通义千问大模型"),
     ],)
   ]
