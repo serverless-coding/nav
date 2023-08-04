@@ -58,6 +58,7 @@ const _default: CategoryData = {
   data: [
     new category("Tool", "/toml.svg", [
       new siteLink("frp", "https://github.com/fatedier/frp", "/accenture.svg", "A fast reverse proxy,反向代理工具"),
+      new siteLink("flomo", "https://flomoapp.com", "/flomologo.png", "notes tool,全平台的卡片笔记，聚焦帮你记录更多想法与灵感，以及更好回顾过往记录"),
       new siteLink("apifox echo", "https://echo.apifox.com/", "/solus.svg", "Apifox Echo is a simple HTTP Request & Response Service,简单的monk接口"),
       new siteLink("simple icon", "https://github.com/simple-icons/simple-icons", "/thirteen.svg", "svg icon"),
       new siteLink("gitpod", "https://gitpod.io/workspaces", "/Gitpod.svg", "browser editor:vscode,idea,goland...浏览器里用vscode,idea等"),
@@ -81,6 +82,10 @@ const _default: CategoryData = {
       new siteLink("shimohq/react", "https://github.com/shimohq/react-cookbook", "/React.svg", "shimo react cookbook,石墨文档 react")],),
     new category("Remote", "/remote.svg", [
       new siteLink("eleduck", "https://eleduck.com/", "/eleduck.png", "eleduck,电鸭,远程工作社区"),
+    ],),
+    new category("AI", "/ai-resize-20.png", [
+      new siteLink("魔搭", "https://modelscope.cn/", "/modelscopeIcon.svg", "开源的模型即服务共享平台,为泛AI开发者提供灵活、易用、低成本的一站式模型服务产品,让模型应用更简单"),
+      new siteLink("通义千问", "https://qianwen.aliyun.com/chat", "/qianwen.png", "阿里云研发的通义千问大模型"),
     ],)
   ]
 }
