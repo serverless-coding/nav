@@ -66,7 +66,7 @@ const _default: CategoryData = {
     new category("Serverless", "/serverless.svg", [
       new siteLink("Netlify", "https://functions.netlify.com/", "/netlify.svg", "Serverless platforms,网站托管"),
       new siteLink("Vercel", "https://vercel.com/", "/vercel.svg", "Serverless platforms,网站托管"),
-      new siteLink("xxxx", "https://github.com/serverless-coding/frontend-nav", "", "")]),
+      new siteLink("aliyun FC", "https://help.aliyun.com/zh/fc/", "/aliyun.svg", "阿里云函数计算(FC),事件驱动的全托管计算服务。通过函数计算，无需管理服务器等基础设施，只需编写代码并上传")]),
     new category("Go", "/go.svg", [
       new siteLink("go doc", "https://golang.google.cn/", "/go.svg", "Go doc,Effective Go,官方文档,下载链接,example"),
       new siteLink("go-zero", "https://go-zero.dev/", "/go-zero.svg", "a web and rpc framework,go微服务框架"),
