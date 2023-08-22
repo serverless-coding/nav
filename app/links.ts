@@ -89,8 +89,10 @@ const _default: CategoryData = {
       new siteLink("xxxx", "https://github.com/serverless-coding/frontend-nav", "/acer.svg", ""),
       new siteLink("xxxx", "https://github.com/serverless-coding/frontend-nav", "/snyk.svg", "")]),
 
-    new category("Article", "/bloglovin.svg", [
-      new siteLink("notes", "https://programnotes.cn", "https://programnotes.cn/Image/logo.png", "programnotes")]),
+    new category("Article", "/WordPress.svg", [
+      new siteLink("notes", "https://programnotes.cn", "https://programnotes.cn/Image/logo.png", "programnotes"),
+      new siteLink("ruanyf-weekly", "https://ruanyf-weekly.plantree.me/", "/logstash.svg", "阮一峰的技术周刊,科技, 分享, 开源"),
+    ]),
 
     new category("CodeStyle", "/CodePen.svg", [
       new siteLink("uber/go", "https://github.com/xxjwxc/uber_go_guide_cn", "/go.svg", "uber/go code style guide,Uber go规范"),
