@@ -90,6 +90,7 @@ const _default: CategoryData = {
     ]),
 
     new category("Article", "/WordPress.svg", [
+      new siteLink("hello-algo", "https://github.com/krahets/hello-algo", "/gitBook.svg", "《Hello 算法》：动画图解、一键运行的数据结构与算法教程,hello-algo.com"),
       new siteLink("notes", "https://programnotes.cn", "https://programnotes.cn/Image/logo.png", "programnotes"),
       new siteLink("ruanyf-weekly", "https://ruanyf-weekly.plantree.me/", "/logstash.svg", "阮一峰的技术周刊,科技, 分享, 开源"),
       new siteLink("今日热榜", "https://tophub.today/", "", "各站点热点:掘金,头条,知乎,豆瓣..."),
