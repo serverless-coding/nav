@@ -74,7 +74,8 @@ const _default: CategoryData = {
       new siteLink("apifox echo", "https://echo.apifox.com/", "/solus.svg", "Apifox Echo is a simple HTTP Request & Response Service,简单的monk接口"),
       new siteLink("simple icon", "https://github.com/simple-icons/simple-icons", "/thirteen.svg", "svg icon"),
       new siteLink("gitpod", "https://gitpod.io/workspaces", "/Gitpod.svg", "browser editor:vscode,idea,goland...浏览器里用vscode,idea等"),
-      new siteLink("m3u8-downloader", "https://www.yeyulingfeng.com/tools/m3u8-downloader/", "/docusign.svg", "m3u8 video downloader,视频下载器")
+      new siteLink("m3u8-downloader", "https://www.yeyulingfeng.com/tools/m3u8-downloader/", "/docusign.svg", "m3u8 video downloader,视频下载器"),
+      new siteLink("avatar maker", "https://avatar-tool.netlify.app/", "/avatar-tool.svg", "Make ID photo right in the browser,在浏览器生成头像,证件照..."),
     ]),
 
     new category("Serverless", "/serverless.svg", [
