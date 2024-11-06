@@ -14,7 +14,7 @@ export async function SiteHeader({ navItems }: SidebarProps) {
   return (
     <header className="sticky top-0 z-40 w-full bg-background dark:border-slate-50/[0.06] lg:border-b lg:border-slate-900/10">
       <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3614504270218797"
-        crossorigin="anonymous"></script>
+        crossOrigin="anonymous"></script>
       <div className="container flex h-16 items-center px-4 sm:justify-between sm:space-x-0">
         <MainNav items={siteConfig.mainNav} navItems={navItems} />
         <div className="flex flex-1 items-center justify-end space-x-4">
