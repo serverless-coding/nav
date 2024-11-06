@@ -13,8 +13,11 @@ export async function SiteHeader({ navItems }: SidebarProps) {
   const user = await getCurrentUser()
   return (
     <header className="sticky top-0 z-40 w-full bg-background dark:border-slate-50/[0.06] lg:border-b lg:border-slate-900/10">
+      {/* 站点标识 */}
       <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3614504270218797"
         crossOrigin="anonymous"></script>
+      <meta name="msvalidate.01" content="B6FE76A783A1770409EC903DE2C7AC6A" />
+      {/* 站点标识 */}
       <div className="container flex h-16 items-center px-4 sm:justify-between sm:space-x-0">
         <MainNav items={siteConfig.mainNav} navItems={navItems} />
         <div className="flex flex-1 items-center justify-end space-x-4">
