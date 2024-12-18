@@ -3,8 +3,7 @@ import Image from "next/image"
 
 import { cn } from "@/lib/utils"
 import { useEffect, useState } from "react"
-import { Category } from "@prisma/client"
-
+import { Category } from "@/types/nav"
 
 export interface SidebarProps {
   className?: string,

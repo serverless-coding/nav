@@ -1,5 +1,5 @@
 import { siteConfig } from '@/config/site';
-import type { Link as SiteLink } from '@prisma/client';
+import type { Link as SiteLink } from "@/types/nav";
 import { randomInt, randomUUID } from 'crypto';
 
 
@@ -32,9 +32,6 @@ class siteLink implements SiteLink {
   description: string
   rank: number | null
   public: boolean
-  status: number
-  createdAt: Date
-  updatedAt: Date
   cid: string
 
   constructor(title: string, url: string, icon: string, description: string) {
@@ -45,9 +42,6 @@ class siteLink implements SiteLink {
     this.description = description == "" ? randomUUID() : description
     this.rank = 0
     this.public = true
-    this.status = 1
-    this.createdAt = new Date()
-    this.updatedAt = new Date()
     this.cid = ""
   }
 }
@@ -115,44 +109,7 @@ export default async function getNavLinks(): Promise<CategoryWithLinks[]> {
     controller.abort();
   }, 50); // 5000ms 超时时间
 
-  const result: CategoryData = await fetch("https://nav-api.programnotes.cn/api/link", { signal: controller.signal })
-    .then(res => {
-      if (res.ok) {
-        return res.json();
-      }
-      return _default;
-    })
-    .then((data: CategoryData) => {
-      if (data.data.length <= 1) {
-        return _default;
-      }
-      return data;
-    })
-    .then((data: CategoryData) => {
-      data.data.map((c) => {
-        if (c.icon == "") {
-          c.icon = _defaultIcon
-        }
-        if (c.links == undefined) {
-          c.links = [];
-        } else {
-          c.links.map((l) => { if (l.icon == "") l.icon = _defaultIcon })
-        }
-      })
-      return data;
-    })
-    .catch(error => {
-      if (error.name === 'AbortError') {
-        return _default;
-      } else {
-        console.log('Timeout There has been a problem with your fetch operation: ', error);
-        // 返回默认值
-        return _default;
-      }
-    })
-    .finally(() => {
-      clearTimeout(timeout);
-    });;
+  const result: CategoryData = _default;
   return result.data;
 }
 
