@@ -1,5 +1,5 @@
 "use client"
-import { Category } from "@prisma/client"
+import { Category } from "@/types/nav";
 import { Sidebar } from "./sidebar"
 
 
