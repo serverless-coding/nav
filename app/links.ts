@@ -49,11 +49,11 @@ class siteLink implements SiteLink {
 const _default: CategoryData = {
   data: [
     new category("AI", "/ai-resize-20.png", [
-      new siteLink("魔搭", "https://modelscope.cn/", "/modelscopeIcon.png", "开源的模型即服务共享平台,为泛AI开发者提供灵活、易用、低成本的一站式模型服务产品,让模型应用更简单"),
+      new siteLink("魔搭", "https://modelscope.cn/", "/blurry-gradient.svg", "开源的模型即服务共享平台,为泛AI开发者提供灵活、易用、低成本的一站式模型服务产品,让模型应用更简单"),
       new siteLink("通义千问", "https://qianwen.aliyun.com/chat", "/qianwen.png", "阿里云研发的通义千问大模型"),
       new siteLink("ai 导航", "https://ai.dreamthere.cn/", "/ai-resize-20.png", "ai导航站,收集了各种AI站点,有分类"),
       new siteLink("SiliconFlow", "https://cloud.siliconflow.cn/i/eluTiiYw", "/siliconflow.png", "gpt pass平台,提供各种大模型接口,有部分模型可免费试用,注册即送2000w token"),
-      new siteLink("Openrouter", "https://openrouter.ai", "", "gpt pass平台,提供各种大模型接口,有部分模型可免费试用"),
+      new siteLink("Openrouter", "https://openrouter.ai", "/red.svg", "gpt pass平台,提供各种大模型接口,有部分模型可免费试用"),
       new siteLink("Dify", "https://cloud.dify.ai/", "/dify.png", "Open-source LLM app development platform,AI Agent,工作流"),
     ]),
 
@@ -61,8 +61,8 @@ const _default: CategoryData = {
       new siteLink("hello-algo", "https://github.com/krahets/hello-algo", "/gitBook.svg", "《Hello 算法》：动画图解、一键运行的数据结构与算法教程,hello-algo.com"),
       new siteLink("notes", "https://programnotes.cn", "https://programnotes.cn/Image/logo.png", "博客"),
       new siteLink("ruanyf-weekly", "https://ruanyf-weekly.programnotes.cn/weekly", "/logstash.svg", "阮一峰的技术周刊,科技, 分享, 开源"),
-      new siteLink("今日热榜", "https://tophub.today/", "", "各站点热点:掘金,头条,知乎,豆瓣..."),
-      new siteLink("Product Hunt热榜", "https://producthunt.programnotes.cn", "", "Product Hunt,日榜,月榜,分享创意+产品"),
+      new siteLink("今日热榜", "https://tophub.today/", "/blob-scatter.svg", "各站点热点:掘金,头条,知乎,豆瓣..."),
+      new siteLink("Product Hunt热榜", "https://producthunt.programnotes.cn", "/blob-scene.svg", "Product Hunt,日榜,月榜,分享创意+产品"),
     ]),
 
     new category("Go", "/go.svg", [
@@ -90,8 +90,8 @@ const _default: CategoryData = {
 
     new category("Frontend", "/frontify.svg", [
       new siteLink("Next.js", "https://nextjs.org/", "/next.svg", "React framework,React 框架"),
-      new siteLink("Haikei", "https://app.haikei.app", "/acer.svg", "纯色图片生成"),
-      new siteLink("Page Spy", "https://github.com/HuolalaTech/page-spy-web", "/snyk.svg", "前端调试工具,提供类控制台可交互式的功能界面将数据呈现出来")
+      new siteLink("Haikei", "https://app.haikei.app", "/layered-steps.svg", "纯色图片生成"),
+      new siteLink("Page Spy", "https://github.com/HuolalaTech/page-spy-web", "/circle-scatter.svg", "前端调试工具,提供类控制台可交互式的功能界面将数据呈现出来")
     ]),
 
 

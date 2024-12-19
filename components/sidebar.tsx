@@ -25,7 +25,6 @@ export function Sidebar({ className, navItems }: SidebarProps) {
     <nav className="after:h-[calc(100vh - 65px)] block min-h-screen w-60 flex-row flex-nowrap bg-gray-50 font-semibold sm:bg-background sm:px-6 sm:pb-6">
       <a href="" className="mx-6 hidden h-16 flex-col items-center justify-center sm:flex">
         <Image
-          // TODO: 
           src="/next.svg"
           alt=""
           width={200}
