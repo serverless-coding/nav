@@ -47,20 +47,30 @@ class siteLink implements SiteLink {
 }
 
 const _default: CategoryData = {
-  code: 200,
-  message: "success",
   data: [
+    new category("AI", "/ai-resize-20.png", [
+      new siteLink("魔搭", "https://modelscope.cn/", "/modelscopeIcon.png", "开源的模型即服务共享平台,为泛AI开发者提供灵活、易用、低成本的一站式模型服务产品,让模型应用更简单"),
+      new siteLink("通义千问", "https://qianwen.aliyun.com/chat", "/qianwen.png", "阿里云研发的通义千问大模型"),
+      new siteLink("ai 导航", "https://ai.dreamthere.cn/", "/ai-resize-20.png", "ai导航站,收集了各种AI站点,有分类"),
+      new siteLink("SiliconFlow", "https://cloud.siliconflow.cn/i/eluTiiYw", "/siliconflow.png", "gpt pass平台,提供各种大模型接口,有部分模型可免费试用,注册即送2000w token"),
+      new siteLink("Openrouter", "https://openrouter.ai", "", "gpt pass平台,提供各种大模型接口,有部分模型可免费试用"),
+      new siteLink("Dify", "https://cloud.dify.ai/", "/dify.png", "Open-source LLM app development platform,AI Agent,工作流"),
+    ]),
+
+    new category("Article", "/WordPress.svg", [
+      new siteLink("hello-algo", "https://github.com/krahets/hello-algo", "/gitBook.svg", "《Hello 算法》：动画图解、一键运行的数据结构与算法教程,hello-algo.com"),
+      new siteLink("notes", "https://programnotes.cn", "https://programnotes.cn/Image/logo.png", "博客"),
+      new siteLink("ruanyf-weekly", "https://ruanyf-weekly.programnotes.cn/weekly", "/logstash.svg", "阮一峰的技术周刊,科技, 分享, 开源"),
+      new siteLink("今日热榜", "https://tophub.today/", "", "各站点热点:掘金,头条,知乎,豆瓣..."),
+      new siteLink("Product Hunt热榜", "https://producthunt.programnotes.cn", "", "Product Hunt,日榜,月榜,分享创意+产品"),
+    ]),
+
     new category("Go", "/go.svg", [
       new siteLink("go doc", "https://golang.google.cn/", "/go.svg", "Go doc,Effective Go,官方文档,下载链接,example"),
       new siteLink("go-zero", "https://go-zero.dev/", "/go-zero.svg", "a web and rpc framework,go微服务框架"),
       new siteLink("beego-v2 doc", "https://beego.programnotes.cn", "/beego.jpg", "beego,go web框架,文档")
     ]),
-
-    new category("AI", "/ai-resize-20.png", [
-      new siteLink("魔搭", "https://modelscope.cn/", "/modelscopeIcon.png", "开源的模型即服务共享平台,为泛AI开发者提供灵活、易用、低成本的一站式模型服务产品,让模型应用更简单"),
-      new siteLink("通义千问", "https://qianwen.aliyun.com/chat", "/qianwen.png", "阿里云研发的通义千问大模型"),
-      new siteLink("ai 导航", "https://ai.dreamthere.cn/", "/ai-resize-20.png", "ai导航站,收集了各种AI站点,有分类"),
-    ]),
+    
 
     new category("Tool", "/toml.svg", [
       new siteLink("frp", "https://github.com/fatedier/frp", "/accenture.svg", "A fast reverse proxy,反向代理工具"),
@@ -80,16 +90,10 @@ const _default: CategoryData = {
 
     new category("Frontend", "/frontify.svg", [
       new siteLink("Next.js", "https://nextjs.org/", "/next.svg", "React framework,React 框架"),
-      new siteLink("xxxx", "https://github.com/serverless-coding/frontend-nav", "/acer.svg", ""),
-      new siteLink("xxxx", "https://github.com/serverless-coding/frontend-nav", "/snyk.svg", "")
+      new siteLink("Haikei", "https://app.haikei.app", "/acer.svg", "纯色图片生成"),
+      new siteLink("Page Spy", "https://github.com/HuolalaTech/page-spy-web", "/snyk.svg", "前端调试工具,提供类控制台可交互式的功能界面将数据呈现出来")
     ]),
 
-    new category("Article", "/WordPress.svg", [
-      new siteLink("hello-algo", "https://github.com/krahets/hello-algo", "/gitBook.svg", "《Hello 算法》：动画图解、一键运行的数据结构与算法教程,hello-algo.com"),
-      new siteLink("notes", "https://programnotes.cn", "https://programnotes.cn/Image/logo.png", "programnotes"),
-      new siteLink("ruanyf-weekly", "https://ruanyf-weekly.plantree.me/", "/logstash.svg", "阮一峰的技术周刊,科技, 分享, 开源"),
-      new siteLink("今日热榜", "https://tophub.today/", "", "各站点热点:掘金,头条,知乎,豆瓣..."),
-    ]),
 
     new category("CodeStyle", "/CodePen.svg", [
       new siteLink("uber/go", "https://github.com/xxjwxc/uber_go_guide_cn", "/go.svg", "uber/go code style guide,Uber go规范"),
@@ -104,18 +108,11 @@ const _default: CategoryData = {
 
 // 超时返回默认数据
 export default async function getNavLinks(): Promise<CategoryWithLinks[]> {
-  const controller = new AbortController();
-  const timeout = setTimeout(() => {
-    controller.abort();
-  }, 50); // 5000ms 超时时间
-
   const result: CategoryData = _default;
   return result.data;
 }
 
 interface CategoryData {
-  code: number;
-  message: string | null | undefined;
   data: CategoryWithLinks[];
 }
 
