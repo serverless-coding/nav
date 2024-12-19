@@ -1,7 +1,8 @@
 import Image from "next/image"
 import { CategoryWithLinks } from "@/app/links"
-import { Link as SiteLink } from "@prisma/client"
+import { Link as SiteLink } from "@/types/nav";
 import Link from "next/link"
+import { types } from "util"
 
 export function LinkItem({ link }: { link: SiteLink }) {
   return (
