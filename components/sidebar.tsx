@@ -15,7 +15,7 @@ export function Sidebar({ className, navItems }: SidebarProps) {
   useEffect(() => {
     const ele = document.getElementById(activeTabId);
     const elePosition = (ele?.getBoundingClientRect().top || 0);
-    const offsetPosition = elePosition + window.pageYOffset - 75;
+    const offsetPosition = elePosition + window.scrollY - 75;
     window.scrollTo({
       top: offsetPosition,
       behavior: "smooth"
