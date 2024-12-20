@@ -15,7 +15,7 @@ export const siteConfig = {
     docs: "",
   },
   icon: {
-    site: "/layered-waves.svg",
-    default: "/low-poly-grid.svg",
+    site: "/red.svg",
+    default: "/red.svg",
   }
 }
