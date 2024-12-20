@@ -12,6 +12,8 @@ export const siteConfig = {
   ],
   links: {
     github: "https://github.com/serverless-coding/frontend-nav",
+    // 反馈表单
+    feedbackUrl:"https://rq2uwmrn0w.feishu.cn/share/base/form/shrcnO1rGw4pZt5FTRkBJ2O62ed", 
     docs: "",
   },
   icon: {

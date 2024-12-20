@@ -33,6 +33,23 @@ export async function SiteHeader({ navItems }: SidebarProps) {
                 <span className="sr-only">GitHub</span>
               </div>
             </Link>
+            {/*反馈*/}
+            <Link
+              href={siteConfig.links.feedbackUrl}
+              target="_blank"
+              rel="noreferrer"
+              title="反馈"
+            >
+              <div
+                className={`group relative ${buttonVariants({
+                  size: "sm",
+                  variant: "ghost",
+                })}`}
+              >
+                <Icons.feedback className="h-5 w-5" />
+                <span className="sr-only">Feedback</span>
+              </div>
+            </Link>
             <ThemeToggle />
           </nav>
         </div>
