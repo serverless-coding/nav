@@ -1,0 +1,232 @@
+{
+  "data": [
+    {
+      "title": "AI",
+      "icon": "/ai-resize-20.png",
+      "links": [
+        {
+          "title": "魔搭",
+          "url": "https://modelscope.cn/",
+          "icon": "/blurry-gradient.svg",
+          "description": "开源的模型即服务共享平台,为泛AI开发者提供灵活、易用、低成本的一站式模型服务产品,让模型应用更简单"
+        },
+        {
+          "title": "通义千问",
+          "url": "https://qianwen.aliyun.com/chat",
+          "icon": "/qianwen.png",
+          "description": "阿里云研发的通义千问大模型"
+        },
+        {
+          "title": "ai 导航",
+          "url": "https://ai.dreamthere.cn/",
+          "icon": "/ai-resize-20.png",
+          "description": "ai导航站,收集了各种AI站点,有分类"
+        },
+        {
+          "title": "SiliconFlow",
+          "url": "https://cloud.siliconflow.cn/i/eluTiiYw",
+          "icon": "/siliconflow.png",
+          "description": "gpt pass平台,提供各种大模型接口,有部分模型可免费试用,注册即送2000w token"
+        },
+        {
+          "title": "Openrouter",
+          "url": "https://openrouter.ai",
+          "icon": "/red.svg",
+          "description": "gpt pass平台,提供各种大模型接口,有部分模型可免费试用"
+        },
+        {
+          "title": "Dify",
+          "url": "https://cloud.dify.ai/",
+          "icon": "/dify.png",
+          "description": "Open-source LLM app development platform,AI Agent,工作流"
+        }
+      ]
+    },
+    {
+      "title": "Article",
+      "icon": "/WordPress.svg",
+      "links": [
+        {
+          "title": "hello-algo",
+          "url": "https://github.com/krahets/hello-algo",
+          "icon": "/gitBook.svg",
+          "description": "《Hello 算法》：动画图解、一键运行的数据结构与算法教程,hello-algo.com"
+        },
+        {
+          "title": "notes",
+          "url": "https://programnotes.cn",
+          "icon": "https://programnotes.cn/Image/logo.png",
+          "description": "博客"
+        },
+        {
+          "title": "ruanyf-weekly",
+          "url": "https://ruanyf-weekly.programnotes.cn/weekly",
+          "icon": "/logstash.svg",
+          "description": "阮一峰的技术周刊,科技, 分享, 开源"
+        },
+        {
+          "title": "今日热榜",
+          "url": "https://tophub.today/",
+          "icon": "/blob-scatter.svg",
+          "description": "各站点热点:掘金,头条,知乎,豆瓣..."
+        },
+        {
+          "title": "Product Hunt热榜",
+          "url": "https://producthunt.programnotes.cn",
+          "icon": "/blob-scene.svg",
+          "description": "Product Hunt,日榜,月榜,分享创意+产品"
+        }
+      ]
+    },
+    {
+      "title": "Go",
+      "icon": "/go.svg",
+      "links": [
+        {
+          "title": "go doc",
+          "url": "https://golang.google.cn/",
+          "icon": "/go.svg",
+          "description": "Go doc,Effective Go,官方文档,下载链接,example"
+        },
+        {
+          "title": "go-zero",
+          "url": "https://go-zero.dev/",
+          "icon": "/go-zero.svg",
+          "description": "a web and rpc framework,go微服务框架"
+        },
+        {
+          "title": "beego-v2 doc",
+          "url": "https://beego.programnotes.cn",
+          "icon": "/beego.jpg",
+          "description": "beego,go web框架,文档"
+        }
+      ]
+    },
+    {
+      "title": "Tool",
+      "icon": "/toml.svg",
+      "links": [
+        {
+          "title": "frp",
+          "url": "https://github.com/fatedier/frp",
+          "icon": "/accenture.svg",
+          "description": "A fast reverse proxy,反向代理工具"
+        },
+        {
+          "title": "flomo",
+          "url": "https://flomoapp.com",
+          "icon": "/flomologo.png",
+          "description": "notes tool,全平台的卡片笔记，聚焦帮你记录更多想法与灵感，以及更好回顾过往记录"
+        },
+        {
+          "title": "apifox echo",
+          "url": "https://echo.apifox.com/",
+          "icon": "/solus.svg",
+          "description": "Apifox Echo is a simple HTTP Request & Response Service,简单的monk接口"
+        },
+        {
+          "title": "simple icon",
+          "url": "https://github.com/simple-icons/simple-icons",
+          "icon": "/thirteen.svg",
+          "description": "svg icon"
+        },
+        {
+          "title": "gitpod",
+          "url": "https://gitpod.io/workspaces",
+          "icon": "/Gitpod.svg",
+          "description": "browser editor:vscode,idea,goland...浏览器里用vscode,idea等"
+        },
+        {
+          "title": "m3u8-downloader",
+          "url": "https://www.yeyulingfeng.com/tools/m3u8-downloader/",
+          "icon": "/docusign.svg",
+          "description": "m3u8 video downloader,视频下载器"
+        },
+        {
+          "title": "avatar maker",
+          "url": "https://avatar-tool.netlify.app/",
+          "icon": "/avatar-tool.svg",
+          "description": "Make ID photo right in the browser,在浏览器生成头像,证件照..."
+        }
+      ]
+    },
+    {
+      "title": "Serverless",
+      "icon": "/serverless.svg",
+      "links": [
+        {
+          "title": "Netlify",
+          "url": "https://functions.netlify.com/",
+          "icon": "/netlify.svg",
+          "description": "Serverless platforms,网站托管"
+        },
+        {
+          "title": "Vercel",
+          "url": "https://vercel.com/",
+          "icon": "/vercel.svg",
+          "description": "Serverless platforms,网站托管"
+        },
+        {
+          "title": "aliyun FC",
+          "url": "https://help.aliyun.com/zh/fc/",
+          "icon": "/aliyun.svg",
+          "description": "阿里云函数计算(FC),事件驱动的全托管计算服务。通过函数计算，无需管理服务器等基础设施，只需编写代码并上传"
+        }
+      ]
+    },
+    {
+      "title": "Frontend",
+      "icon": "/frontify.svg",
+      "links": [
+        {
+          "title": "Next.js",
+          "url": "https://nextjs.org/",
+          "icon": "/next.svg",
+          "description": "React framework,React 框架"
+        },
+        {
+          "title": "Haikei",
+          "url": "https://app.haikei.app",
+          "icon": "/layered-steps.svg",
+          "description": "纯色图片生成"
+        },
+        {
+          "title": "Page Spy",
+          "url": "https://github.com/HuolalaTech/page-spy-web",
+          "icon": "/circle-scatter.svg",
+          "description": "前端调试工具,提供类控制台可交互式的功能界面将数据呈现出来"
+        }
+      ]
+    },
+    {
+      "title": "CodeStyle",
+      "icon": "/CodePen.svg",
+      "links": [
+        {
+          "title": "uber/go",
+          "url": "https://github.com/xxjwxc/uber_go_guide_cn",
+          "icon": "/go.svg",
+          "description": "uber/go code style guide,Uber go规范"
+        },
+        {
+          "title": "shimohq/react",
+          "url": "https://github.com/shimohq/react-cookbook",
+          "icon": "/React.svg",
+          "description": "shimo react cookbook,石墨文档 react"
+        }
+      ]
+    },
+    {
+      "title": "Remote",
+      "icon": "/remote.svg",
+      "links": [
+        {
+          "title": "eleduck",
+          "url": "https://eleduck.com/",
+          "icon": "/eleduck.png",
+          "description": "eleduck,电鸭,远程工作社区"
+        }
+      ]
+    }
+  ]
+} 
