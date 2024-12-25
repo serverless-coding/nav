@@ -62,8 +62,8 @@ function getDomainFromUrl(url: string): string {
 }
 
 function getSiteIcon(url: string): string {
-  const site = getDomainFromUrl(url)
-  return "https://nav.programnotes.cn/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&size=48&url=" + site
+  const site = getDomainFromUrl(url);
+  return `https://nav.programnotes.cn/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&size=48&url=${site}`;
 }
 
 // 从 JSON 文件构建导航数据
