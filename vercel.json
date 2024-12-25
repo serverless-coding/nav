@@ -1,5 +1,12 @@
 {
-    "env": {
-        "GO_BUILD_FLAGS": "-ldflags '-s -w'"
+  "env": {
+    "GO_BUILD_FLAGS": "-ldflags '-s -w'"
+  },
+  "routes": [
+    {
+      "src": "/faviconV2(.*)",
+      "dest": "https://t2.gstatic.com/faviconV2?$1",
+      "status": 200
     }
+  ]
 }
