@@ -782,6 +782,7 @@
         },
         {
           "title": "橙篇AI",
+          "icon": "/red.svg",
           "url": "https://cp.baidu.com",
           "description": "橙篇AI，AI生成有声画本"
         },
