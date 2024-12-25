@@ -16,7 +16,11 @@ class category implements CategoryWithLinks {
 
   constructor(title: string, icon: string, links: any[]) {
     this.id = randomUUID()
-    this.icon = icon || _defaultIcon
+    let url = ""
+    if (links.length > 0) {
+      url = links[0].url
+    }
+    this.icon = icon || getSiteIcon(url) || _defaultIcon
     this.title = title
     this.links = links.map(link => new siteLink(link.title, link.url, link.icon, link.description))
     this.rank = randomInt(100)
@@ -36,7 +40,8 @@ class siteLink implements SiteLink {
 
   constructor(title: string, url: string, icon: string, description: string) {
     this.id = randomUUID()
-    this.icon = icon || _defaultIcon
+    const site = getDomainFromUrl(url)
+    this.icon = icon || getSiteIcon(url) || _defaultIcon
     this.url = url
     this.title = title
     this.description = description || randomUUID()
@@ -46,9 +51,24 @@ class siteLink implements SiteLink {
   }
 }
 
+function getDomainFromUrl(url: string): string {
+  try {
+    const { protocol, hostname } = new URL(url);
+    return `${protocol}//${hostname}`;
+  } catch (error) {
+    console.error('Invalid URL:', url);
+    return '';
+  }
+}
+
+function getSiteIcon(url: string): string {
+  const site = getDomainFromUrl(url)
+  return "https://nav.programnotes.cn/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&size=48&url=" + site
+}
+
 // 从 JSON 文件构建导航数据
 function buildNavData(): CategoryWithLinks[] {
-  return linksData.data.map(cat => 
+  return linksData.data.map(cat =>
     new category(cat.title, cat.icon, cat.links)
   );
 }
