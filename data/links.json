@@ -1012,10 +1012,9 @@
       "icon": "/toml.svg",
       "links": [
         {
-          "title": "frp",
-          "url": "https://github.com/fatedier/frp",
-          "icon": "/accenture.svg",
-          "description": "A fast reverse proxy,反向代理工具"
+          "title": "1Panel",
+          "url": "https://1panel.cn",
+          "description": "开源Linux 服务器运维管理面板,管理Linux服务器:主机监控、文件管理、数据库管理、容器管理..."
         },
         {
           "title": "flomo",
@@ -1028,6 +1027,12 @@
           "url": "https://echo.apifox.com/",
           "icon": "/solus.svg",
           "description": "Apifox Echo is a simple HTTP Request & Response Service,简单的monk接口"
+        },
+        {
+          "title": "frp",
+          "url": "https://github.com/fatedier/frp",
+          "icon": "/accenture.svg",
+          "description": "A fast reverse proxy,反向代理工具"
         },
         {
           "title": "simple icon",
