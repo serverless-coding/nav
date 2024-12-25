@@ -646,6 +646,7 @@
         },
         {
           "title": "通义听悟",
+          "icon": "/red.svg",
           "url": "https://tingwu.aliyun.com",
           "description": "阿里云通义听悟是聚焦音视频内容的工作学习AI助手，依托大模型，帮助用户记录、整理和分析音视频内容，体验用大模型做音视频笔记、整理会议记录。"
         }
@@ -667,6 +668,7 @@
         },
         {
           "title": "苏打办公",
+          "icon": "/red.svg",
           "url": "https://bangong.360.cn",
           "description": "一站式办公工具，高效便捷"
         },
