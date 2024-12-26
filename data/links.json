@@ -45,6 +45,12 @@
           "description": "科大讯飞推出的认知智能大模型"
         },
         {
+          "title": "免费gpt",
+          "url": "https://gpt.programnotes.cn",
+          "icon": "",
+          "description": "提供免费大模型(类chatgpt),可在线使用"
+        },
+        {
           "title": "iSlide",
           "url": "https://www.islide.cc",
           "description": "简单好用的AiPPT插件"
