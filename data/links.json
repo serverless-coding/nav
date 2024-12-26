@@ -47,7 +47,7 @@
         {
           "title": "免费gpt",
           "url": "https://gpt.programnotes.cn",
-          "icon": "",
+          "icon": "/red.svg",
           "description": "提供免费大模型(类chatgpt),可在线使用"
         },
         {
