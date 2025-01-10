@@ -1014,7 +1014,7 @@
       ]
     },
     {
-      "title": "Tool",
+      "title": "工具",
       "icon": "/toml.svg",
       "links": [
         {
@@ -1063,11 +1063,23 @@
           "url": "https://avatar-tool.netlify.app/",
           "icon": "/avatar-tool.svg",
           "description": "Make ID photo right in the browser,在浏览器生成头像,证件照..."
+        },
+        {
+          "title": "Jina Reader",
+          "url": "https://tools.simonwillison.net/jina-reader",
+          "icon": "",
+          "description": "支持调用Jina的API将网页转成Markdown/Text等格式,抓取网页内容很方便,对AI友好"
+        },
+        {
+          "title": "在线简历制作",
+          "url": "https://resume.programnotes.cn/",
+          "icon": "/red.svg",
+          "description": "简历生成工具，支持在线预览、打印 PDF"
         }
       ]
     },
     {
-      "title": "Serverless",
+      "title": "云服务",
       "icon": "/serverless.svg",
       "links": [
         {
@@ -1087,11 +1099,17 @@
           "url": "https://help.aliyun.com/zh/fc/",
           "icon": "/aliyun.svg",
           "description": "阿里云函数计算(FC),事件驱动的全托管计算服务。通过函数计算，无需管理服务器等基础设施，只需编写代码并上传"
+        },
+        {
+          "title": "Deno",
+          "url": "https://deno.com",
+          "icon": "",
+          "description": "Serverless服务商,快速部署应用"
         }
       ]
     },
     {
-      "title": "Frontend",
+      "title": "前端",
       "icon": "/frontify.svg",
       "links": [
         {
@@ -1115,7 +1133,7 @@
       ]
     },
     {
-      "title": "Remote",
+      "title": "远程",
       "icon": "/remote.svg",
       "links": [
         {
