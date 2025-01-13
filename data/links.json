@@ -1075,6 +1075,12 @@
           "url": "https://resume.programnotes.cn/",
           "icon": "/red.svg",
           "description": "简历生成工具，支持在线预览、打印 PDF"
+        },
+        {
+          "title": "curlconverter",
+          "url": "https://resume.programnotes.cn/",
+          "icon": "/red.svg",
+          "description": "将curl命令转换成python,go,js等代码"
         }
       ]
     },
