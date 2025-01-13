@@ -1078,7 +1078,7 @@
         },
         {
           "title": "curlconverter",
-          "url": "https://resume.programnotes.cn/",
+          "url": "https://curlconverter.programnotes.cn/",
           "icon": "/red.svg",
           "description": "将curl命令转换成python,go,js等代码"
         }
