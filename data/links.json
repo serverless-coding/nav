@@ -1028,6 +1028,12 @@
           "description": "开源Linux 服务器运维管理面板,管理Linux服务器:主机监控、文件管理、数据库管理、容器管理..."
         },
         {
+          "title": "在线小游戏,工具",
+          "url": "https://github.com/krahets/hello-algo",
+          "icon": "/red.svg",
+          "description": "在线小游戏:扫雷,推箱子,象棋等,在线工具"
+        },
+        {
           "title": "flomo",
           "url": "https://flomoapp.com",
           "icon": "/flomologo.png",
