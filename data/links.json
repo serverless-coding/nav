@@ -536,6 +536,11 @@
       "icon": "",
       "links": [
         {
+          "title": "可灵AI",
+          "url": "https://kling.kuaishou.com",
+          "description": "可灵大模型"
+        },
+        {
           "title": "万象营造",
           "url": "https://agi.taobao.com/",
           "description": "阿里妈妈出品,商用视频大模型,图生视频,AI页面,AI文案...",
@@ -586,11 +591,6 @@
           "icon": "/red.svg",
           "url": "https://xunguang.damo-vision.com",
           "description": "达摩院寻光视频创作平台，以视觉AIGC为核心功能，用PPT制作的方式创作视频，为用户带来一站式、高可控的AIGC创作体验，让更多用户感受AI创作的魅力。"
-        },
-        {
-          "title": "可灵AI",
-          "url": "https://kling.kuaishou.com",
-          "description": "可灵大模型"
         },
         {
           "title": "绘影字幕",
