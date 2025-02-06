@@ -538,7 +538,8 @@
         {
           "title": "万象营造",
           "url": "https://agi.taobao.com/",
-          "description": "阿里妈妈出品,商用视频大模型,图生视频,AI页面,AI文案..."
+          "description": "阿里妈妈出品,商用视频大模型,图生视频,AI页面,AI文案...",
+          "icon": "/red.svg"
         },
         {
           "title": "即梦AI",
