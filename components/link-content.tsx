@@ -1,16 +1,17 @@
+"use client";  // Add this at the top of the file
 import Image from "next/image"
 import { CategoryWithLinks } from "@/app/links"
 import { Link as SiteLink } from "@/types/nav";
 import Link from "next/link"
-import { types } from "util"
 
-export function LinkItem({ link }: { link: SiteLink }) {
+
+export function LinkItem({ link, children }: { link: SiteLink; children?: React.ReactNode }) {
   return (
     <Link
       href={link.url}
       target="_blank"
     >
-      <div className="relative mb-6 flex min-h-[122px] min-w-0 cursor-pointer flex-col break-words rounded-lg border border-gray-200 p-4 shadow-md transition-all hover:-translate-y-1 hover:scale-105 hover:bg-border hover:shadow-lg  xl:mb-0">
+      <div className="relative mb-6 flex min-h-[122px] min-w-0 cursor-pointer flex-col break-words rounded-lg border border-gray-200 p-4 shadow-md transition-all hover:-translate-y-1 hover:scale-105 hover:bg-border hover:shadow-lg xl:mb-0">
         <div className="flex items-center">
           <div className="mr-3 flex h-10 w-10 overflow-hidden rounded-full">
             {
@@ -30,6 +31,7 @@ export function LinkItem({ link }: { link: SiteLink }) {
         <div className="mt-2 line-clamp-2 text-sm text-primary">
           {link.description}
         </div>
+        {children}  {/* 添加 children 渲染 */}
       </div>
     </Link>
   )
@@ -49,7 +51,7 @@ export function LinkContent({ navResources }: { navResources: CategoryWithLinks[
                 <div className="grid grid-cols-1 gap-3 md:grid-cols-2 md:gap-6 lg:grid-cols-3">
                   {
                     category.links.map((link) => (
-                      <LinkCard key={link.id} link={link}>
+                      <LinkItem key={link.id} link={link}>
                         {link.page && (
                           <a
                             href={`/pages/${link.page}`}
@@ -62,7 +64,7 @@ export function LinkContent({ navResources }: { navResources: CategoryWithLinks[
                             </svg>
                           </a>
                         )}
-                      </LinkCard>
+                      </LinkItem>
                     ))
                   }
                 </div>
