@@ -22,7 +22,7 @@ class category implements CategoryWithLinks {
     }
     this.icon = icon || getSiteIcon(url) || _defaultIcon
     this.title = title
-    this.links = links.map(link => new siteLink(link.title, link.url, link.icon, link.description))
+    this.links = links.map(link => new siteLink(link.title, link.url, link.icon, link.description, link.page))
     this.rank = randomInt(100)
     this.description = randomUUID()
   }
@@ -37,8 +37,9 @@ class siteLink implements SiteLink {
   rank: number | null
   public: boolean
   cid: string
+  page?: string
 
-  constructor(title: string, url: string, icon: string, description: string) {
+  constructor(title: string, url: string, icon: string, description: string, page?: string) {
     this.id = randomUUID()
     const site = getDomainFromUrl(url)
     this.icon = icon || getSiteIcon(url) || _defaultIcon
@@ -48,6 +49,7 @@ class siteLink implements SiteLink {
     this.rank = 0
     this.public = true
     this.cid = ""
+    this.page = page
   }
 }
 
@@ -85,4 +87,16 @@ export interface CategoryWithLinks {
   description: string;
   rank: number;
   links: SiteLink[];
+}
+
+export interface SiteLink {
+  id: string
+  icon: string
+  url: string
+  title: string
+  description: string
+  rank: number | null
+  public: boolean
+  cid: string
+  page?: string
 }

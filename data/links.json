@@ -8,7 +8,8 @@
           "title": "魔搭",
           "url": "https://modelscope.cn/",
           "icon": "",
-          "description": "开源的模型即服务共享平台,为泛AI开发者提供灵活、易用、低成本的一站式模型服务产品,让模型应用更简单"
+          "description": "开源的模型即服务共享平台,为泛AI开发者提供灵活、易用、低成本的一站式模型服务产品,让模型应用更简单",
+          "page": "/pages/modelscope.md"
         },
         {
           "title": "通义千问",
