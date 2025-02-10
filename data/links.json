@@ -199,6 +199,11 @@
       "icon": "",
       "links": [
         {
+          "title": "Bolt.new",
+          "url": "https://bolt.new/?rid=1gguvu",
+          "description": "AI编程,在线编译器,在线编辑,运行,部署,注册送200K tokens"
+        },
+        {
           "title": "GitHub Copilot",
           "url": "https://github.com/features/copilot",
           "description": "人工智能编程助手"
