@@ -28,15 +28,15 @@ export async function markdownToHtml(markdown: string) {
     const result = await remark()
         .use(remarkFrontmatter)
         .use(remarkGfm)
-        .use(remarkRehype, { passThrough: ['yaml'] })
+        .use(remarkRehype)
         .use(rehypeSlug)
         .use(rehypeImageSize)
         .use(rehypeHighlight, { detect: true, ignoreMissing: true })
         .use(rehypeStringify)
         .use(() => {
-            return (tree, file) => {
+            return (tree: Node, file) => {
               console.log(inspect(tree));
-              const table = toc(tree)
+              const table = toc(tree as any)
               file.data.toc = table.map
             }
           })
