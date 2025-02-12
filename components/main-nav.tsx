@@ -40,7 +40,7 @@ export function MainNav({ items, navItems }: MainNavProps) {
           </nav>
         ) : null}
       </div>
-      { showMobileSidebar && <MobileSidebar navItems={navItems} setShowMobileSidebar={setShowMobileSidebar} /> }
+      {showMobileSidebar && <MobileSidebar navItems={navItems} setShowMobileSidebar={setShowMobileSidebar} />}
     </>
   )
 }

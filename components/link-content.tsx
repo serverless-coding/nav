@@ -29,7 +29,7 @@ export function LinkItem({ link }: { link: SiteLink }) {
           </NextLink>
         </div>
         {link.page && (
-          <NextLink href={`/${link.page.replace(".md", "")}`} className="absolute top-2 right-2">
+          <NextLink href={`/page/${link.page.replace(".md", "")}`} className="absolute top-2 right-2">
             <Icons.book className="h-4 w-4" />
           </NextLink>
         )}
