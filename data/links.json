@@ -86,6 +86,12 @@
           "description": "可灵Kerlin AI，生成高清创意视频工具"
         },
         {
+          "title": "AI游戏",
+          "url": "https://games.programnotes.cn",
+          "description": "使用AI写的在线小游戏,扫雷,推箱子,俄罗斯方块,魔方...",
+          "page": "aigames.md"
+        },
+        {
           "title": "PixVerse",
           "url": "https://pixverse.ai",
           "description": "AI视频创作神器"
