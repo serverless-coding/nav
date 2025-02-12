@@ -38,3 +38,7 @@ yarn-error.log*
 
 # test db
 gen_test.db
+
+
+# production sitemap
+public/*.xml

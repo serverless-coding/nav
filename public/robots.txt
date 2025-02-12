@@ -1,0 +1,10 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://nav.programnotes.cn
+
+# Sitemaps
+Sitemap: https://nav.programnotes.cn/sitemap.xml
+Sitemap: https://nav.programnotes.cn/server-sitemap.xml
