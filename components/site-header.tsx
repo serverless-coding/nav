@@ -6,7 +6,7 @@ import { MainNav } from "@/components/main-nav"
 import { ThemeToggle } from "@/components/theme-toggle"
 import { SidebarProps } from "./sidebar"
 
-export async function SiteHeader({ navItems }: SidebarProps) {
+export function SiteHeader({ navItems }: SidebarProps) {
   return (
     <header className="sticky top-0 z-40 w-full bg-background dark:border-slate-50/[0.06] lg:border-b lg:border-slate-900/10">
       {/* 站点标识 */}
