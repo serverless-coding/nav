@@ -20,4 +20,5 @@ export interface Link {
   rank: number | null;
   public: boolean;
   cid: string;
-} 
+  page?: string;
+}
