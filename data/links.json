@@ -14,7 +14,8 @@
           "title": "通义千问",
           "url": "https://qianwen.aliyun.com",
           "icon": "/qianwen.png",
-          "description": "阿里云研发的通义千问大模型"
+          "description": "阿里云研发的通义千问大模型",
+          "page": "qwen.md"
         },
         {
           "title": "豆包",
