@@ -7,8 +7,12 @@ export const siteConfig = {
     "Discover a variety of AI tools, frameworks, and resources for developers on this comprehensive platform. Explore now!",
   mainNav: [
     {
-      title: "Home",
+      title: "首页",
       href: "/",
+    },
+    {
+      title: "关于",
+      href: "/page/about",
     },
   ],
   links: {

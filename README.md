@@ -1,8 +1,24 @@
+# 科技导航
+
 <p align="center">
   <a href="https://webnav.codefe.top/">
     <img alt="Example demo page" src="https://cos.codefe.top/images/webnav-screenshot-demo.png" width="680">
   </a>
 </p>
+
+## Todo
+- [x] Add tailwindcss
+- [x] Light/Dark mode
+- [x] Database concention
+- [x] Authentication
+- [x] Adapt to mobile devices
+- [x] One click deploy
+- [ ] And animation by use Framer Motion 
+- [ ] User like and collection
+- [ ] 更换图标, sidebar.tsx
+- [x] github图标暂时隐藏 
+- [x] 关于页面
+ 
 
 ## WebNav
 
@@ -27,17 +43,6 @@ Front-end navigation website, used to collect high-quality front-end related web
 You can clone & deploy it to Vercel with one click:
 
 [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fwangfengyuan%2Ffrontend-nav&env=DATABASE_URL,GITHUB_CLIENT_ID,GITHUB_CLIENT_SECRET,GOOGLE_CLIENT_ID,GOOGLE_CLIENT_SECRET,NEXTAUTH_SECRET,NEXTAUTH_URL&envDescription=DATABASE_URL%E3%80%81CLIENT_ID%E3%80%81CLIENT_SECRET%20are%20used%20to%20store%20user%20infomation&demo-title=Front-end%20navigation%20website&demo-url=https%3A%2F%2Fwebnav.codefe.top%2F&demo-image=https%3A%2F%2Fcos.codefe.top%2Fimages%2Fwebnav-screenshot-demo.png)
-
-## Todo
-- [x] Add tailwindcss
-- [x] Light/Dark mode
-- [x] Database concention
-- [x] Authentication
-- [x] Adapt to mobile devices
-- [x] One click deploy
-- [ ] And animation by use Framer Motion 
-- [ ] User like and collection
-
 
 
 ## Running Locally

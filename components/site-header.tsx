@@ -18,7 +18,8 @@ export function SiteHeader({ navItems }: SidebarProps) {
         <MainNav items={siteConfig.mainNav} navItems={navItems} />
         <div className="flex flex-1 items-center justify-end space-x-4">
           <nav className="flex items-center space-x-1">
-            <Link
+            {/*github 图标 暂时隐藏*/}
+            {/* <Link
               href={siteConfig.links.github}
               target="_blank"
               rel="noreferrer"
@@ -32,7 +33,7 @@ export function SiteHeader({ navItems }: SidebarProps) {
                 <Icons.gitHub className="h-5 w-5" />
                 <span className="sr-only">GitHub</span>
               </div>
-            </Link>
+            </Link> */}
             {/*反馈*/}
             <Link
               href={siteConfig.links.feedbackUrl}
