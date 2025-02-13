@@ -14,7 +14,9 @@
 
 [详情参见,阿里云官方文档](https://help.aliyun.com/zh/model-studio/developer-reference/what-is-qwen-llm#1dec1fd1d9sub)
 
-### 通义千问-Max:Qwen2.5-Max
+### 通义千问-Max
+
+Qwen2.5-Max
 
 #### 模型背景与发布
 
