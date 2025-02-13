@@ -566,7 +566,9 @@
         {
           "title": "StayFocused",
           "url": "https://whitenoise.programnotes.cn/",
-          "description": "一个帮助你保持专注的网页应用，通过自然声音和白噪音创造理想的专注环境"
+          "description": "一个帮助你保持专注的网页应用，通过自然声音和白噪音创造理想的专注环境",
+          "page": "whitenoise.md",
+          "icon": "https://whitenoise.programnotes.cn/favicon.ico"
         },
         {
           "title": "来画",

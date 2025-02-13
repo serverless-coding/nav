@@ -4,7 +4,8 @@ const nextConfig = {
   images: {
     domains: [
       "programnotes.cn",
-      "nav.programnotes.cn"
+      "nav.programnotes.cn",
+      "whitenoise.programnotes.cn"
     ],
   },
   eslint: {
