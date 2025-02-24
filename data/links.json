@@ -1035,6 +1035,12 @@
           "url": "https://github.com/shimohq/react-cookbook",
           "icon": "/React.svg",
           "description": "shimo react cookbook,石墨文档 react"
+        },
+        {
+          "title": "犀牛书",
+          "url": "https://xiniushu.com/",
+          "description": "中文技术文档大全,Go,OpenAI,Rust,React,Next.js等",
+          "page": "xiniushu.md"
         }
       ]
     },
