@@ -212,7 +212,7 @@
         },
         {
           "title": "GitHub Copilot",
-          "url": "https://github.com/features/copilot",
+          "url": "https://github.com/features/copilot?ref=https://nav.programnotes.cn",
           "description": "人工智能编程助手"
         },
         {
@@ -222,18 +222,18 @@
         },
         {
           "title": "Windsurf",
-          "url": "https://codeium.com/windsurf",
+          "url": "https://codeium.com/windsurf?ref=https://nav.programnotes.cn",
           "description": "智能AI代码编辑器,由codeium开发"
         },
         {
           "title": "Trae",
-          "url": "https://www.trae.ai/",
+          "url": "https://www.trae.ai?ref=https://nav.programnotes.cn",
           "description": "智能AI代码编辑器,由字节跳动开发,可免费使用claude-sonet-3.5模型",
           "page": "trae.md"
         },
         {
           "title": "通义灵码",
-          "url": "https://tongyi.aliyun.com/lingma",
+          "url": "https://tongyi.aliyun.com/lingma?ref=https://nav.programnotes.cn",
           "description": "阿里旗下智能编码助手"
         },
         {
