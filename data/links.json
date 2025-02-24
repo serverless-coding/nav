@@ -294,14 +294,14 @@
           "description": "豆包是你的 AI 聊天智能对话问答助手，写作文案翻译情感陪伴编程全能工具。豆包为你答疑解惑，提供灵感，辅助创作，也可以和你畅聊任何你感兴趣的话题。"
         },
         {
-          "title": "360 AI助手",
+          "title": "纳米AI",
           "url": "https://bot.360.com",
-          "description": "AI招聘助手，简化招聘流程"
+          "description": "AI招聘助手，简化招聘流程,在线使用Deepseek-R1满血版"
         },
         {
           "title": "知乎直答",
           "url": "https://zhida.zhihu.com",
-          "description": "AI赋能，快速问答"
+          "description": "AI赋能，快速问答,在线使用Deepseek-R1满血版"
         },
         {
           "title": "百小应",
@@ -326,7 +326,8 @@
         {
           "title": "腾讯元宝",
           "url": "https://yuanbao.tencent.com/chat",
-          "description": "腾讯推出的AI超级助手"
+          "description": "腾讯推出的AI超级助手,在线使用Deepseek-R1满血版,支持Hunuan,Deepseek大模型在线使用,联网搜索",
+          "page": "yuanbao.md"
         },
         {
           "title": "讯飞星火大模型",
@@ -347,6 +348,11 @@
           "title": "文心一言",
           "url": "https://yiyan.baidu.com",
           "description": "百度旗下知识增强大语言模型"
+        },
+        {
+          "title": "跃问",
+          "url": "https://yuewen.cn/",
+          "description": "在线使用Deepseek-R1满血版"
         }
       ]
     },
