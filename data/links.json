@@ -221,6 +221,17 @@
           "description": "智能AI代码编辑器"
         },
         {
+          "title": "Windsurf",
+          "url": "https://codeium.com/windsurf",
+          "description": "智能AI代码编辑器,由codeium开发"
+        },
+        {
+          "title": "Trae",
+          "url": "https://www.trae.ai/",
+          "description": "智能AI代码编辑器,由字节跳动开发,可免费使用claude-sonet-3.5模型",
+          "page": "trae.md"
+        },
+        {
           "title": "通义灵码",
           "url": "https://tongyi.aliyun.com/lingma",
           "description": "阿里旗下智能编码助手"
