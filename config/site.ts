@@ -15,7 +15,7 @@ export const siteConfig = {
       href: "/page/about",
     },
     {
-      title: "镜像加速工具",
+      title: "镜像加速",
       href: "/page/mirror",
     }
   ],
