@@ -14,6 +14,10 @@ export const siteConfig = {
       title: "关于",
       href: "/page/about",
     },
+    {
+      title: "镜像加速工具",
+      href: "/page/mirror",
+    }
   ],
   links: {
     github: "https://github.com/serverless-coding/frontend-nav",
