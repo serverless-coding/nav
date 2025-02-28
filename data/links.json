@@ -123,11 +123,6 @@
           "description": "可灵大模型"
         },
         {
-          "title": "iSlide",
-          "url": "https://www.islide.cc",
-          "description": "简单好用的AiPPT插件"
-        },
-        {
           "title": "美图设计室",
           "url": "https://www.designkit.com",
           "description": "美图秀秀旗下智能设计在线协作平台"
@@ -138,9 +133,20 @@
           "description": "即时设计是一款支持在线协作的专业级 UI 设计工具，支持 Sketch、Figma、XD 格式导入，海量优质设计资源即拿即用。支持创建交互原型、获取设计标注，为产设研团队提供一站式协同办公体验。"
         },
         {
-          "title": "360AI搜索",
+          "title": "纳米搜索",
           "url": "https://sou.com",
-          "description": "360AI搜索，新一代智能答案引擎，值得信赖的智能搜索伙伴，为复杂搜索提供专业支持，解锁更相关、更全面的答案。AI对用户提问进行精准语义分析，并通过追问获取更多有价值信息，将问题拆分为多组关键词后再进行搜索引擎检索，深度阅读网页内容，最终呈现逻辑清晰、准确无误的答案。"
+          "description": "纳米搜索,360AI搜索,Deepseek免费用，新一代智能答案引擎，值得信赖的智能搜索伙伴，为复杂搜索提供专业支持，解锁更相关、更全面的答案。AI对用户提问进行精准语义分析，并通过追问获取更多有价值信息，将问题拆分为多组关键词后再进行搜索引擎检索，深度阅读网页内容，最终呈现逻辑清晰、准确无误的答案。"
+        },
+        {
+          "title": "mcp中文文档",
+          "url": "https://mcp.programnotes.cn/",
+          "description": "MCP是claude开源的开放协议标准,支持自定义各种工具集成到ai中,用于在AI模型和开发环境之间建立统一的上下文交互，让AI更好地理解和处理代码",
+          "page": "mcp.md"
+        },
+        {
+          "title": "iSlide",
+          "url": "https://www.islide.cc",
+          "description": "简单好用的AiPPT插件"
         },
         {
           "title": "智谱清言",
@@ -1058,6 +1064,12 @@
           "url": "https://xiniushu.com/",
           "description": "中文技术文档大全,Go,OpenAI,Rust,React,Next.js等",
           "page": "xiniushu.md"
+        },
+        {
+          "title": "mcp中文文档",
+          "url": "https://mcp.programnotes.cn/",
+          "description": "MCP是claude开源的开放协议标准,支持自定义各种工具集成到ai中,用于在AI模型和开发环境之间建立统一的上下文交互，让AI更好地理解和处理代码",
+          "page": "mcp.md"
         }
       ]
     },
