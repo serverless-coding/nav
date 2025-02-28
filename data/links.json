@@ -434,6 +434,17 @@
       "icon": "",
       "links": [
         {
+          "title": "腾讯元宝",
+          "url": "https://yuanbao.tencent.com/chat",
+          "description": "腾讯推出的AI超级助手,在线使用Deepseek-R1满血版,支持Hunuan,Deepseek大模型在线使用,联网搜索",
+          "page": "yuanbao.md"
+        },
+        {
+          "title": "Kimi搜索",
+          "url": "https://kimi.moonshot.cn",
+          "description": "Moonshot AI的200K超长上下文人工智能工具"
+        },
+        {
           "title": "秘塔AI搜索",
           "url": "https://metaso.cn",
           "description": "秘塔AI搜索，没有广告，直达结果"
