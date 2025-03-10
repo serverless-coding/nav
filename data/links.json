@@ -1178,6 +1178,12 @@
           "description": "Serverless platforms,网站托管"
         },
         {
+          "title": "Sealos",
+          "url": "https://cloud.sealos.run/?uid=ZyDIclwCa1",
+          "description": "以 kubernetes 为内核的云操作系统,,FastGPT,Devbox,AI Proxy(集成各种大模型API)",
+          "page": "sealos.md"
+        },
+        {
           "title": "aliyun FC",
           "url": "https://help.aliyun.com/zh/fc/",
           "icon": "/aliyun.svg",
