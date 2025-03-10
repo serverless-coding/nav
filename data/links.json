@@ -25,8 +25,8 @@
         {
           "title": "SiliconFlow",
           "url": "https://cloud.siliconflow.cn/i/eluTiiYw",
-          "icon": "",
-          "description": "gpt pass平台,提供各种大模型接口,有部分模型可免费试用,注册即送2000w token"
+          "description": "硅基流动,gpt pass平台,提供各种大模型接口,有部分模型可免费试用,注册即送2000w token",
+          "page": "siliconflow.md"
         },
         {
           "title": "Openrouter",
