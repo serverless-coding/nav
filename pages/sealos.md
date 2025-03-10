@@ -1,14 +1,14 @@
 # [Sealos](https://cloud.sealos.run/?uid=ZyDIclwCa1)
 
-Sealos 是一个基于 Kubernetes 的云操作系统，可以在几秒钟内部署、管理和扩展应用，支持公私一致和多租户共享。Sealos 提供应用商店、数据库管理、公私一致等能力，适合云原生开发和企业级容器云。是基于[同名开源项目](https://github.com/labring/sealos)构建的云端服务.
+Sealos 是新一代云操作系统，基于 Kubernetes 构建，让云计算变得简单易用。它能在几秒钟内完成应用的部署、管理和扩展，完美支持公有云和私有云的统一管理，以及多租户资源共享。作为[开源项目](https://github.com/labring/sealos)打造的企业级云平台，Sealos 为您提供一站式的应用商店、数据库管理等云原生服务。
 
-[点击注册,送10元额度](https://cloud.sealos.run/?uid=ZyDIclwCa1)
+🎁 [新用户专享：立即注册获取10元体验金](https://cloud.sealos.run/?uid=ZyDIclwCa1)
 
 ![sealos](/images/sealos.png)
 
 ## 简介
 
-一款以 Kubernetes 为内核的云操作系统发行版
+革新云计算体验，打造下一代云操作系统
 
 <p align="center">
   <a href="https://sealos.run/docs/Intro">文档</a> |
@@ -16,23 +16,22 @@ Sealos 是一个基于 Kubernetes 的云操作系统，可以在几秒钟内部�
   <a href="https://github.com/orgs/labring/projects/4/views/9">发展规划</a>
 </p>
 
-Sealos 是一款以 Kubernetes 为内核的**云操作系统发行版**。它以云原生的方式，抛弃了传统的云计算架构，转向以 Kubernetes 为云内核的新架构，使企业能够**像使用个人电脑一样**简单地使用云。
+Sealos 重新定义了云计算，以 Kubernetes 为核心打造全新的**云操作系统**。抛弃传统云计算的复杂架构，采用云原生设计理念，让企业能够**像使用个人电脑一样**轻松驾驭云端资源。
 
+### 🚀 极速部署体验
 
-### 🚀 在 Sealos 上快速部署分布式应用
+[立即体验](https://cloud.sealos.run/?uid=ZyDIclwCa1)
 
-[在线使用](https://cloud.sealos.run/?uid=ZyDIclwCa1)
-
-* [在 Sealos 上 30 秒内轻松部署 Nginx](https://sealos.run/docs/quick-start/use-app-launchpad)
-* [在 Sealos 上 30 秒启动 mysql/pgsql/mongo 高可用数据库](https://sealos.run/docs/quick-start/use-database)
-* [在 Sealos 上 运行 WordPress](https://sealos.run/docs/examples/blog-platform/install-wordpress)
-* [在 Sealos 上 运行 Uptime Kuma 拨测系统](https://sealos.run/docs/examples/dial-testing-system/install-uptime-kuma)
-* [在 Sealos 上 运行低代码平台](https://sealos.run/docs/category/low-code-platform)
-* [在 Sealos 上 运行搭建聊天应用](https://sealos.run/docs/examples/social-communication/install-tailchat)
+* [30秒部署 Nginx 服务](https://sealos.run/docs/quick-start/use-app-launchpad)
+* [30秒创建高可用数据库集群（MySQL/PostgreSQL/MongoDB）](https://sealos.run/docs/quick-start/use-database)
+* [快速搭建 WordPress 网站](https://sealos.run/docs/examples/blog-platform/install-wordpress)
+* [部署 Uptime Kuma 监控系统](https://sealos.run/docs/examples/dial-testing-system/install-uptime-kuma)
+* [一键部署低代码开发平台](https://sealos.run/docs/category/low-code-platform)
+* [轻松搭建即时通讯应用](https://sealos.run/docs/examples/social-communication/install-tailchat)
 
 ![](/images/sealos/sealos-desktop-zh.webp)
 
-🔍 您可以通过以下的屏幕截图进一步了解 Sealos，关于 Sealos 更为详细的介绍与说明，请参阅 [什么是 Sealos](https://sealos.run/docs/Intro)。
+🔍 通过以下界面预览，快速了解 Sealos 的核心功能。想深入了解更多细节？请查看[Sealos 详细介绍](https://sealos.run/docs/Intro)。
 
 <div align="center">
 
@@ -44,31 +43,31 @@ Sealos 是一款以 Kubernetes 为内核的**云操作系统发行版**。它以
 
 </div>
 
-### 💡 核心功能
+### 💡 核心优势
 
-- 🚀 **应用管理**：在模板市场中轻松管理并快速发布可公网访问的分布式应用。
-- 🗄️ **数据库管理**：秒级创建高可用数据库，支持 MySQL、PostgreSQL、MongoDB 和 Redis。
-- 🌥️ **公私一致**：即是公有云也是私有云，支持传统应用无缝迁移到云环境。
+- 🚀 **智能应用管理**：海量应用模板，一键部署，自动配置公网访问
+- 🗄️ **企业级数据库**：秒级创建高可用集群，支持主流数据库，运维省心
+- 🌥️ **统一云体验**：无缝连接公有云与私有云，传统应用轻松迁移
 
-### 🌟 优势
+### 🌟 与众不同
 
-- 💰 **高效 & 经济**：仅需为容器付费，自动伸缩杜绝资源浪费，大幅度节省成本。
-- 🌐 **通用性强，无心智负担**：专注于业务本身，无需担心复杂性，几乎没有学习成本。
-- 🛡️ **灵活 & 安全**：多租户共享机制在确保安全的同时，实现资源隔离与高效协作。
+- 💰 **成本优化**：按容器计费，智能弹性伸缩，资源利用最大化
+- 🌐 **简单易用**：零门槛上手，专注业务创新，技术细节交给我们
+- 🛡️ **安全可靠**：企业级多租户隔离，协作与安全完美平衡
 
-
-## 应用
+## 精选应用
 
 ### AI Proxy
 
-全球 AI 模型接入平台，内置ChatGpt、Claude、Deepseek等近200+ 模型，涵盖语言、语音、图片和视频等多模态场景，一键生成API Key。
+打造您的 AI 服务中心！集成 ChatGPT、Claude、Deepseek 等 200+ 主流模型，支持文本、语音、图像、视频等全方位 AI 能力，API Key 一键生成，轻松调用。
 
 ### Sealos DevBox
-一站式云开发平台，提供即时协作开发、无缝部署和环境隔离能力，助您高效管理开发工作流程，轻松实现团队协作。
 
-## FastGPT
+重新定义云开发体验！提供实时协作、自动部署、环境隔离等现代开发工具链，让团队开发更高效、更敏捷。
 
-FastGPT 是一个基于 LLM 大语言模型的知识库问答系统，提供开箱即用的数据处理、模型调用等能力。同时可以通过 Flow 可视化进行工作流编排，从而实现复杂的问答场景！
+### FastGPT
+
+智能知识库助手，基于先进的 LLM 技术，提供即开即用的数据处理和模型调用能力。创新的 Flow 可视化编排，让复杂的 AI 问答场景变得简单直观！
 
 <p align="center">
   <a href="https://tryfastgpt.ai/">
