@@ -176,7 +176,7 @@
       "icon": "/WordPress.svg",
       "links": [
         {
-          "title": "hello-algo",
+          "title": "hello 算法",
           "url": "https://github.com/krahets/hello-algo",
           "icon": "/gitBook.svg",
           "description": "《Hello 算法》：动画图解、一键运行的数据结构与算法教程,hello-algo.com",
@@ -205,6 +205,12 @@
           "url": "https://producthunt.programnotes.cn",
           "icon": "/blob-scene.svg",
           "description": "Product Hunt,日榜,月榜,分享创意+产品"
+        },
+        {
+          "title": "小林coding",
+          "url": "https://xiaolincoding.com/",
+          "description": "小林 x 图解计算机基础:图解计算机网络、操作系统、计算机组成、MySQL、Redis，让天下没有难懂的八股文！",
+          "page": "xiaolincoding.md"
         }
       ]
     },
