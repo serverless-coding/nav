@@ -179,7 +179,8 @@
           "title": "hello-algo",
           "url": "https://github.com/krahets/hello-algo",
           "icon": "/gitBook.svg",
-          "description": "《Hello 算法》：动画图解、一键运行的数据结构与算法教程,hello-algo.com"
+          "description": "《Hello 算法》：动画图解、一键运行的数据结构与算法教程,hello-algo.com",
+          "page": "hello-algo.md"
         },
         {
           "title": "notes",
