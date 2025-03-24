@@ -17,7 +17,7 @@ export async function POST(req: Request, res: Response) {
       system: "You are a helpful assistant.",
       messages,
       tools: {
-        getWeather: weatherTool,
+        // getWeather: weatherTool,
       },
       experimental_telemetry: {
         isEnabled: true,

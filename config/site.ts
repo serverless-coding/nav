@@ -19,7 +19,7 @@ export const siteConfig = {
       href: "/page/mirror",
     },
     {
-      title: "AI",
+      title: "AI聊天",
       href: "/ai",
     }
   ],
