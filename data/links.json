@@ -1088,6 +1088,12 @@
           "url": "https://mcp.programnotes.cn/",
           "description": "MCP是claude开源的开放协议标准,支持自定义各种工具集成到ai中,用于在AI模型和开发环境之间建立统一的上下文交互，让AI更好地理解和处理代码",
           "page": "mcp.md"
+        },
+        {
+          "title": "Vercel AI SDK",
+          "url": "https://nav.programnotes.cn/page/vercel-ai-sdk",
+          "description": "使用Vercel AI SDK可快速集成groq,grok,google/gemini等大模型到项目中",
+          "page": "vercel-ai-sdk.md"
         }
       ]
     },
