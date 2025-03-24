@@ -37,8 +37,8 @@
         {
           "title": "Dify",
           "url": "https://cloud.dify.ai/",
-          "icon": "",
-          "description": "Open-source LLM app development platform,AI Agent,工作流"
+          "description": "Open-source LLM app development platform,AI Agent,工作流",
+          "page": "dify.md"
         },
         {
           "title": "讯飞星火大模型",
