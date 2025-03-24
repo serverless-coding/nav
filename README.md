@@ -13,12 +13,12 @@
 - [x] Authentication
 - [x] Adapt to mobile devices
 - [x] One click deploy
-- [ ] And animation by use Framer Motion 
+- [ ] And animation by use Framer Motion
 - [ ] User like and collection
 - [ ] 更换图标, sidebar.tsx
-- [x] github图标暂时隐藏 
+- [x] github图标暂时隐藏
 - [x] 关于页面
- 
+
 
 ## WebNav
 
@@ -69,6 +69,14 @@ npx prisma db push
 ```sh
 pnpm dev
 ```
+
+#### Running the development server
+
+First, run the development server:
+```
+<userPrompt>
+Rewrite the code in the current editor to incorporate the suggested code change.
+</userPrompt>
 
 ### 使用postgressql
 
