@@ -13,7 +13,7 @@ export function useScrollToBottom(): [
 
     if (container && end) {
       const observer = new MutationObserver(() => {
-        end.scrollIntoView({ behavior: 'instant', block: 'end' });
+        end.scrollIntoView({ behavior: 'auto', block: 'end' });
       });
 
       observer.observe(container, {
@@ -27,6 +27,5 @@ export function useScrollToBottom(): [
     }
   }, []);
 
-  // @ts-expect-error error
   return [containerRef, endRef];
 }
