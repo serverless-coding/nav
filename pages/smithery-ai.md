@@ -1,4 +1,4 @@
-# smithery.ai
+# [smithery.ai](https://smithery.ai/)
 
 ![smithery.ai](https://nav.programnotes.cn/images/mcp/mcp-smithery.ai.png)
 
