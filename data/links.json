@@ -1171,6 +1171,12 @@
           "url": "https://curlconverter.programnotes.cn/",
           "icon": "/red.svg",
           "description": "将curl命令转换成python,go,js等代码"
+        },
+        {
+          "title": "smithery.ai",
+          "url": "https://smithery.ai/",
+          "description": "快速集成MCP server,搜集了很多开源mcp server,并提供Serverless部署mcp Server的工具",
+          "page": "smithery-ai.md"
         }
       ]
     },
