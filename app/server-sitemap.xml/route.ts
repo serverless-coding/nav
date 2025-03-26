@@ -1,8 +1,9 @@
 import { getServerSideSitemap } from 'next-sitemap'
 import linksData from '../../data/links.json'
+import { siteConfig } from '../../config/site'
 
 export async function GET() {
-  const staticPosts = ['', 'page/about', 'page/aigames', "page/mirror"];
+  const staticPosts = ['', 'page/about', 'page/aigames', "/page/mirror"];
 
   const dynamicPosts = linksData.data.reduce((acc: string[], category) => {
     category.links.forEach(link => {
@@ -16,7 +17,7 @@ export async function GET() {
   const posts = [...staticPosts, ...dynamicPosts];
 
   const fields = posts.map((slug: string) => ({
-    loc: `https://nav.programnotes.cn/${slug}`,
+    loc: `${siteConfig.baseUrl}/${slug}`,
     lastmod: new Date().toISOString(),
   }));
 
