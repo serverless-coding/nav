@@ -1075,7 +1075,8 @@
           "title": "shimohq/react",
           "url": "https://github.com/shimohq/react-cookbook",
           "icon": "/React.svg",
-          "description": "shimo react cookbook,石墨文档 react"
+          "description": "shimo react cookbook,石墨文档 react",
+          "page": "react-cookbook.md"
         },
         {
           "title": "犀牛书",

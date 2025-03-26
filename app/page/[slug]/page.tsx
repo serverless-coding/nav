@@ -77,6 +77,53 @@ export default async function Page({ params }: { params: { slug: string } }) {
     }
   });
 
+  // Get links data
+  const links = (await import('@/data/links.json')).default;
+  const currentPage = `${slug}.md`;
+  let categoryTitle = '';
+  let currentUrl = '';
+  let prevLink: { page?: string; title?: string } | null = null;
+  let nextLink: { page?: string; title?: string } | null = null;
+
+  // Find current page's category and position
+  for (const category of links.data) {
+    const linkIndex = category.links.findIndex(link => link.page === currentPage);
+    if (linkIndex !== -1) {
+      categoryTitle = category.title;
+      // Save the current page's url
+      currentUrl = category.links[linkIndex].url;
+      if (linkIndex > 0) {
+        prevLink = category.links[linkIndex - 1];
+      }
+      if (linkIndex < category.links.length - 1) {
+        nextLink = category.links[linkIndex + 1];
+      }
+      break;
+    }
+  }
+
+  // Insert navigation links after h1
+  const h1 = dom.window.document.querySelector('h1');
+  if (h1) {
+    const nav = dom.window.document.createElement('div');
+    nav.className = 'flex justify-between items-center mt-4 mb-8 text-sm text-muted-foreground';
+
+    nav.innerHTML = `
+      <div class="space-x-4">
+        ${categoryTitle ? `
+          <span>分类：${categoryTitle}</span>
+          ${currentUrl ? `<a href="${currentUrl}" target="_blank" class="hover:text-foreground">前往</a>` : ''}
+        ` : ''}
+      </div>
+      <div class="space-x-4">
+        ${prevLink?.page ? `<a href="/page/${prevLink.page?.replace('.md', '')}" class="hover:text-foreground">← ${prevLink.title}</a>` : ''}
+        ${nextLink?.page ? `<a href="/page/${nextLink.page?.replace('.md', '')}" class="hover:text-foreground">${nextLink.title} →</a>` : ''}
+      </div>
+    `;
+
+    h1.parentNode?.insertBefore(nav, h1.nextSibling);
+  }
+
   htmlContent = dom.window.document.body.innerHTML;
 
   return (
