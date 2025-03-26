@@ -7,6 +7,7 @@ import TableOfContents from './table-of-content';
 import ClientMarkdownContent from './markdown-content';
 import { Metadata } from 'next';
 import { JSDOM } from 'jsdom';
+import { siteConfig } from '@/config/site';
 
 // Configure marked with header IDs
 const renderer = new marked.Renderer();
@@ -110,14 +111,14 @@ export default async function Page({ params }: { params: { slug: string } }) {
 
     nav.innerHTML = `
       <div class="space-x-4">
-        ${categoryTitle ? `
-          <span>分类：${categoryTitle}</span>
-          ${currentUrl ? `<a href="${currentUrl}" target="_blank" class="hover:text-foreground">前往</a>` : ''}
-        ` : ''}
+      ${categoryTitle ? `
+        <span>分类：${categoryTitle}</span>
+        ${currentUrl ? `<a href="${currentUrl}?ref=${siteConfig.baseUrl || 'https://nav.programnotes.cn'}" target="_blank" class="hover:text-foreground">前往</a>` : ''}
+      ` : ''}
       </div>
       <div class="space-x-4">
-        ${prevLink?.page ? `<a href="/page/${prevLink.page?.replace('.md', '')}" class="hover:text-foreground">← ${prevLink.title}</a>` : ''}
-        ${nextLink?.page ? `<a href="/page/${nextLink.page?.replace('.md', '')}" class="hover:text-foreground">${nextLink.title} →</a>` : ''}
+      ${prevLink?.page ? `<a href="/page/${prevLink.page?.replace('.md', '')}" class="hover:text-foreground">← ${prevLink.title}</a>` : ''}
+      ${nextLink?.page ? `<a href="/page/${nextLink.page?.replace('.md', '')}" class="hover:text-foreground">${nextLink.title} →</a>` : ''}
       </div>
     `;
 
