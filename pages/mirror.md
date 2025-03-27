@@ -39,13 +39,14 @@
 
 ### GitHub
 
-| 链接                 | 状态 |
-| -------------------- | ---- |
-| https://kggithub.com | 可用 |
-| https://hub.njuu.cf  | 可用 |
-| https://hub.nuaa.cf  | 可用 |
-| https://hub.xyzuu.c/ | 可用 |
-| https://gh.sb25o.q   | 可用 |
+| 链接                    | 状态 |
+| ----------------------- | ---- |
+| https://github.akams.cn | 可用 |
+| https://kggithub.com    | 可用 |
+| https://hub.njuu.cf     | 可用 |
+| https://hub.nuaa.cf     | 可用 |
+| https://hub.xyzuu.c/    | 可用 |
+| https://gh.sb25o.q      | 可用 |
 
 ### GitHub 加速下载站
 | 链接                    | 状态 |
