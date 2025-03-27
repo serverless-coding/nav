@@ -50,6 +50,11 @@
 | https://hub.xyzuu.c/          | 可用 |
 | https://gh.sb25o.q            | 可用 |
 
+#### 加速工具
+
+- [Watt Toolkit,可在 微软应用商店 下载,介绍文章](https://eleduck.com/posts/0Xfd20)
+- fastgithub
+
 ### GitHub 加速下载站
 | 链接                    | 状态 |
 | ----------------------- | ---- |
