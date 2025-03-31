@@ -21,6 +21,10 @@ export const siteConfig = {
     {
       title: "AI聊天",
       href: "/ai",
+    },
+    {
+      title: "开发工具",
+      href: "/devtool",
     }
   ],
   links: {
