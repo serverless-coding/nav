@@ -24,7 +24,7 @@ export const siteConfig = {
     },
     {
       title: "开发工具",
-      href: "/devtool",
+      href: "/page/devtool",
     }
   ],
   links: {
