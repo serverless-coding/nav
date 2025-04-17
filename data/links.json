@@ -1178,6 +1178,12 @@
           "url": "https://smallseotools.com/",
           "description": "在线工具集: domain age checker,plagiarism checker,video downloader,da pa checker,domain age checker",
           "page": "smallseotools.md"
+        },
+        {
+          "title": "MCP广场",
+          "url": "https://www.modelscope.cn/mcp",
+          "description": "魔搭社区,MCP广场,提供了很多开源的MCP server,可以直接使用,在线调用MCP server,mcp-inspector",
+          "page": "modelscope-mcp.md"
         }
       ]
     },
