@@ -973,7 +973,8 @@
         {
           "title": "Pine",
           "url": "https://www.19pine.ai",
-          "description": "智能助手Pine，轻松管理账单，节省时间精力"
+          "description": "智能助手Pine，轻松管理账单，节省时间精力",
+          "icon": "/red.svg"
         }
       ]
     },
