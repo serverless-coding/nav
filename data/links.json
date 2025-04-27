@@ -1211,6 +1211,12 @@
           "description": "Serverless platforms,网站托管"
         },
         {
+          "title": "Claw.cloud",
+          "url": "https://console.run.claw.cloud/signin?link=AXZL401YXZUJ",
+          "description": "云服务商,免费额度,Serverless platforms,网站托管,支持部署:Alist,dify,chatgpt-next-web,FastGPT,LibreChat,LobeChat,ChatNio等众多热门应用",
+          "page": "claw.md"
+        },
+        {
           "title": "Sealos",
           "url": "https://cloud.sealos.run/?uid=ZyDIclwCa1",
           "description": "以 kubernetes 为内核的云操作系统,,FastGPT,Devbox,AI Proxy(集成各种大模型API)",
