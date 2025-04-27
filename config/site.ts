@@ -25,6 +25,10 @@ export const siteConfig = {
     {
       title: "开发工具",
       href: "/page/devtool",
+    },
+    {
+      title: "免费资源",
+      href: "/page/free",
     }
   ],
   links: {
