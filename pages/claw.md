@@ -1,8 +1,14 @@
 # Claw免费云服务
 
-关键词: 云服务商,免费额度,Serverless platforms,网站托管,支持部署:Alist,dify,chatgpt-next-web,FastGPT,LibreChat,LobeChat,ChatNio等众多热门应用
+关键词: 云服务商,免费额度,Serverless platforms,网站托管,支持部署:
+- Alist,dify,chatgpt-next-web,FastGPT,LibreChat,LobeChat,ChatNio等众多热门应用
+- 各种数据库: PostgresSQL,MongoDB,MySQL,Redis,Kafka,Milvus...
+- Docker
+- 游戏: Minecraft (MC) 服务器
 
 Claw是近年才出线的云服务商，提供的服务线路基本上与阿里云相同，但性价比更高，可以看作是阿里云还没承认的私生仔，有点类似于小米旗下的红米子品牌，换个牌子可以放下身段、法务、规则等等限制，扯远了，今天主要介绍一下如何撸刚出的免费容器，最高可用配置可达4H8G
+
+![console](https://nav.programnotes.cn/images/claw/claw-console.png)
 
 以下是部署案例
 
