@@ -104,3 +104,7 @@ Claw是近年才出线的云服务商，提供的服务线路基本上与阿里�
 - [Alist开启搜索功能](https://mailberry.com.cn/2025/03/alist-search/)
 - [解决Alist上传文件时，提示Request failed with status code 413的问题](https://mailberry.com.cn/2023/02/alist-request-failed-with-status-code-413/)
 - [Alist首页和管理页都是空白的解决过程](https://mailberry.com.cn/2022/08/alist-403-blank-issuse/)
+
+## Claw部署简易图床easyimage
+
+[前往查看教程](https://nav.programnotes.cn/page/claw-easyimage)
