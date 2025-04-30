@@ -29,6 +29,10 @@ export const siteConfig = {
     {
       title: "免费资源",
       href: "/page/free",
+    },
+    {
+      title: "流量卡",
+      href: "/page/haoka",
     }
   ],
   links: {
