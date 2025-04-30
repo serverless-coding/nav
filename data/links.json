@@ -52,6 +52,11 @@
           "description": "提供免费大模型(类chatgpt),可在线使用"
         },
         {
+          "title": "免费gpt,Gemini",
+          "url": "https://gemini.programnotes.cn",
+          "description": "google提供的Gemini系列大模型,提供免费大模型(类chatgpt),可在线使用"
+        },
+        {
           "title": "iSlide",
           "url": "https://www.islide.cc",
           "description": "简单好用的AiPPT插件"
