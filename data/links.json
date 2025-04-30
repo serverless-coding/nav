@@ -29,6 +29,13 @@
           "page": "siliconflow.md"
         },
         {
+          "title": "免费gpt,Gemini",
+          "url": "https://gemini.programnotes.cn",
+          "description": "google提供的Gemini系列大模型,提供免费大模型(类chatgpt),可在线使用",
+          "icon": "/red.svg",
+          "page": "gemini.md"
+        },
+        {
           "title": "Openrouter",
           "url": "https://openrouter.ai",
           "icon": "",
@@ -50,11 +57,6 @@
           "url": "https://gpt.programnotes.cn",
           "icon": "/red.svg",
           "description": "提供免费大模型(类chatgpt),可在线使用"
-        },
-        {
-          "title": "免费gpt,Gemini",
-          "url": "https://gemini.programnotes.cn",
-          "description": "google提供的Gemini系列大模型,提供免费大模型(类chatgpt),可在线使用"
         },
         {
           "title": "iSlide",
