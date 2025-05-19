@@ -40,10 +40,73 @@ docker pull docker.1ms.run/nginx:latest
 
 ### pip 镜像
 
+[阿里云PyPI镜像](https://developer.aliyun.com/mirror/pypi?spm=a2c6h.13651102.0.0.6d071b11EMSPAu)
+
+PyPI(Python Package Index)是Python编程语言的软件存储库。开发者可以通过PyPI查找和安装由Python社区开发和共享的软件，也可以将自己开发的库上传至PyPI。
+
+下载地址：https://mirrors.aliyun.com/pypi/
+
+配置:
+
+```bash
+# 找到文件 ~/.pip/pip.conf ,添加
+[global]
+index-url = http://mirrors.aliyun.com/pypi/simple/
+
+[install]
+trusted-host=mirrors.aliyun.com
+
+```
+
 ### uv
 
 ## Go
 
 ### 镜像
 
+- goproxy:  https://goproxy.cn/
+
+  ```bash
+  # linux 使用
+  go env -w GO111MODULE=on
+  go env -w GOPROXY=https://goproxy.cn,direct
+
+  # macos
+  export GO111MODULE=on
+  export GOPROXY=https://goproxy.cn
+  ```
+  部署 Go Module Proxy
+  ```go
+  // 创建main.go ,运行 go run main.go,将 GOPROXY 设置为 http://localhost:8080 或自定义域名
+  package main
+
+  import (
+  	"net/http"
+  	"os"
+
+  	"github.com/goproxy/goproxy"
+  )
+
+  func main() {
+  	http.ListenAndServe("localhost:8080", &goproxy.Goproxy{
+  		GoBinEnv: append(
+  			os.Environ(),
+  			"GOPROXY=https://goproxy.cn,direct", // Use Goproxy.cn as the upstream proxy
+  			"GOPRIVATE=git.example.com",         // Solve the problem of pulling private modules
+  		),
+  		ProxiedSUMDBs: []string{
+  			"sum.golang.org https://goproxy.cn/sumdb/sum.golang.org", // Proxy the default  checksum database
+  		},
+  	})
+  }
+  ```
+
+- https://goproxy.io/
+
 ## npm/pnpm
+
+阿里镜像:
+
+http://npmmirror.com
+
+http://registry.npmmirror.com
