@@ -2,6 +2,14 @@
 
 ## Docker
 
+### 1Panel
+
+感谢1Panel提供镜像加速服务(1Panel 是一个现代化、开源的 Linux 服务器运维管理面板。)
+
+https://docker.1panel.live
+
+文档: https://1panel.cn/docs/v1/user_manual/containers/setting/#1
+
 ### 1ms.run/毫秒镜像
 
 ```bash

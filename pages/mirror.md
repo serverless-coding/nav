@@ -2,6 +2,16 @@
 
 本站收集的可用网址链接仅供交流学习使用，如对您有所帮助，请收藏并推荐给需要的朋友，由于网站限制，不一定所有网址都能在您所在的位置访问
 
+## Docker镜像加速
+
+感谢1Panel提供镜像加速服务(1Panel 是一个现代化、开源的 Linux 服务器运维管理面板。)
+
+https://docker.1panel.live
+
+### 文档
+
+https://1panel.cn/docs/v1/user_manual/containers/setting/#1
+
 ## 谷歌学术镜像
 
 | 网址                         | 状态 |
