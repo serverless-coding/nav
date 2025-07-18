@@ -12,6 +12,11 @@
       "src": "/translate(.*)",
       "dest": "https://deeplx.ai-2b9.workers.dev/translate?$1",
       "status": 200
+    },
+    {
+      "src": "/ProductEn/Index/(.*)",
+      "dest": "https://h5.lot-ml.com/ProductEn/Index/3b72ee43a871a8cc",
+      "status": 200
     }
   ]
 }
