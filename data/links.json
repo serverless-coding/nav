@@ -31,7 +31,8 @@
         {
           "title": "AI图生图",
           "url": "https://seedreamt.programnotes.cn",
-          "description": "AI图生图平台,提供图像生成,收集了上百种创意案例"
+          "description": "AI图生图平台,提供图像生成,收集了上百种创意案例",
+          "page": "seedreamt.md"
         },
         {
           "title": "免费gpt,Gemini",
