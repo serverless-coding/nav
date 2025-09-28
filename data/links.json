@@ -29,6 +29,11 @@
           "page": "siliconflow.md"
         },
         {
+          "title": "AI图生图",
+          "url": "https://seedreamt.programnotes.cn",
+          "description": "AI图生图平台,提供图像生成,收集了上百种创意案例"
+        },
+        {
           "title": "免费gpt,Gemini",
           "url": "https://gemini.programnotes.cn",
           "description": "google提供的Gemini系列大模型,提供免费大模型(类chatgpt),可在线使用",
