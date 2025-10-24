@@ -29,6 +29,12 @@
           "page": "siliconflow.md"
         },
         {
+          "title": "七牛云AI推理平台",
+          "url": "https://s.qiniu.com/NJJ7Jn",
+          "description": "七牛云AI推理平台,提供各种大模型接口,有部分模型可免费试用,注册即送1500w token,常用的主流模型，基本都提供了（比如国外的 OpenAI、Gemini、Claude，国内的 DeepSeek、千问、豆包、智谱、Kimi）。模型广场（上图）列出了部分模型，完整列表需要查询 API。",
+          "page": "qiniu.md"
+        },
+        {
           "title": "AI图生图",
           "url": "https://seedreamt.programnotes.cn",
           "description": "AI图生图平台,提供图像生成,收集了上百种创意案例",
