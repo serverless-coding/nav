@@ -704,7 +704,7 @@
       ]
     },
     {
-      "title": "AI音视频",
+      "title": "音视频",
       "icon": "",
       "links": [
         {
@@ -925,6 +925,70 @@
           ],
           "page": "music-free.md",
           "icon": "/solus.svg"
+        },
+        {
+          "title": "低端影视",
+          "url": "https://ddys.la",
+          "description": "以海外影视资源为主的老牌网站",
+          "subject": [
+            "影视"
+          ]
+        },
+        {
+          "title": "猴影工坊",
+          "url": "https://monkey-flix.com",
+          "description": "免费在线电影大全",
+          "subject": [
+            "影视"
+          ]
+        },
+        {
+          "title": "嘀嗒影视",
+          "url": "https://www.didahd.pro",
+          "description": "超清秒播体验",
+          "subject": [
+            "影视"
+          ]
+        },
+        {
+          "title": "影猫の仓库",
+          "url": "https://www.ymck.pro",
+          "description": "免费实用的影视资源搜索神器",
+          "subject": [
+            "影视"
+          ]
+        },
+        {
+          "title": "3Q影视",
+          "url": "https://qqqys.com",
+          "description": "高清、无广、更新快",
+          "subject": [
+            "影视"
+          ]
+        },
+        {
+          "title": "注视影视",
+          "url": "https://gaze.run",
+          "description": "海外影视剧、国内高口碑影视剧资源为主的在线影视网站",
+          "subject": [
+            "影视"
+          ]
+        },
+        {
+          "title": "No视频",
+          "url": "https://www.novipnoad.cc",
+          "description": "主打海外影视剧资源，致力于最轻松的追剧体验",
+          "subject": [
+            "影视"
+          ]
+        },
+        {
+          "title": "真狼影视",
+          "url": "https://www.zhenlang.cc",
+          "description": "免费观看全网影视剧资源的网站",
+          "subject": [
+            "影视"
+          ]
         }
       ]
     },
