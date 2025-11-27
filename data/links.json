@@ -248,7 +248,8 @@
           "url": "/page/music-wagnyi",
           "description": "网易云音乐第三方播放器，支持网页、Windows、Mac、Linux版本",
           "subject": [
-            "音乐"
+            "音乐",
+            "音视频"
           ],
           "page": "music-wagnyi.md",
           "icon": "/snyk.svg"
@@ -258,7 +259,8 @@
           "url": "/page/music-free",
           "description": "支持安卓、PC的音乐播放器，开源、免费、无广告、可定制化的全网听歌神器",
           "subject": [
-            "音乐"
+            "音乐",
+            "音视频"
           ],
           "page": "music-free.md",
           "icon": "/solus.svg"
@@ -700,7 +702,11 @@
         {
           "title": "可灵AI",
           "url": "https://kling.kuaishou.com",
-          "description": "可灵大模型"
+          "description": "可灵大模型",
+          "subject": [
+            "视频",
+            "AI生成"
+          ]
         },
         {
           "title": "万象营造",
@@ -711,14 +717,22 @@
         {
           "title": "即梦AI",
           "url": "https://jimeng.jianying.com",
-          "description": "AI视频生成，轻松创作精彩内容"
+          "description": "AI视频生成，轻松创作精彩内容",
+          "subject": [
+            "视频",
+            "AI生成",
+            "画图"
+          ]
         },
         {
           "title": "StayFocused",
           "url": "https://whitenoise.programnotes.cn/",
           "description": "一个帮助你保持专注的网页应用，通过自然声音和白噪音创造理想的专注环境",
           "page": "whitenoise.md",
-          "icon": "https://whitenoise.programnotes.cn/favicon.ico"
+          "icon": "https://whitenoise.programnotes.cn/favicon.ico",
+          "subject": [
+            "音乐"
+          ]
         },
         {
           "title": "来画",
@@ -743,7 +757,10 @@
         {
           "title": "录咖AI",
           "url": "https://reccloud.cn",
-          "description": "AI赋能，音视频处理无忧"
+          "description": "AI赋能，音视频处理无忧",
+          "subject": [
+            "AI生成"
+          ]
         },
         {
           "title": "Vidu",
@@ -779,7 +796,11 @@
         {
           "title": "Suno",
           "url": "https://suno.com",
-          "description": "热门AI音乐创作工具Suno"
+          "description": "热门AI音乐创作工具Suno",
+          "subject": [
+            "音乐",
+            "AI生成"
+          ]
         },
         {
           "title": "讯飞智作",
@@ -794,7 +815,11 @@
         {
           "title": "网易天音",
           "url": "https://tianyin.music.163.com",
-          "description": "AI音乐创作，一键成曲"
+          "description": "AI音乐创作，一键成曲",
+          "subject": [
+            "音乐",
+            "AI生成"
+          ]
         },
         {
           "title": "悦音配音",
@@ -830,7 +855,68 @@
           "title": "通义听悟",
           "icon": "/red.svg",
           "url": "https://tingwu.aliyun.com",
-          "description": "阿里云通义听悟是聚焦音视频内容的工作学习AI助手，依托大模型，帮助用户记录、整理和分析音视频内容，体验用大模型做音视频笔记、整理会议记录。"
+          "description": "阿里云通义听悟是聚焦音视频内容的工作学习AI助手，依托大模型，帮助用户记录、整理和分析音视频内容，体验用大模型做音视频笔记、整理会议记录。",
+          "subject": [
+            "音视频",
+            "AI生成"
+          ]
+        },
+        {
+          "title": "青听音乐",
+          "url": "/page/music-qingting",
+          "description": "免费的音乐APP，支持四大平台曲库",
+          "subject": [
+            "音乐"
+          ],
+          "page": "music-qingting.md",
+          "icon": "/red.svg"
+        },
+        {
+          "title": "歌曲海",
+          "url": "https://www.gequhai.com",
+          "description": "免费的在线音乐试听、下载平台",
+          "subject": [
+            "音乐"
+          ]
+        },
+        {
+          "title": "米兔音乐",
+          "url": "https://www.qqmp3.vip",
+          "description": "提供歌曲在线试听、免费下载的音乐网站",
+          "subject": [
+            "音乐"
+          ]
+        },
+        {
+          "title": "布谷音乐",
+          "url": "https://www.buguyy.top",
+          "description": "提供MP3、WAV、Flac等格式的歌曲下载网站",
+          "subject": [
+            "音乐"
+          ],
+          "icon": "/wave.svg"
+        },
+        {
+          "title": "SPlayer",
+          "url": "/page/music-wagnyi",
+          "description": "网易云音乐第三方播放器，支持网页、Windows、Mac、Linux版本",
+          "subject": [
+            "音乐",
+            "音视频"
+          ],
+          "page": "music-wagnyi.md",
+          "icon": "/snyk.svg"
+        },
+        {
+          "title": "MusicFree",
+          "url": "/page/music-free",
+          "description": "支持安卓、PC的音乐播放器，开源、免费、无广告、可定制化的全网听歌神器",
+          "subject": [
+            "音乐",
+            "音视频"
+          ],
+          "page": "music-free.md",
+          "icon": "/solus.svg"
         }
       ]
     },
@@ -1300,6 +1386,99 @@
           "description": "最好用的IP工具箱。轻松检查你的 IP，IP 地理位置，检查DNS泄漏，检查 WebRTC 连接，速度测试，ping 测试，MTR测试，检查网站可用性，查询 Whois 信息等等。",
           "page": "myip.md",
           "icon": "/red.svg"
+        },
+        {
+          "title": "今日热榜",
+          "url": "https://tophub.today/c/news",
+          "description": "今日热榜新闻频道，聚合全网热点",
+          "subject": [
+            "新闻",
+            "榜单"
+          ]
+        },
+        {
+          "title": "高德地图",
+          "url": "https://amap.com/",
+          "description": "高德地图网页版，支持扫码登录",
+          "icon": "/aliyun.svg"
+        },
+        {
+          "title": "微信文件助手",
+          "url": "https://filehelper.weixin.qq.com",
+          "description": "微信文件传输助手网页版，手机扫码互传文件",
+          "subject": [
+            "文件",
+            "社交"
+          ]
+        },
+        {
+          "title": "临时邮箱",
+          "url": "https://temp-mail.io",
+          "description": "临时邮箱，一次性地址收取邮件",
+          "subject": [
+            "邮箱"
+          ]
+        },
+        {
+          "title": "网络诊断",
+          "url": "https://ip.skk.moe",
+          "description": "网络诊断工具，IP与连接检测"
+        },
+        {
+          "title": "二维码生成",
+          "url": "https://cli.im",
+          "description": "草料二维码生成器，无代码模板与数据收集",
+          "subject": [
+            "二维码"
+          ]
+        },
+        {
+          "title": "文档转换",
+          "url": "https://pdfcandy.com/cn/",
+          "description": "PDF Candy 在线 PDF 工具，90+转换功能"
+        },
+        {
+          "title": "聚合直播",
+          "url": "https://lemonlive.deno.dev",
+          "description": "聚合多平台直播观看",
+          "subject": [
+            "直播"
+          ],
+          "icon": "/red.svg"
+        },
+        {
+          "title": "临时分享",
+          "url": "https://wormhole.app",
+          "description": "端到端加密的临时文件分享，链接自动过期",
+          "subject": [
+            "文件",
+            "社交"
+          ]
+        },
+        {
+          "title": "一键激活",
+          "url": "https://kms.cx",
+          "description": "Windows/Office KMS 激活教程",
+          "icon": "/red.svg"
+        },
+        {
+          "title": "视频无水印",
+          "url": "https://dy.kukutool.com",
+          "description": "抖音视频无水印下载工具",
+          "subject": [
+            "视频"
+          ]
+        },
+        {
+          "title": "网络收音机",
+          "url": "https://radio5.cn",
+          "description": "在线网络电台收听",
+          "icon": "/red.svg"
+        },
+        {
+          "title": "Font Awesome",
+          "url": "https://fontawesome.com/v5/search?o=r&m=free",
+          "description": "Font Awesome v5 免费图标搜索"
         }
       ]
     },
