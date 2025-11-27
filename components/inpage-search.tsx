@@ -144,7 +144,7 @@ export default function InpageSearch() {
         </div>
 
         {/* 输入框区域 */}
-        <div className="relative">
+        <div className="relative w-3/5 mx-auto">
           <input
             ref={inputRef}
             type="text"

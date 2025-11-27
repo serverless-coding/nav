@@ -207,6 +207,61 @@
           "title": "Bigjpg",
           "url": "https://bigjpg.com",
           "description": "无损放大图片的高级AI工具，保持图像细节和颜色的完整性。"
+        },
+        {
+          "title": "青听音乐",
+          "url": "/page/music-qingting",
+          "description": "免费的音乐APP，支持四大平台曲库",
+          "subject": [
+            "音乐"
+          ],
+          "page": "music-qingting.md",
+          "icon": "/red.svg"
+        },
+        {
+          "title": "歌曲海",
+          "url": "https://www.gequhai.com",
+          "description": "免费的在线音乐试听、下载平台",
+          "subject": [
+            "音乐"
+          ]
+        },
+        {
+          "title": "米兔音乐",
+          "url": "https://www.qqmp3.vip",
+          "description": "提供歌曲在线试听、免费下载的音乐网站",
+          "subject": [
+            "音乐"
+          ]
+        },
+        {
+          "title": "布谷音乐",
+          "url": "https://www.buguyy.top",
+          "description": "提供MP3、WAV、Flac等格式的歌曲下载网站",
+          "subject": [
+            "音乐"
+          ],
+          "icon": "/wave.svg"
+        },
+        {
+          "title": "SPlayer",
+          "url": "/page/music-wagnyi",
+          "description": "网易云音乐第三方播放器，支持网页、Windows、Mac、Linux版本",
+          "subject": [
+            "音乐"
+          ],
+          "page": "music-wagnyi.md",
+          "icon": "/snyk.svg"
+        },
+        {
+          "title": "MusicFree",
+          "url": "/page/music-free",
+          "description": "支持安卓、PC的音乐播放器，开源、免费、无广告、可定制化的全网听歌神器",
+          "subject": [
+            "音乐"
+          ],
+          "page": "music-free.md",
+          "icon": "/solus.svg"
         }
       ]
     },
