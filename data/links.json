@@ -568,6 +568,14 @@
           "description": "秘塔AI搜索，没有广告，直达结果"
         },
         {
+          "title": "鸠摩搜索/Jiumo",
+          "url": "https://www.jiumodiary.com/",
+          "description": "鸠摩搜索, 文档, 电子书, 摩鸠, 鸠魔, kindle, ebook, jiumosoushu, 找书",
+          "subject": [
+            "电子书"
+          ]
+        },
+        {
           "title": "得理法搜",
           "url": "https://data.delilegal.com",
           "description": "智能法律工具，助力律师高效工作"
