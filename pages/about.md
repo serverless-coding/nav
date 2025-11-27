@@ -1,8 +1,8 @@
-# 科技导航
+# AI工具箱
 
 搜集各种AI相关工具,博客,资讯站点
 
-![科技导航](https://nav.programnotes.cn/images/nav.png)
+![AI工具箱](https://nav.programnotes.cn/images/nav.png)
 
 ## 如何提交站点
 
