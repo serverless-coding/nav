@@ -8,37 +8,57 @@
           "title": "魔搭",
           "url": "https://modelscope.cn/",
           "icon": "",
-          "description": "开源的模型即服务共享平台,为泛AI开发者提供灵活、易用、低成本的一站式模型服务产品,让模型应用更简单"
+          "description": "开源的模型即服务共享平台,为泛AI开发者提供灵活、易用、低成本的一站式模型服务产品,让模型应用更简单",
+          "subject": [
+            "AI"
+          ]
         },
         {
           "title": "通义千问",
           "url": "https://qianwen.aliyun.com",
           "icon": "/qianwen.png",
           "description": "阿里云研发的通义千问大模型",
-          "page": "qwen.md"
+          "page": "qwen.md",
+          "subject": [
+            "AI"
+          ]
         },
         {
           "title": "豆包",
           "url": "https://doubao.com",
-          "description": "豆包是你的 AI 聊天智能对话问答助手，写作文案翻译情感陪伴编程全能工具。豆包为你答疑解惑，提供灵感，辅助创作，也可以和你畅聊任何你感兴趣的话题。"
+          "description": "豆包是你的 AI 聊天智能对话问答助手，写作文案翻译情感陪伴编程全能工具。豆包为你答疑解惑，提供灵感，辅助创作，也可以和你畅聊任何你感兴趣的话题。",
+          "subject": [
+            "AI"
+          ]
         },
         {
           "title": "SiliconFlow",
           "url": "https://cloud.siliconflow.cn/i/eluTiiYw",
           "description": "硅基流动,gpt pass平台,提供各种大模型接口,有部分模型可免费试用,注册即送2000w token",
-          "page": "siliconflow.md"
+          "page": "siliconflow.md",
+          "subject": [
+            "AI"
+          ]
         },
         {
           "title": "七牛云AI推理平台",
           "url": "https://s.qiniu.com/NJJ7Jn",
           "description": "七牛云AI推理平台,提供各种大模型接口,有部分模型可免费试用,注册即送1500w token,常用的主流模型，基本都提供了（比如国外的 OpenAI、Gemini、Claude，国内的 DeepSeek、千问、豆包、智谱、Kimi）。模型广场（上图）列出了部分模型，完整列表需要查询 API。",
-          "page": "qiniu.md"
+          "page": "qiniu.md",
+          "subject": [
+            "AI"
+          ]
         },
         {
           "title": "AI图生图",
           "url": "https://seedreamt.programnotes.cn",
           "description": "AI图生图平台,提供图像生成,收集了上百种创意案例",
-          "page": "seedreamt.md"
+          "page": "seedreamt.md",
+          "subject": [
+            "AI",
+            "画图",
+            "音视频"
+          ]
         },
         {
           "title": "免费gpt,Gemini",

@@ -21,4 +21,5 @@ export interface Link {
   public: boolean;
   cid: string;
   page?: string;
+  subject?: string | string[];
 }

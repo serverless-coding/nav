@@ -1,9 +1,10 @@
 "use client"
 
 import { useState, useRef } from "react"
-import { useRouter } from "next/navigation"
+import { useRouter, useSearchParams } from "next/navigation"
 import { Search, Clapperboard, Film, ArrowRight } from "lucide-react"
 import { cn } from "@/lib/utils"
+import linksData from "@/data/links.json"
 
 // 数据结构保持不变
 const SEARCH_DATA = [
@@ -39,6 +40,7 @@ const SEARCH_DATA = [
 
 export default function InpageSearch() {
   const router = useRouter()
+  const params = useSearchParams()!
   const [activeTabIndex, setActiveTabIndex] = useState(0)
   const [activeChildIndex, setActiveChildIndex] = useState(0)
   const [query, setQuery] = useState("")
@@ -71,14 +73,29 @@ export default function InpageSearch() {
       return
     }
 
+    const subject = (params?.get("subject") || "").trim()
+
     if (currentChild.id === "internal") {
-      router.push(`/?q=${encodeURIComponent(q)}`)
-    } else {
-      const targetUrl = currentChild.url.includes('$q')
-        ? currentChild.url.replace('$q', encodeURIComponent(q))
-        : currentChild.url + encodeURIComponent(q)
-      window.open(targetUrl, "_blank")
+      const search = new URLSearchParams()
+      if (q) search.set("q", q)
+      if (subject) search.set("subject", subject)
+      router.push(`/?${search.toString()}`)
+      return
     }
+
+    let finalQ = q
+    if (currentChild.id === "bing" && subject) {
+      const domains = collectDomainsBySubject(subject)
+      if (domains.length > 0) {
+        const siteQuery = domains.map(d => `site:${d}`).join(" OR ")
+        finalQ = `${q} ${siteQuery}`
+      }
+    }
+
+    const targetUrl = currentChild.url.includes('$q')
+      ? currentChild.url.replace('$q', encodeURIComponent(finalQ))
+      : currentChild.url + encodeURIComponent(finalQ)
+    window.open(targetUrl, "_blank")
   }
 
   const onKeyDown = (e: React.KeyboardEvent<HTMLInputElement>) => {
@@ -175,4 +192,24 @@ export default function InpageSearch() {
       </div>
     </div>
   )
+}
+
+function collectDomainsBySubject(subject: string): string[] {
+  const sub = subject.trim().toLowerCase()
+  const domains = new Set<string>()
+  try {
+    linksData.data.forEach((cat: any) => {
+      (cat.links || []).forEach((l: any) => {
+        const s = l.subject
+        const match = Array.isArray(s) ? s.some((x: string) => (x || '').toLowerCase() === sub) : ((s || '').toLowerCase() === sub)
+        if (match) {
+          try {
+            const u = new URL(l.url)
+            domains.add(u.hostname)
+          } catch { }
+        }
+      })
+    })
+  } catch { }
+  return Array.from(domains)
 }

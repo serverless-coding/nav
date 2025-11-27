@@ -41,7 +41,8 @@ export function LinkItem({ link }: { link: SiteLink }) {
   );
 }
 
-export function LinkContent({ navResources }: { navResources: CategoryWithLinks[] }) {
+export function LinkContent({ navResources, activeSubject, activeQuery }: { navResources: CategoryWithLinks[], activeSubject?: string, activeQuery?: string }) {
+
   return (
     <div className="w-full pt-4">
       <div className="mx-auto w-full px-4 md:px-6">
@@ -50,7 +51,28 @@ export function LinkContent({ navResources }: { navResources: CategoryWithLinks[
             return (
               <div id={category.id} key={category.id} className="mb-12">
                 <div className="my-4">
-                  <h1 className="mb-2 text-2xl font-bold text-primary/80 sm:text-3xl">{category.title}</h1>
+                  <div className="flex items-center flex-wrap gap-2">
+                    <h1 className="mb-2 text-2xl font-bold text-primary/80 sm:text-3xl mr-3">{category.title}</h1>
+                    {Array.from(new Set(category.links.flatMap(l => Array.isArray(l.subject) ? l.subject : [(l.subject || '').trim()]).filter(Boolean))).map((sub) => (
+                      <NextLink
+                        key={sub}
+                        href={`/?${new URLSearchParams({ ...(activeQuery ? { q: activeQuery } : {}), subject: sub }).toString()}`}
+                        className={`px-4 py-1.5 text-xs md:text-sm rounded-full transition-all duration-200 border border-transparent focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 ${activeSubject === sub ? 'bg-gradient-to-r from-blue-600 to-blue-700 text-white shadow-md shadow-blue-500/20 focus-visible:ring-white/70 focus-visible:ring-offset-blue-700' : 'text-muted-foreground bg-transparent hover:bg-muted/50 hover:text-foreground focus-visible:ring-blue-500/40 focus-visible:ring-offset-background'}`}
+                        aria-label={`筛选 ${sub}`}
+                      >
+                        {sub}
+                      </NextLink>
+                    ))}
+                    {(activeSubject) && (
+                      <NextLink
+                        href={`/?${new URLSearchParams({ ...(activeQuery ? { q: activeQuery } : {}) }).toString()}`}
+                        className={`ml-2 px-4 py-1.5 text-xs md:text-sm rounded-full transition-all duration-200 border border-transparent focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 text-muted-foreground bg-transparent hover:bg-muted/50 hover:text-foreground focus-visible:ring-blue-500/40 focus-visible:ring-offset-background`}
+                        aria-label={`清除筛选`}
+                      >
+                        清除筛选
+                      </NextLink>
+                    )}
+                  </div>
                 </div>
                 <div className="grid grid-cols-1 gap-3 md:grid-cols-2 md:gap-6 lg:grid-cols-3">
                   {
