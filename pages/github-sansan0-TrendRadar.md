@@ -1,6 +1,6 @@
 # TrendRadar
 
-[项目地址](https://github.com/sansan0/TrendRadar)
+[项目地址,https://github.com/sansan0/TrendRadar](https://github.com/sansan0/TrendRadar)
 
 ## 📁 项目名称：TrendRadar
 
