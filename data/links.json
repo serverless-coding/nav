@@ -485,11 +485,6 @@
       "icon": "",
       "links": [
         {
-          "title": "AI论文生成器",
-          "url": "https://lunwen.daxuexilie.com/openai/",
-          "description": "10分钟搞定毕业论文！"
-        },
-        {
           "title": "橙篇AI",
           "icon": "/red.svg",
           "url": "https://cp.baidu.com",
@@ -516,11 +511,6 @@
           "description": "讯飞写作基于讯飞星火认知大模型能力，支持多场景写作，提供会议纪要，求职简历，心得体会，入党申请，论文大纲，品宣文案，PPT大纲等各类写作模板，AI对话，激发灵感，立即体验。"
         },
         {
-          "title": "火山写作",
-          "url": "https://writingo.net",
-          "description": "火山写作是由字节跳动推出的，集成创作、润色、纠错、改写、翻译等能力的中英文 AI 写作助手。"
-        },
-        {
           "title": "笔灵AI写作",
           "url": "https://ibiling.cn",
           "description": "笔灵AI写作官网(ibiling.cn) - 国内领先的AI写作助手与智能工具。专为提高写作效率而设计，提供免费的AI文章改写、论文辅助、商业计划书撰写等服务。无论是学术写作还是商业文案，笔灵AI写作都能快速生成高质量内容，简化您的写作过程。"
@@ -539,11 +529,6 @@
           "title": "新华妙笔",
           "url": "https://miaobi.xinhuaskl.com",
           "description": "AI公文写作平台"
-        },
-        {
-          "title": "Effidit写作助手",
-          "url": "https://effidit.qq.com",
-          "description": "腾讯AI Lab开发的写作助手"
         }
       ]
     },
@@ -629,11 +614,6 @@
           "title": "Globe",
           "url": "https://explorer.globe.engineer",
           "description": ""
-        },
-        {
-          "title": "SearchForYou",
-          "url": "https://q.embbot.com/search",
-          "description": "开源的ai搜索工具:https://github.com/MayDay-wpf/SearchForYou"
         }
       ]
     },
@@ -687,11 +667,6 @@
           "description": "10分钟即可打造专属亲子故事"
         },
         {
-          "title": "A1.art",
-          "url": "https://a1.art",
-          "description": "AI艺术创作平台，轻松生成AI艺术"
-        },
-        {
           "title": "Ideogram",
           "url": "https://ideogram.ai",
           "description": "Ideogram"
@@ -741,16 +716,6 @@
           "subject": [
             "音乐"
           ]
-        },
-        {
-          "title": "来画",
-          "url": "https://www.laihua.com",
-          "description": "AI动画视频创作助手"
-        },
-        {
-          "title": "一帧妙创",
-          "url": "https://aigc.yizhentv.com",
-          "description": "秒创AI，一秒生成短视频"
         },
         {
           "title": "白日梦",
@@ -927,14 +892,6 @@
           "icon": "/solus.svg"
         },
         {
-          "title": "低端影视",
-          "url": "https://ddys.la",
-          "description": "以海外影视资源为主的老牌网站",
-          "subject": [
-            "影视"
-          ]
-        },
-        {
           "title": "猴影工坊",
           "url": "https://monkey-flix.com",
           "description": "免费在线电影大全",
@@ -1097,16 +1054,6 @@
           "title": "Soothe",
           "url": "https://www.sootheapp.co",
           "description": "传递匿名善意，温暖心灵空间"
-        },
-        {
-          "title": "Nora",
-          "url": "https://www.speaktonora.com",
-          "description": "全天候匿名心理陪伴，助您应对压力"
-        },
-        {
-          "title": "Nomadful",
-          "url": "https://nomadful.io",
-          "description": "免费心理健康助手"
         }
       ]
     },
@@ -1297,11 +1244,6 @@
           "title": "Coursera",
           "url": "https://coursera.org",
           "description": "Learn new job skills in online courses from industry leaders like Google, IBM, &amp; Meta. Advance your career with top degrees from Michigan, Penn, Imperial &amp; more."
-        },
-        {
-          "title": "Growith.app",
-          "url": "https://www.growith.app",
-          "description": "视频发布前，获取真实反馈优化内容"
         },
         {
           "title": "Remento",
