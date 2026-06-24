@@ -485,15 +485,15 @@
       "icon": "",
       "links": [
         {
+          "title": "星火内容运营大师",
+          "url": "https://turbodesk.xfyun.cn/home",
+          "description": "科大讯飞旗下智能创作平台。"
+        },
+        {
           "title": "橙篇AI",
           "icon": "/red.svg",
           "url": "https://cp.baidu.com",
           "description": "橙篇AI，AI生成有声画本"
-        },
-        {
-          "title": "包阅AI",
-          "url": "https://baoyueai.com",
-          "description": "智能AI阅读助手，提升阅读效率"
         },
         {
           "title": "讯飞公文",
@@ -519,11 +519,6 @@
           "title": "深言达意",
           "url": "https://shenyandayi.com",
           "description": "深言达意是一款写作辅助工具，核心功能包括据意查词、据意查句。根据模糊的描述，找到贴切的词语和名言佳句，支持汉英双语。深言达意基于最先进的人工智能算法实现，由深言科技出品。"
-        },
-        {
-          "title": "星火内容运营大师",
-          "url": "https://turbodesk.xfyun.cn/home",
-          "description": "科大讯飞旗下智能创作平台。"
         },
         {
           "title": "新华妙笔",
