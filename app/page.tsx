@@ -33,6 +33,18 @@ export default async function IndexPage() {
           <Suspense>
             <IndexContent navResources={navResources} />
           </Suspense>
+
+          <section className="mx-auto max-w-4xl px-4 py-12 text-center text-sm text-muted-foreground">
+            <h2 className="mb-3 text-lg font-semibold text-foreground">
+              AI工具箱 - 程序员与创作者的导航站
+            </h2>
+            <p className="leading-relaxed">
+              AI工具箱精选人工智能工具、开发工具、影视音乐资源、免费资源与流量卡优惠，
+              帮助开发者和创作者快速发现 ChatGPT、Claude、GitHub、Cursor、Vercel
+              等热门工具，提升工作与创作效率。
+            </p>
+          </section>
+
           <SiteFooter />
         </div>
       </div>
