@@ -1,0 +1,6 @@
+allowBuilds:
+  bcrypt: true
+  deasync: true
+  esbuild: true
+  sharp: true
+  vercel: true
