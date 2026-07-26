@@ -42,3 +42,4 @@ gen_test.db
 
 # production sitemap
 public/*.xml
+.pnpm-store
