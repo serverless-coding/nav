@@ -3,7 +3,7 @@ import getNavLinks from "./links"
 import { SiteHeader } from "@/components/site-header"
 import { SiteFooter } from "@/components/site-footer"
 import InpageSearch from "@/components/inpage-search"
-import { Suspense } from "react"
+import { NavSearchProvider } from "@/components/nav-search-provider"
 import { IndexContent } from "./pageClient"
 
 export const revalidate = 24 * 60 * 60;
@@ -16,7 +16,7 @@ export default async function IndexPage() {
     id: n?.id,
   }))
   return (
-    // 建议给整个页面一个非常淡的灰色背景，让搜索框的白色能凸显出来
+    <NavSearchProvider categories={navResources}>
     <div className="container relative mx-auto min-h-screen w-full px-0 bg-slate-50/30 dark:bg-background">
       <div className="flex">
         <div className="fixed z-20 hidden min-h-screen w-[16rem] transition-all duration-300 ease-in-out sm:block border-r bg-background/60 backdrop-blur-xl">
@@ -30,14 +30,12 @@ export default async function IndexPage() {
             <InpageSearch />
           </div>
 
-          <Suspense>
-            <IndexContent navResources={navResources} />
-          </Suspense>
+          <IndexContent />
 
           <section className="mx-auto max-w-4xl px-4 py-12 text-center text-sm text-muted-foreground">
-            <h2 className="mb-3 text-lg font-semibold text-foreground">
+            <h1 className="mb-3 text-lg font-semibold text-foreground">
               AI工具箱 - 程序员与创作者的导航站
-            </h2>
+            </h1>
             <p className="leading-relaxed">
               AI工具箱精选人工智能工具、开发工具、影视音乐资源、免费资源与流量卡优惠，
               帮助开发者和创作者快速发现 ChatGPT、Claude、GitHub、Cursor、Vercel
@@ -49,5 +47,6 @@ export default async function IndexPage() {
         </div>
       </div>
     </div>
+    </NavSearchProvider>
   )
 }
