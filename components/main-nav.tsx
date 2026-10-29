@@ -17,9 +17,9 @@ export function MainNav({ items, navItems }: MainNavProps) {
   return (
     <>
       <div className="flex gap-6 md:gap-10">
-        <div className="sm:hidden" onClick={() => setShowMobileSidebar(!showMobileSidebar)}>
+        <button type="button" className="rounded p-2 focus-visible:ring-2 sm:hidden" aria-label="打开分类菜单" aria-expanded={showMobileSidebar} aria-controls="mobile-category-menu" onClick={() => setShowMobileSidebar(!showMobileSidebar)}>
           <Icons.menu />
-        </div>
+        </button>
         {items?.length ? (
           <nav className="hidden gap-6 md:flex">
             {items?.map(
@@ -40,7 +40,7 @@ export function MainNav({ items, navItems }: MainNavProps) {
           </nav>
         ) : null}
       </div>
-      {showMobileSidebar && <MobileSidebar navItems={navItems} setShowMobileSidebar={setShowMobileSidebar} />}
+      {showMobileSidebar && <MobileSidebar navItems={navItems} onClose={() => setShowMobileSidebar(false)} />}
     </>
   )
 }

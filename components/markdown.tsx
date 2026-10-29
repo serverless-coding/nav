@@ -33,9 +33,11 @@ const components: Partial<Components> = {
       </span>
     );
   },
-  a: ({ node, children, ...props }) => {
+  a: ({ node, children, href, ...props }) => {
+    if (!href) return <span>{children}</span>;
     return (
       <Link
+        href={href}
         className="text-blue-500 hover:underline"
         target="_blank"
         rel="noreferrer"

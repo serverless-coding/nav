@@ -1,40 +1,13 @@
-import { model, modelID } from "@/ai/providers";
-import { weatherTool } from "@/ai/tools";
-import { streamText, UIMessage } from "ai";
-
-// Allow streaming responses up to 30 seconds
-export const maxDuration = 30;
-
-export async function POST(req: Request, res: Response) {
-  try {
-    const {
-      messages,
-      selectedModel,
-    }: { messages: UIMessage[]; selectedModel: modelID } = await req.json();
-
-    const result = streamText({
-      model: model.languageModel(selectedModel),
-      system: "You are a helpful assistant.",
-      messages,
-      tools: {
-        // getWeather: weatherTool,
+export async function POST(_req: Request) {
+  return new Response(
+    JSON.stringify({ error: "CHAT_UNAVAILABLE", message: "AI 聊天暂时暂停，请使用导航站发现其他工具。" }),
+    {
+      status: 503,
+      headers: {
+        "Content-Type": "application/json; charset=utf-8",
+        "Cache-Control": "no-store",
+        "Retry-After": "86400",
       },
-      experimental_telemetry: {
-        isEnabled: true,
-      },
-    });
-
-    return result.toDataStreamResponse({ sendReasoning: true });
-  } catch (error: any) {
-    console.error("Error in /api/chat:", error);
-    return new Response(
-      JSON.stringify({ error: "Internal Server Error" + error, message: error.message }),
-      {
-        status: 200,
-        headers: {
-          "Content-Type": "application/json",
-        },
-      }
-    );
-  }
+    }
+  )
 }

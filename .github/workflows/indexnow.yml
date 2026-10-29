@@ -17,4 +17,6 @@ jobs:
           sitemap-location: "https://nav.programnotes.cn/sitemap-0.xml"
           since: 1
           since-unit: "day"
+          # Entries intentionally omit lastmod rather than claiming build time as an edit.
+          lastmod-required: "false"
           key: ${{ secrets.INDEXNOW_KEY }}

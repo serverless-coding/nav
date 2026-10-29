@@ -1,6 +1,7 @@
 "use client";
 
 import { useState, useEffect } from 'react';
+import { usePathname } from 'next/navigation';
 import { ChevronDown, ChevronRight } from 'lucide-react';
 
 interface TOCItem {
@@ -10,12 +11,13 @@ interface TOCItem {
 }
 
 export default function TableOfContents() {
+    const pathname = usePathname();
     const [toc, setToc] = useState<TOCItem[]>([]);
     const [activeId, setActiveId] = useState<string>("");
 
     useEffect(() => {
         // Get all headings and create TOC items
-        const headings = Array.from(document.querySelectorAll('h2, h3, h4, h5, h6'))
+        const headings = Array.from(document.querySelectorAll('article h2, article h3, article h4, article h5, article h6'))
             .map(heading => ({
                 id: heading.id,
                 text: heading.textContent || '',
@@ -49,7 +51,7 @@ export default function TableOfContents() {
         });
 
         return () => observer.disconnect();
-    }, []);
+    }, [pathname]);
 
     const handleClick = (id: string) => {
         const element = document.getElementById(id);

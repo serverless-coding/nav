@@ -1,0 +1,8 @@
+[
+  { "title": "首页", "href": "/" },
+  { "title": "关于", "href": "/page/about" },
+  { "title": "镜像加速", "href": "/page/mirror" },
+  { "title": "开发工具", "href": "/page/devtool" },
+  { "title": "免费资源", "href": "/page/free" },
+  { "title": "流量卡", "href": "/page/haoka" }
+]

@@ -11,7 +11,8 @@
           "description": "开源的模型即服务共享平台,为泛AI开发者提供灵活、易用、低成本的一站式模型服务产品,让模型应用更简单",
           "subject": [
             "AI"
-          ]
+          ],
+          "id": "resource-aff1cfac0ee8220a"
         },
         {
           "title": "通义千问",
@@ -21,7 +22,8 @@
           "page": "qwen.md",
           "subject": [
             "AI"
-          ]
+          ],
+          "id": "resource-b898c7913705b081"
         },
         {
           "title": "豆包",
@@ -29,7 +31,8 @@
           "description": "豆包是你的 AI 聊天智能对话问答助手，写作文案翻译情感陪伴编程全能工具。豆包为你答疑解惑，提供灵感，辅助创作，也可以和你畅聊任何你感兴趣的话题。",
           "subject": [
             "AI"
-          ]
+          ],
+          "id": "resource-600739a6fc375e1a"
         },
         {
           "title": "SiliconFlow",
@@ -38,7 +41,8 @@
           "page": "siliconflow.md",
           "subject": [
             "AI"
-          ]
+          ],
+          "id": "resource-24b5e4173f28b5b1"
         },
         {
           "title": "七牛云AI推理平台",
@@ -47,7 +51,8 @@
           "page": "qiniu.md",
           "subject": [
             "AI"
-          ]
+          ],
+          "id": "resource-a86fb14f889054ac"
         },
         {
           "title": "AI图生图",
@@ -58,155 +63,178 @@
             "AI",
             "画图",
             "音视频"
-          ]
+          ],
+          "id": "resource-cbfe08d04631005e"
         },
         {
           "title": "免费gpt,Gemini",
           "url": "https://gemini.programnotes.cn",
           "description": "google提供的Gemini系列大模型,提供免费大模型(类chatgpt),可在线使用",
           "icon": "/red.svg",
-          "page": "gemini.md"
+          "page": "gemini.md",
+          "id": "resource-c0fa1b2b999d15fb"
         },
         {
           "title": "Openrouter",
           "url": "https://openrouter.ai",
           "icon": "",
-          "description": "gpt pass平台,提供各种大模型接口,有部分模型可免费试用"
+          "description": "gpt pass平台,提供各种大模型接口,有部分模型可免费试用",
+          "id": "resource-73091b922ffcb26c"
         },
         {
           "title": "Dify",
           "url": "https://cloud.dify.ai/",
           "description": "Open-source LLM app development platform,AI Agent,工作流",
-          "page": "dify.md"
+          "page": "dify.md",
+          "id": "resource-330c743cf892b813"
         },
         {
           "title": "讯飞星火大模型",
           "url": "https://xinghuo.xfyun.cn",
-          "description": "科大讯飞推出的认知智能大模型"
+          "description": "科大讯飞推出的认知智能大模型",
+          "id": "resource-000930a4739b8d2c"
         },
         {
           "title": "免费gpt",
           "url": "https://gpt.programnotes.cn",
           "icon": "/red.svg",
-          "description": "提供免费大模型(类chatgpt),可在线使用"
+          "description": "提供免费大模型(类chatgpt),可在线使用",
+          "id": "resource-c330c48e14fe038a"
         },
         {
           "title": "iSlide",
           "url": "https://www.islide.cc",
-          "description": "简单好用的AiPPT插件"
+          "description": "简单好用的AiPPT插件",
+          "id": "resource-e98b4c0e8f9f9aed"
         },
         {
           "title": "AIPPT",
           "url": "https://www.aippt.cn",
-          "description": "全智能 AI 一键生成 PPT"
+          "description": "全智能 AI 一键生成 PPT",
+          "id": "resource-92ab69d2215587bd"
         },
         {
           "title": "302.AI",
           "url": "https://302.ai",
-          "description": "按需付费，零月费，零门槛使用各种类型AI。"
+          "description": "按需付费，零月费，零门槛使用各种类型AI。",
+          "id": "resource-84bbf6f6f4baddec"
         },
         {
           "title": "Windsurf Editor by Codeium",
           "url": "https://codeium.com/windsurf",
-          "description": "Codeium AI编程助手"
+          "description": "Codeium AI编程助手",
+          "id": "resource-2eced0c0f2f80ead"
         },
         {
           "title": "Fish Audio",
           "url": "https://fish.audio",
-          "description": "AI声音克隆和语音合成工具"
+          "description": "AI声音克隆和语音合成工具",
+          "id": "resource-0e5288b9c0b0c785"
         },
         {
           "title": "Reecho睿声",
           "url": "https://www.reecho.cn",
-          "description": "睿声AI，超拟真语音克隆与合成"
+          "description": "睿声AI，超拟真语音克隆与合成",
+          "id": "resource-ae78676b5d5c3b20"
         },
         {
           "title": "Kerlin AI",
           "url": "https://klingai.kuaishou.com",
-          "description": "可灵Kerlin AI，生成高清创意视频工具"
+          "description": "可灵Kerlin AI，生成高清创意视频工具",
+          "id": "resource-d77f4312e44f430c"
         },
         {
           "title": "AI游戏",
           "url": "https://games.programnotes.cn",
           "description": "使用AI写的在线小游戏,扫雷,推箱子,俄罗斯方块,魔方...",
-          "page": "aigames.md"
+          "page": "aigames.md",
+          "id": "resource-440699b9c7384192"
         },
         {
           "title": "PixVerse",
           "url": "https://pixverse.ai",
-          "description": "AI视频创作神器"
+          "description": "AI视频创作神器",
+          "id": "resource-99de7633a226b0b6"
         },
         {
           "title": "BgSub",
           "url": "https://bgsub.com",
-          "description": "在线图像处理项目"
+          "description": "在线图像处理项目",
+          "id": "resource-fd2df41ad3491214"
         },
         {
           "title": "秘塔AI搜索",
           "url": "https://metaso.cn",
-          "description": "秘塔AI搜索，没有广告，直达结果"
+          "description": "秘塔AI搜索，没有广告，直达结果",
+          "id": "resource-37c9e6a4840a3125"
         },
         {
           "title": "Vidu",
           "url": "https://www.vidu.studio",
-          "description": "清华版 Sora 通过文本或者图片生成视频"
+          "description": "清华版 Sora 通过文本或者图片生成视频",
+          "id": "resource-37c27c6c99945131"
         },
         {
           "title": "心流·AI助手",
           "url": "https://iflow.cn",
-          "description": "心流是一款AI助手，帮助你高效获取知识，无论是日常娱乐生活百科还是专业学术论文知识，都可以轻松解答，让你快速进入心流状态，让知识随心流动！"
+          "description": "心流是一款AI助手，帮助你高效获取知识，无论是日常娱乐生活百科还是专业学术论文知识，都可以轻松解答，让你快速进入心流状态，让知识随心流动！",
+          "id": "resource-d545d6c9fc728464"
         },
         {
           "title": "可灵AI",
           "url": "https://kling.kuaishou.com",
-          "description": "可灵大模型"
+          "description": "可灵大模型",
+          "id": "resource-70514b14c39480ab"
         },
         {
           "title": "美图设计室",
           "url": "https://www.designkit.com",
-          "description": "美图秀秀旗下智能设计在线协作平台"
+          "description": "美图秀秀旗下智能设计在线协作平台",
+          "id": "resource-63c7590f2fd8717b"
         },
         {
           "title": "即时设计",
           "url": "https://js.design",
-          "description": "即时设计是一款支持在线协作的专业级 UI 设计工具，支持 Sketch、Figma、XD 格式导入，海量优质设计资源即拿即用。支持创建交互原型、获取设计标注，为产设研团队提供一站式协同办公体验。"
+          "description": "即时设计是一款支持在线协作的专业级 UI 设计工具，支持 Sketch、Figma、XD 格式导入，海量优质设计资源即拿即用。支持创建交互原型、获取设计标注，为产设研团队提供一站式协同办公体验。",
+          "id": "resource-5ba71be14d5b2765"
         },
         {
           "title": "纳米搜索",
           "url": "https://sou.com",
-          "description": "纳米搜索,360AI搜索,Deepseek免费用，新一代智能答案引擎，值得信赖的智能搜索伙伴，为复杂搜索提供专业支持，解锁更相关、更全面的答案。AI对用户提问进行精准语义分析，并通过追问获取更多有价值信息，将问题拆分为多组关键词后再进行搜索引擎检索，深度阅读网页内容，最终呈现逻辑清晰、准确无误的答案。"
+          "description": "纳米搜索,360AI搜索,Deepseek免费用，新一代智能答案引擎，值得信赖的智能搜索伙伴，为复杂搜索提供专业支持，解锁更相关、更全面的答案。AI对用户提问进行精准语义分析，并通过追问获取更多有价值信息，将问题拆分为多组关键词后再进行搜索引擎检索，深度阅读网页内容，最终呈现逻辑清晰、准确无误的答案。",
+          "id": "resource-9040bda22a2cc5e8"
         },
         {
           "title": "mcp中文文档",
           "url": "https://mcp.programnotes.cn/",
           "description": "MCP是claude开源的开放协议标准,支持自定义各种工具集成到ai中,用于在AI模型和开发环境之间建立统一的上下文交互，让AI更好地理解和处理代码",
-          "page": "mcp.md"
-        },
-        {
-          "title": "iSlide",
-          "url": "https://www.islide.cc",
-          "description": "简单好用的AiPPT插件"
+          "page": "mcp.md",
+          "id": "resource-a7ab84587561adcc"
         },
         {
           "title": "智谱清言",
           "url": "https://chatglm.cn",
-          "description": "中国版对话语言模型，与GLM大模型进行对话。"
+          "description": "中国版对话语言模型，与GLM大模型进行对话。",
+          "id": "resource-5db1d03247ace47a"
         },
         {
           "title": "天工AI",
           "url": "https://tiangong.cn",
-          "description": "天工是国内第一款AI搜索引擎，它能够理解用户意图，搜索全网海量信息，并通过人工智能技术，归纳、概括、整合这些信息，输出高质量、无广告的搜索结果，还能够把搜索结果自动整理为脑图和大纲，支持专业的学术科研类搜索。此外，天工还具备聊天、写作、问答、画画的能力。天工通过自然语言与用户进行问答交互，可满足知识问答、文章创作、逻辑推演、数理推算、代码编程、AI画画、虚拟人聊天、情感陪伴等多元化需求。天工还具有大量的智能体，在学习、职场、生活等多类场景中都能辅助你。"
+          "description": "天工是国内第一款AI搜索引擎，它能够理解用户意图，搜索全网海量信息，并通过人工智能技术，归纳、概括、整合这些信息，输出高质量、无广告的搜索结果，还能够把搜索结果自动整理为脑图和大纲，支持专业的学术科研类搜索。此外，天工还具备聊天、写作、问答、画画的能力。天工通过自然语言与用户进行问答交互，可满足知识问答、文章创作、逻辑推演、数理推算、代码编程、AI画画、虚拟人聊天、情感陪伴等多元化需求。天工还具有大量的智能体，在学习、职场、生活等多类场景中都能辅助你。",
+          "id": "resource-a2a5f369615eabca"
         },
         {
           "title": "ai 导航",
           "url": "https://ai.dreamthere.cn/",
           "icon": "",
-          "description": "ai导航站,收集了各种AI站点,有分类"
+          "description": "ai导航站,收集了各种AI站点,有分类",
+          "id": "resource-c874ba06e37c90fb"
         },
         {
           "title": "Bigjpg",
           "url": "https://bigjpg.com",
-          "description": "无损放大图片的高级AI工具，保持图像细节和颜色的完整性。"
+          "description": "无损放大图片的高级AI工具，保持图像细节和颜色的完整性。",
+          "id": "resource-f28832cba2e34425"
         },
         {
           "title": "青听音乐",
@@ -216,7 +244,8 @@
             "音乐"
           ],
           "page": "music-qingting.md",
-          "icon": "/red.svg"
+          "icon": "/red.svg",
+          "id": "resource-501a59a691a4a9ff"
         },
         {
           "title": "歌曲海",
@@ -224,7 +253,8 @@
           "description": "免费的在线音乐试听、下载平台",
           "subject": [
             "音乐"
-          ]
+          ],
+          "id": "resource-6aeb7a4265bb07cc"
         },
         {
           "title": "米兔音乐",
@@ -232,7 +262,8 @@
           "description": "提供歌曲在线试听、免费下载的音乐网站",
           "subject": [
             "音乐"
-          ]
+          ],
+          "id": "resource-e0d43e089e2becd1"
         },
         {
           "title": "布谷音乐",
@@ -241,7 +272,8 @@
           "subject": [
             "音乐"
           ],
-          "icon": "/wave.svg"
+          "icon": "/wave.svg",
+          "id": "resource-24f08e365433c8ad"
         },
         {
           "title": "SPlayer",
@@ -252,7 +284,8 @@
             "音视频"
           ],
           "page": "music-wagnyi.md",
-          "icon": "/snyk.svg"
+          "icon": "/snyk.svg",
+          "id": "resource-027270a7fdac2d40"
         },
         {
           "title": "MusicFree",
@@ -263,9 +296,11 @@
             "音视频"
           ],
           "page": "music-free.md",
-          "icon": "/solus.svg"
+          "icon": "/solus.svg",
+          "id": "resource-e86a9434834b4c9f"
         }
-      ]
+      ],
+      "id": "category-d8df0b513ff4"
     },
     {
       "title": "Article",
@@ -276,54 +311,64 @@
           "url": "https://github.com/krahets/hello-algo",
           "icon": "/gitBook.svg",
           "description": "《Hello 算法》：动画图解、一键运行的数据结构与算法教程,hello-algo.com",
-          "page": "hello-algo.md"
+          "page": "hello-algo.md",
+          "id": "resource-0b354985cd4d8ec3"
         },
         {
           "title": "notes",
           "url": "https://programnotes.cn",
           "icon": "https://programnotes.cn/Image/logo.png",
-          "description": "博客"
+          "description": "博客",
+          "id": "resource-0f944116723fffbd"
         },
         {
           "title": "ruanyf-weekly",
           "url": "https://ruanyf-weekly.programnotes.cn/weekly",
           "icon": "/logstash.svg",
-          "description": "阮一峰的技术周刊,科技, 分享, 开源"
+          "description": "阮一峰的技术周刊,科技, 分享, 开源",
+          "id": "resource-c8280ad583a5e82b"
         },
         {
           "title": "今日热榜",
           "url": "https://tophub.today/",
           "icon": "/blob-scatter.svg",
-          "description": "各站点热点:掘金,头条,知乎,豆瓣..."
+          "description": "各站点热点:掘金,头条,知乎,豆瓣...",
+          "id": "resource-a99ee0a6135512ce"
         },
         {
           "title": "Product Hunt热榜",
           "url": "https://producthunt.programnotes.cn",
           "icon": "/blob-scene.svg",
-          "description": "Product Hunt,日榜,月榜,分享创意+产品"
+          "description": "Product Hunt,日榜,月榜,分享创意+产品",
+          "id": "resource-9f324cd9d5d42c11"
         },
         {
           "title": "小林coding",
           "url": "https://xiaolincoding.com/",
           "description": "小林 x 图解计算机基础:图解计算机网络、操作系统、计算机组成、MySQL、Redis，让天下没有难懂的八股文！",
-          "page": "xiaolincoding.md"
+          "page": "xiaolincoding.md",
+          "id": "resource-979808bab75822f6"
         },
         {
           "title": "潮流周刊",
           "url": "https://weekly.tw93.fun/",
-          "description": "Tw93的每周精选，记录每周看到的接地气的潮流技术，筛选后发布于此"
+          "description": "Tw93的每周精选，记录每周看到的接地气的潮流技术，筛选后发布于此",
+          "id": "resource-e775ee4fb24f0ff5"
         },
         {
           "title": "二丫讲梵-学习周刊",
           "url": "https://wiki.eryajf.net/learning-weekly",
-          "description": "运维周刊，还会侧重Go语言生态，Vue相关技术生态的项目，以及 GitHub 上优秀项目或经验。"
+          "description": "运维周刊，还会侧重Go语言生态，Vue相关技术生态的项目，以及 GitHub 上优秀项目或经验。",
+          "id": "resource-ba30def9b78ff0d7"
         },
         {
           "title": "Hello Github",
           "url": "https://hellogithub.com/",
-          "description": "一个发现和分享有趣、入门级开源项目的平台。 希望大家能够在这里找到编程的快乐、 轻松搞定问题的技术方案、 大呼过瘾的开源神器， 顺其自然地开启开源之旅。"
+          "description": "一个发现和分享有趣、入门级开源项目的平台。 希望大家能够在这里找到编程的快乐、 轻松搞定问题的技术方案、 大呼过瘾的开源神器， 顺其自然地开启开源之旅。",
+          "id": "resource-7e7e318d49045fd5"
         }
-      ]
+      ],
+      "id": "category-29d94922512b"
     },
     {
       "title": "AI编程",
@@ -332,81 +377,97 @@
         {
           "title": "Bolt.new",
           "url": "https://bolt.new/?rid=1gguvu",
-          "description": "AI编程,在线编译器,在线编辑,运行,部署,注册送200K tokens"
+          "description": "AI编程,在线编译器,在线编辑,运行,部署,注册送200K tokens",
+          "id": "resource-e4c6aef8bbdb9abc"
         },
         {
           "title": "GitHub Copilot",
           "url": "https://github.com/features/copilot?ref=https://nav.programnotes.cn",
-          "description": "人工智能编程助手"
+          "description": "人工智能编程助手",
+          "id": "resource-0e8e7870be76b531"
         },
         {
           "title": "Cursor",
           "url": "https://www.cursor.so",
-          "description": "智能AI代码编辑器"
+          "description": "智能AI代码编辑器",
+          "id": "resource-77f02eb5461f9a12"
         },
         {
           "title": "Windsurf",
           "url": "https://codeium.com/windsurf?ref=https://nav.programnotes.cn",
-          "description": "智能AI代码编辑器,由codeium开发"
+          "description": "智能AI代码编辑器,由codeium开发",
+          "id": "resource-ba6eb61aa34eafab"
         },
         {
           "title": "Trae",
           "url": "https://www.trae.ai?ref=https://nav.programnotes.cn",
           "description": "智能AI代码编辑器,由字节跳动开发,可免费使用claude-sonet-3.5模型",
-          "page": "trae.md"
+          "page": "trae.md",
+          "id": "resource-c8519f34d55c83de"
         },
         {
           "title": "通义灵码",
           "url": "https://tongyi.aliyun.com/lingma?ref=https://nav.programnotes.cn",
-          "description": "阿里旗下智能编码助手"
+          "description": "阿里旗下智能编码助手",
+          "id": "resource-f229b5115cbded9c"
         },
         {
           "title": "小浣熊家族",
           "url": "https://xiaohuanxiong.com",
-          "description": "AI数据分析助手，智能高效"
+          "description": "AI数据分析助手，智能高效",
+          "id": "resource-7bf5cba060cb4971"
         },
         {
           "title": "CodeFuse",
           "icon": "/red.svg",
           "url": "https://codefuse.alipay.com",
-          "description": "AI代码助手，全周期开发支持"
+          "description": "AI代码助手，全周期开发支持",
+          "id": "resource-21b7228a6c144b3f"
         },
         {
           "title": "百度Comate",
           "url": "https://comate.baidu.com",
-          "description": ""
+          "description": "",
+          "id": "resource-cb25d1533dc78c0c"
         },
         {
           "title": "CodeSandbox",
           "url": "https://codesandbox.io",
-          "description": "云上协同开发，秒级重启环境"
+          "description": "云上协同开发，秒级重启环境",
+          "id": "resource-31cd80638b7ff13f"
         },
         {
           "title": "Wordware",
           "url": "https://www.wordware.ai",
-          "description": "AI构建利器，轻松迭代部署"
+          "description": "AI构建利器，轻松迭代部署",
+          "id": "resource-8f6a8205e51dd797"
         },
         {
           "title": "CodeGeeX",
           "url": "https://codegeex.cn",
-          "description": "CodeGeeX is an AI-based coding assistant, which can suggest code in the current or following lines. It is powered by a large-scale multilingual code generation model with 13 billion parameters, pretrained on a large code corpus of more than 20 programming languages. CodeGeeX是一个基于AI大模型的编程辅助工具，可以实现自动代码生成、代码翻译、自动编写注释等功能，支持20多种编程语言。"
+          "description": "CodeGeeX is an AI-based coding assistant, which can suggest code in the current or following lines. It is powered by a large-scale multilingual code generation model with 13 billion parameters, pretrained on a large code corpus of more than 20 programming languages. CodeGeeX是一个基于AI大模型的编程辅助工具，可以实现自动代码生成、代码翻译、自动编写注释等功能，支持20多种编程语言。",
+          "id": "resource-09e42ec89b85157a"
         },
         {
           "title": "Replit",
           "url": "https://replit.com",
-          "description": "Replit – Build software faster"
+          "description": "Replit – Build software faster",
+          "id": "resource-bdf80a77c55d6740"
         },
         {
           "title": "Devv",
           "url": "https://devv.ai",
-          "description": "下一代开发者搜索引擎"
+          "description": "下一代开发者搜索引擎",
+          "id": "resource-cdd85e75f34ed08b"
         },
         {
           "title": "Gemini Code Assist",
           "url": "https://cloud.google.com/products/gemini/code-assist",
-          "description": "谷歌AI智能代码辅助，加速开发效率"
+          "description": "谷歌AI智能代码辅助，加速开发效率",
+          "id": "resource-feda757a2448822a"
         }
-      ]
+      ],
+      "id": "category-ce6a10e0f173"
     },
     {
       "title": "AI聊天",
@@ -415,70 +476,84 @@
         {
           "title": "豆包",
           "url": "https://doubao.com",
-          "description": "豆包是你的 AI 聊天智能对话问答助手，写作文案翻译情感陪伴编程全能工具。豆包为你答疑解惑，提供灵感，辅助创作，也可以和你畅聊任何你感兴趣的话题。"
+          "description": "豆包是你的 AI 聊天智能对话问答助手，写作文案翻译情感陪伴编程全能工具。豆包为你答疑解惑，提供灵感，辅助创作，也可以和你畅聊任何你感兴趣的话题。",
+          "id": "resource-ae1181638fbac8b0"
         },
         {
           "title": "纳米AI",
           "url": "https://bot.360.com",
-          "description": "AI招聘助手，简化招聘流程,在线使用Deepseek-R1满血版"
+          "description": "AI招聘助手，简化招聘流程,在线使用Deepseek-R1满血版",
+          "id": "resource-517a2b8e56244b64"
         },
         {
           "title": "知乎直答",
           "url": "https://zhida.zhihu.com",
-          "description": "AI赋能，快速问答,在线使用Deepseek-R1满血版"
+          "description": "AI赋能，快速问答,在线使用Deepseek-R1满血版",
+          "id": "resource-914a0b25ca9d28e7"
         },
         {
           "title": "百小应",
           "url": "https://ying.baichuan-ai.com",
-          "description": "智能助手，搜索无忧"
+          "description": "智能助手，搜索无忧",
+          "id": "resource-601154288029ac55"
         },
         {
           "title": "万知",
           "url": "https://wanzhi.com",
-          "description": "万知 I 问答、阅读、创作的一站式AI工作平台"
+          "description": "万知 I 问答、阅读、创作的一站式AI工作平台",
+          "id": "resource-1f4f6c3d00f46880"
         },
         {
           "title": "海螺AI",
           "url": "https://hailuoai.com",
-          "description": "是 MiniMax 基于通用大模型为用户打造的AI伙伴，可以帮你分析财报、速读长文、创作文案、智能搜索等、拍照答疑等等，也支持语音通话。10倍速获取信息、10倍速解决问题。有问题，找海螺AI。"
+          "description": "是 MiniMax 基于通用大模型为用户打造的AI伙伴，可以帮你分析财报、速读长文、创作文案、智能搜索等、拍照答疑等等，也支持语音通话。10倍速获取信息、10倍速解决问题。有问题，找海螺AI。",
+          "id": "resource-41dd9f1f9ae245ba"
         },
         {
           "title": "智谱清言",
           "url": "https://chatglm.cn",
-          "description": "中国版对话语言模型，与GLM大模型进行对话。"
+          "description": "中国版对话语言模型，与GLM大模型进行对话。",
+          "id": "resource-ceb3ea811d98bb31"
         },
         {
           "title": "腾讯元宝",
           "url": "https://yuanbao.tencent.com/chat",
           "description": "腾讯推出的AI超级助手,在线使用Deepseek-R1满血版,支持Hunuan,Deepseek大模型在线使用,联网搜索",
-          "page": "yuanbao.md"
+          "page": "yuanbao.md",
+          "id": "resource-be6f562321ebee08"
         },
         {
           "title": "讯飞星火大模型",
           "url": "https://xinghuo.xfyun.cn/desk",
-          "description": "科大讯飞推出的认知智能大模型"
+          "description": "科大讯飞推出的认知智能大模型",
+          "id": "resource-5c92d5ba570157ca"
         },
         {
           "title": "Kimi Chat",
           "url": "https://kimi.moonshot.cn",
-          "description": "Moonshot AI的200K超长上下文人工智能工具"
+          "description": "Moonshot AI的200K超长上下文人工智能工具",
+          "id": "resource-9b95cf4bba3a6b5d"
         },
         {
           "title": "通义千问",
           "url": "https://tongyi.aliyun.com",
-          "description": "阿里云旗下大语言模型"
+          "description": "阿里云旗下大语言模型",
+          "id": "resource-9f2d2f16a016a0ed"
         },
         {
           "title": "文心一言",
           "url": "https://yiyan.baidu.com",
-          "description": "百度旗下知识增强大语言模型"
+          "description": "百度旗下知识增强大语言模型",
+          "id": "resource-19db96bf76b4b490"
         },
         {
           "title": "跃问",
           "url": "https://yuewen.cn/",
-          "description": "在线使用Deepseek-R1满血版"
+          "description": "在线使用Deepseek-R1满血版",
+          "id": "resource-e4d56b57f836056c"
         }
-      ]
+      ],
+      "id": "category-ae62c8762a4d"
     },
     {
       "title": "AI写作",
@@ -487,45 +562,54 @@
         {
           "title": "星火内容运营大师",
           "url": "https://turbodesk.xfyun.cn/home",
-          "description": "科大讯飞旗下智能创作平台。"
+          "description": "科大讯飞旗下智能创作平台。",
+          "id": "resource-ace4d43689733468"
         },
         {
           "title": "橙篇AI",
           "icon": "/red.svg",
           "url": "https://cp.baidu.com",
-          "description": "橙篇AI，AI生成有声画本"
+          "description": "橙篇AI，AI生成有声画本",
+          "id": "resource-5931cddfa8313400"
         },
         {
           "title": "讯飞公文",
           "url": "https://gw.iflydocs.com/",
-          "description": "国产大模型AI公文写作工具"
+          "description": "国产大模型AI公文写作工具",
+          "id": "resource-ad0e1dd0dd29a948"
         },
         {
           "title": "火龙果写作",
           "url": "https://mypitaya.com",
-          "description": "通过校对、改写、扩展等功能实现高质量内容的快速生产。"
+          "description": "通过校对、改写、扩展等功能实现高质量内容的快速生产。",
+          "id": "resource-f754a9d74bc4f9e0"
         },
         {
           "title": "讯飞写作",
           "url": "https://huixie.iflyrec.com",
-          "description": "讯飞写作基于讯飞星火认知大模型能力，支持多场景写作，提供会议纪要，求职简历，心得体会，入党申请，论文大纲，品宣文案，PPT大纲等各类写作模板，AI对话，激发灵感，立即体验。"
+          "description": "讯飞写作基于讯飞星火认知大模型能力，支持多场景写作，提供会议纪要，求职简历，心得体会，入党申请，论文大纲，品宣文案，PPT大纲等各类写作模板，AI对话，激发灵感，立即体验。",
+          "id": "resource-90cff6113a5ba4b2"
         },
         {
           "title": "笔灵AI写作",
           "url": "https://ibiling.cn",
-          "description": "笔灵AI写作官网(ibiling.cn) - 国内领先的AI写作助手与智能工具。专为提高写作效率而设计，提供免费的AI文章改写、论文辅助、商业计划书撰写等服务。无论是学术写作还是商业文案，笔灵AI写作都能快速生成高质量内容，简化您的写作过程。"
+          "description": "笔灵AI写作官网(ibiling.cn) - 国内领先的AI写作助手与智能工具。专为提高写作效率而设计，提供免费的AI文章改写、论文辅助、商业计划书撰写等服务。无论是学术写作还是商业文案，笔灵AI写作都能快速生成高质量内容，简化您的写作过程。",
+          "id": "resource-db191bbe70c8b8cf"
         },
         {
           "title": "深言达意",
           "url": "https://shenyandayi.com",
-          "description": "深言达意是一款写作辅助工具，核心功能包括据意查词、据意查句。根据模糊的描述，找到贴切的词语和名言佳句，支持汉英双语。深言达意基于最先进的人工智能算法实现，由深言科技出品。"
+          "description": "深言达意是一款写作辅助工具，核心功能包括据意查词、据意查句。根据模糊的描述，找到贴切的词语和名言佳句，支持汉英双语。深言达意基于最先进的人工智能算法实现，由深言科技出品。",
+          "id": "resource-90ec5cfaac6468c4"
         },
         {
           "title": "新华妙笔",
           "url": "https://miaobi.xinhuaskl.com",
-          "description": "AI公文写作平台"
+          "description": "AI公文写作平台",
+          "id": "resource-6ffa281775cff4e5"
         }
-      ]
+      ],
+      "id": "category-60c1f71ed838"
     },
     {
       "title": "AI搜索",
@@ -535,17 +619,20 @@
           "title": "腾讯元宝",
           "url": "https://yuanbao.tencent.com/chat",
           "description": "腾讯推出的AI超级助手,在线使用Deepseek-R1满血版,支持Hunuan,Deepseek大模型在线使用,联网搜索",
-          "page": "yuanbao.md"
+          "page": "yuanbao.md",
+          "id": "resource-d4e99bbafdfab93d"
         },
         {
           "title": "Kimi搜索",
           "url": "https://kimi.moonshot.cn",
-          "description": "Moonshot AI的200K超长上下文人工智能工具"
+          "description": "Moonshot AI的200K超长上下文人工智能工具",
+          "id": "resource-0f77d4a7e954ee72"
         },
         {
           "title": "秘塔AI搜索",
           "url": "https://metaso.cn",
-          "description": "秘塔AI搜索，没有广告，直达结果"
+          "description": "秘塔AI搜索，没有广告，直达结果",
+          "id": "resource-8fbef7655efc3a69"
         },
         {
           "title": "鸠摩搜索/Jiumo",
@@ -553,64 +640,77 @@
           "description": "鸠摩搜索, 文档, 电子书, 摩鸠, 鸠魔, kindle, ebook, jiumosoushu, 找书",
           "subject": [
             "电子书"
-          ]
+          ],
+          "id": "resource-5bae5df0f176dc12"
         },
         {
           "title": "得理法搜",
           "url": "https://data.delilegal.com",
-          "description": "智能法律工具，助力律师高效工作"
+          "description": "智能法律工具，助力律师高效工作",
+          "id": "resource-65ea8497ecd0fb1d"
         },
         {
           "title": "DeepSeek",
           "url": "https://chat.deepseek.com",
-          "description": "AI对话与编程助手"
+          "description": "AI对话与编程助手",
+          "id": "resource-aeff6296e3b5da69"
         },
         {
           "title": "开搜AI问答搜索",
           "url": "https://kaisouai.com",
-          "description": "开搜AI，是一款面向大众的、直达答案的AI搜索引擎，不仅为用户问题提供直接、精准的答案，还能自动总结重点、生成大纲、思维导图并下载，为您从上亿文献资料中筛选有用信息，提升您信息获取效率的同时，更能享受到快速、无广告的高品质搜索服务。"
+          "description": "开搜AI，是一款面向大众的、直达答案的AI搜索引擎，不仅为用户问题提供直接、精准的答案，还能自动总结重点、生成大纲、思维导图并下载，为您从上亿文献资料中筛选有用信息，提升您信息获取效率的同时，更能享受到快速、无广告的高品质搜索服务。",
+          "id": "resource-00e685f15d58ad4b"
         },
         {
           "title": "心流·AI助手",
           "url": "https://iflow.cn",
-          "description": "心流是一款AI助手，帮助你高效获取知识，无论是日常娱乐生活百科还是专业学术论文知识，都可以轻松解答，让你快速进入心流状态，让知识随心流动！"
+          "description": "心流是一款AI助手，帮助你高效获取知识，无论是日常娱乐生活百科还是专业学术论文知识，都可以轻松解答，让你快速进入心流状态，让知识随心流动！",
+          "id": "resource-96d405a83b19bff9"
         },
         {
           "title": "360AI搜索",
           "url": "https://sou.com",
-          "description": "360AI搜索，新一代智能答案引擎，值得信赖的智能搜索伙伴，为复杂搜索提供专业支持，解锁更相关、更全面的答案。AI对用户提问进行精准语义分析，并通过追问获取更多有价值信息，将问题拆分为多组关键词后再进行搜索引擎检索，深度阅读网页内容，最终呈现逻辑清晰、准确无误的答案。"
+          "description": "360AI搜索，新一代智能答案引擎，值得信赖的智能搜索伙伴，为复杂搜索提供专业支持，解锁更相关、更全面的答案。AI对用户提问进行精准语义分析，并通过追问获取更多有价值信息，将问题拆分为多组关键词后再进行搜索引擎检索，深度阅读网页内容，最终呈现逻辑清晰、准确无误的答案。",
+          "id": "resource-1b456e3db54d6034"
         },
         {
           "title": "天工AI",
           "url": "https://tiangong.cn",
-          "description": "天工是国内第一款AI搜索引擎，它能够理解用户意图，搜索全网海量信息，并通过人工智能技术，归纳、概括、整合这些信息，输出高质量、无广告的搜索结果，还能够把搜索结果自动整理为脑图和大纲，支持专业的学术科研类搜索。此外，天工还具备聊天、写作、问答、画画的能力。天工通过自然语言与用户进行问答交互，可满足知识问答、文章创作、逻辑推演、数理推算、代码编程、AI画画、虚拟人聊天、情感陪伴等多元化需求。天工还具有大量的智能体，在学习、职场、生活等多类场景中都能辅助你。"
+          "description": "天工是国内第一款AI搜索引擎，它能够理解用户意图，搜索全网海量信息，并通过人工智能技术，归纳、概括、整合这些信息，输出高质量、无广告的搜索结果，还能够把搜索结果自动整理为脑图和大纲，支持专业的学术科研类搜索。此外，天工还具备聊天、写作、问答、画画的能力。天工通过自然语言与用户进行问答交互，可满足知识问答、文章创作、逻辑推演、数理推算、代码编程、AI画画、虚拟人聊天、情感陪伴等多元化需求。天工还具有大量的智能体，在学习、职场、生活等多类场景中都能辅助你。",
+          "id": "resource-b317b3335e48d172"
         },
         {
           "title": "纳米搜索 n.cn",
           "url": "https://n.cn",
-          "description": "360旗下AI搜索引擎"
+          "description": "360旗下AI搜索引擎",
+          "id": "resource-9673deb73c123512"
         },
         {
           "title": "Genspark",
           "url": "https://genspark.ai",
-          "description": "AI搜索助手，高效便捷"
+          "description": "AI搜索助手，高效便捷",
+          "id": "resource-72948157b20e2e17"
         },
         {
           "title": "Algolia",
           "url": "https://algolia.com",
-          "description": "AI搜索，懂你所需，领先竞品一步。"
+          "description": "AI搜索，懂你所需，领先竞品一步。",
+          "id": "resource-f9cf44cdadbd6145"
         },
         {
           "title": "Felo",
           "url": "https://felo.ai",
-          "description": "Felo AI 智能问答，多语种搜索。"
+          "description": "Felo AI 智能问答，多语种搜索。",
+          "id": "resource-da6a6674716faaef"
         },
         {
           "title": "Globe",
           "url": "https://explorer.globe.engineer",
-          "description": ""
+          "description": "",
+          "id": "resource-93c8b22c431c9876"
         }
-      ]
+      ],
+      "id": "category-b221d525a46e"
     },
     {
       "title": "AI绘画",
@@ -619,59 +719,71 @@
         {
           "title": "悠船",
           "url": "https://www.youchuan.cn",
-          "description": "智能创意工具，文生图神器"
+          "description": "智能创意工具，文生图神器",
+          "id": "resource-17129402bee08a49"
         },
         {
           "title": "Vega AI",
           "url": "https://vegaai.net",
-          "description": "国内专业的ai创作平台，支持文本生成图片，图片风格转换"
+          "description": "国内专业的ai创作平台，支持文本生成图片，图片风格转换",
+          "id": "resource-f3e3ae878c5f573f"
         },
         {
           "title": "堆友AI",
           "url": "https://d.design",
-          "description": "阿里巴巴旗下AI绘画平台"
+          "description": "阿里巴巴旗下AI绘画平台",
+          "id": "resource-9a88788197e0a91b"
         },
         {
           "title": "liblib哩布哩布",
           "url": "https://liblib.art",
-          "description": "国内领先的AI创作平台"
+          "description": "国内领先的AI创作平台",
+          "id": "resource-8afe2b419cc79f35"
         },
         {
           "title": "无界AI",
           "url": "https://www.wujieai.com",
-          "description": "让每个人都能成为艺术家"
+          "description": "让每个人都能成为艺术家",
+          "id": "resource-e1afe0c268dadf36"
         },
         {
           "title": "文心一格",
           "url": "https://yige.baidu.com",
-          "description": "百度公司推出的AI艺术和创意辅助平台"
+          "description": "百度公司推出的AI艺术和创意辅助平台",
+          "id": "resource-2edb64693fc22ac3"
         },
         {
           "title": "妙鸭相机",
           "url": "https://www.miaoya.cn",
-          "description": "妙鸭相机，AI头像生成神器"
+          "description": "妙鸭相机，AI头像生成神器",
+          "id": "resource-5c31b3376d4943c3"
         },
         {
           "title": "Midjourney",
           "url": "https://www.midjourney.com",
-          "description": "AI绘图平台"
+          "description": "AI绘图平台",
+          "id": "resource-4db9ddfaef2c50e9"
         },
         {
           "title": "阿贝智能-AI绘本创作平台",
           "url": "https://abeiai.com/",
-          "description": "10分钟即可打造专属亲子故事"
+          "description": "10分钟即可打造专属亲子故事",
+          "id": "resource-423b70064890f198"
         },
         {
           "title": "Ideogram",
           "url": "https://ideogram.ai",
-          "description": "Ideogram"
+          "description": "Ideogram",
+          "id": "resource-13cde073ce501a2b"
         },
         {
           "title": "Picsart",
           "url": "https://picsart.com",
-          "description": "Picsart website"
+          "description": "Picsart website",
+          "id": "resource-7c4d065896ec5b98"
         }
-      ]
+      ],
+      "id": "category-0f67b9c6ede3"
     },
     {
       "title": "音视频",
@@ -684,13 +796,15 @@
           "subject": [
             "视频",
             "AI生成"
-          ]
+          ],
+          "id": "resource-349378deebd8153c"
         },
         {
           "title": "万象营造",
           "url": "https://agi.taobao.com/",
           "description": "阿里妈妈出品,商用视频大模型,图生视频,AI页面,AI文案...",
-          "icon": "/red.svg"
+          "icon": "/red.svg",
+          "id": "resource-95ffcf15be09fcae"
         },
         {
           "title": "即梦AI",
@@ -700,7 +814,8 @@
             "视频",
             "AI生成",
             "画图"
-          ]
+          ],
+          "id": "resource-09eb983499576b88"
         },
         {
           "title": "StayFocused",
@@ -710,17 +825,20 @@
           "icon": "https://whitenoise.programnotes.cn/favicon.ico",
           "subject": [
             "音乐"
-          ]
+          ],
+          "id": "resource-64c130ad5b16fac5"
         },
         {
           "title": "白日梦",
           "url": "https://aibrm.com",
-          "description": "AI文生视频创作平台"
+          "description": "AI文生视频创作平台",
+          "id": "resource-48abb6b128f7c32e"
         },
         {
           "title": "度加创作工具",
           "url": "https://aigc.baidu.com",
-          "description": "AI创作，轻松上手"
+          "description": "AI创作，轻松上手",
+          "id": "resource-0b1ac4ecf40d10a8"
         },
         {
           "title": "录咖AI",
@@ -728,38 +846,45 @@
           "description": "AI赋能，音视频处理无忧",
           "subject": [
             "AI生成"
-          ]
+          ],
+          "id": "resource-132ccf175534e9d2"
         },
         {
           "title": "Vidu",
           "url": "https://www.vidu.studio",
-          "description": "清华版 Sora 通过文本或者图片生成视频"
+          "description": "清华版 Sora 通过文本或者图片生成视频",
+          "id": "resource-e376ff430a16b9d2"
         },
         {
           "title": "智谱清影-AI生视频",
           "url": "https://chatglm.cn/video",
-          "description": "30秒的时间可生成6秒视频"
+          "description": "30秒的时间可生成6秒视频",
+          "id": "resource-5c110029c5fdae0c"
         },
         {
           "title": "寻光AI视频",
           "icon": "/red.svg",
           "url": "https://xunguang.damo-vision.com",
-          "description": "达摩院寻光视频创作平台，以视觉AIGC为核心功能，用PPT制作的方式创作视频，为用户带来一站式、高可控的AIGC创作体验，让更多用户感受AI创作的魅力。"
+          "description": "达摩院寻光视频创作平台，以视觉AIGC为核心功能，用PPT制作的方式创作视频，为用户带来一站式、高可控的AIGC创作体验，让更多用户感受AI创作的魅力。",
+          "id": "resource-d1f9e0441de80e94"
         },
         {
           "title": "绘影字幕",
           "url": "https://huiyingzimu.com",
-          "description": "绘影字幕，为您提供视频加字幕、字幕制作、字幕翻译服务。软件采用先进的语音识别技术，自动识别视频中的人声，转化成字幕。并提供翻译服务，轻松制作中英字幕、中日字幕等双语字幕。为抖音、vlog、快手、自媒体、教育课程等视频创作者提供快捷的加字幕服务。"
+          "description": "绘影字幕，为您提供视频加字幕、字幕制作、字幕翻译服务。软件采用先进的语音识别技术，自动识别视频中的人声，转化成字幕。并提供翻译服务，轻松制作中英字幕、中日字幕等双语字幕。为抖音、vlog、快手、自媒体、教育课程等视频创作者提供快捷的加字幕服务。",
+          "id": "resource-358aff374e3bd834"
         },
         {
           "title": "即创",
           "url": "https://aic.oceanengine.com",
-          "description": "即创专注于智能创意生产与管理分析，同时兼容开放生态，提供视频创作、图文生成、直播工具等多种场景服务，帮助客户解锁创意生产力、携手服务商激发创新，撬动多元供给，助力商业化经营。"
+          "description": "即创专注于智能创意生产与管理分析，同时兼容开放生态，提供视频创作、图文生成、直播工具等多种场景服务，帮助客户解锁创意生产力、携手服务商激发创新，撬动多元供给，助力商业化经营。",
+          "id": "resource-78a68b6961feb76c"
         },
         {
           "title": "听脑",
           "url": "https://itingnao.com",
-          "description": "会议录音转文字，高效整理会议要点"
+          "description": "会议录音转文字，高效整理会议要点",
+          "id": "resource-a82f4cf07f0cd067"
         },
         {
           "title": "Suno",
@@ -768,17 +893,20 @@
           "subject": [
             "音乐",
             "AI生成"
-          ]
+          ],
+          "id": "resource-80bd870953b03edf"
         },
         {
           "title": "讯飞智作",
           "url": "https://www.xfzhizuo.cn",
-          "description": "AI创作助手，一键生成虚拟主播内容"
+          "description": "AI创作助手，一键生成虚拟主播内容",
+          "id": "resource-07f6f61cca34ac5b"
         },
         {
           "title": "音疯",
           "url": "https://www.yinfeng.cn",
-          "description": "AI音乐创作，一键生成专属歌曲"
+          "description": "AI音乐创作，一键生成专属歌曲",
+          "id": "resource-bc5967d8e31d2900"
         },
         {
           "title": "网易天音",
@@ -787,37 +915,38 @@
           "subject": [
             "音乐",
             "AI生成"
-          ]
+          ],
+          "id": "resource-716d04da4dd4dbbe"
         },
         {
           "title": "悦音配音",
           "url": "https://yueyin.zhipianbang.com",
-          "description": "智能配音，千种音色，随心定制"
+          "description": "智能配音，千种音色，随心定制",
+          "id": "resource-b51e6cb3796af887"
         },
         {
           "title": "大饼AI变声",
           "url": "https://dubbing.tech",
-          "description": "AI助力视频配音，轻松跨越语言障碍"
+          "description": "AI助力视频配音，轻松跨越语言障碍",
+          "id": "resource-d8973a6682c33f89"
         },
         {
           "title": "逗哥配音",
           "url": "https://www.douge.com",
-          "description": "逗哥配音，AI智能配音神器"
+          "description": "逗哥配音，AI智能配音神器",
+          "id": "resource-839df0df9debbdfe"
         },
         {
           "title": "Reecho睿声",
           "url": "https://www.reecho.cn",
-          "description": "睿声AI，超拟真语音克隆与合成"
-        },
-        {
-          "title": "录咖AI",
-          "url": "https://reccloud.cn",
-          "description": "AI赋能，音视频处理无忧"
+          "description": "睿声AI，超拟真语音克隆与合成",
+          "id": "resource-1bab723136c23ce1"
         },
         {
           "title": "魔音工坊",
           "url": "https://moyin.com",
-          "description": "魔音工坊是一款可以在线将文字转成语音的智能配音产品。提供不同性别、不同口音的真人声音，在你输入文字后直接配音。你可快速对短视频等需要配音的内容进行配音。是一款功能强大AI语音合成神器。"
+          "description": "魔音工坊是一款可以在线将文字转成语音的智能配音产品。提供不同性别、不同口音的真人声音，在你输入文字后直接配音。你可快速对短视频等需要配音的内容进行配音。是一款功能强大AI语音合成神器。",
+          "id": "resource-0073d3d033b61676"
         },
         {
           "title": "通义听悟",
@@ -827,7 +956,8 @@
           "subject": [
             "音视频",
             "AI生成"
-          ]
+          ],
+          "id": "resource-e424a16bac77938d"
         },
         {
           "title": "青听音乐",
@@ -837,7 +967,8 @@
             "音乐"
           ],
           "page": "music-qingting.md",
-          "icon": "/red.svg"
+          "icon": "/red.svg",
+          "id": "resource-8827f487c7fff475"
         },
         {
           "title": "歌曲海",
@@ -845,7 +976,8 @@
           "description": "免费的在线音乐试听、下载平台",
           "subject": [
             "音乐"
-          ]
+          ],
+          "id": "resource-4cfa7eac1e2f6171"
         },
         {
           "title": "米兔音乐",
@@ -853,7 +985,8 @@
           "description": "提供歌曲在线试听、免费下载的音乐网站",
           "subject": [
             "音乐"
-          ]
+          ],
+          "id": "resource-a136e0154cb76731"
         },
         {
           "title": "布谷音乐",
@@ -862,7 +995,8 @@
           "subject": [
             "音乐"
           ],
-          "icon": "/wave.svg"
+          "icon": "/wave.svg",
+          "id": "resource-915ac833927dc9d4"
         },
         {
           "title": "SPlayer",
@@ -873,7 +1007,8 @@
             "音视频"
           ],
           "page": "music-wagnyi.md",
-          "icon": "/snyk.svg"
+          "icon": "/snyk.svg",
+          "id": "resource-cab90d3ccd0599b0"
         },
         {
           "title": "MusicFree",
@@ -884,7 +1019,8 @@
             "音视频"
           ],
           "page": "music-free.md",
-          "icon": "/solus.svg"
+          "icon": "/solus.svg",
+          "id": "resource-93d9b5442fe5163d"
         },
         {
           "title": "猴影工坊",
@@ -892,7 +1028,8 @@
           "description": "免费在线电影大全",
           "subject": [
             "影视"
-          ]
+          ],
+          "id": "resource-20b0c12aac4b254e"
         },
         {
           "title": "嘀嗒影视",
@@ -900,7 +1037,8 @@
           "description": "超清秒播体验",
           "subject": [
             "影视"
-          ]
+          ],
+          "id": "resource-347b95923878933f"
         },
         {
           "title": "影猫の仓库",
@@ -908,7 +1046,8 @@
           "description": "免费实用的影视资源搜索神器",
           "subject": [
             "影视"
-          ]
+          ],
+          "id": "resource-0dfa6596462276d3"
         },
         {
           "title": "3Q影视",
@@ -916,7 +1055,8 @@
           "description": "高清、无广、更新快",
           "subject": [
             "影视"
-          ]
+          ],
+          "id": "resource-5737e31fb64bfb55"
         },
         {
           "title": "注视影视",
@@ -924,7 +1064,8 @@
           "description": "海外影视剧、国内高口碑影视剧资源为主的在线影视网站",
           "subject": [
             "影视"
-          ]
+          ],
+          "id": "resource-16982c560a7f0aa8"
         },
         {
           "title": "No视频",
@@ -932,7 +1073,8 @@
           "description": "主打海外影视剧资源，致力于最轻松的追剧体验",
           "subject": [
             "影视"
-          ]
+          ],
+          "id": "resource-89c860efd0c320b0"
         },
         {
           "title": "真狼影视",
@@ -940,9 +1082,11 @@
           "description": "免费观看全网影视剧资源的网站",
           "subject": [
             "影视"
-          ]
+          ],
+          "id": "resource-e307382bf872075f"
         }
-      ]
+      ],
+      "id": "category-b89b44a5346d"
     },
     {
       "title": "AI办公",
@@ -951,106 +1095,127 @@
         {
           "title": "听脑",
           "url": "https://itingnao.com",
-          "description": "会议录音转文字，高效整理会议要点"
+          "description": "会议录音转文字，高效整理会议要点",
+          "id": "resource-ddcf4ab9a59fd575"
         },
         {
           "title": "得理法搜",
           "url": "https://data.delilegal.com",
-          "description": "智能法律工具，助力律师高效工作"
+          "description": "智能法律工具，助力律师高效工作",
+          "id": "resource-b98fab86a337e4d5"
         },
         {
           "title": "苏打办公",
           "icon": "/red.svg",
           "url": "https://bangong.360.cn",
-          "description": "一站式办公工具，高效便捷"
+          "description": "一站式办公工具，高效便捷",
+          "id": "resource-89a07e363505fc81"
         },
         {
           "title": "MetaLaw",
           "url": "https://meta.law",
-          "description": "Meta法律服务，专注知识产权与互联网法律"
+          "description": "Meta法律服务，专注知识产权与互联网法律",
+          "id": "resource-fdd5132e07db0cee"
         },
         {
           "title": "WPS AI",
           "url": "https://ai.wps.cn",
-          "description": "WPS AI，高效办公助手"
+          "description": "WPS AI，高效办公助手",
+          "id": "resource-039c19d6815f4b61"
         },
         {
           "title": "有道智云",
           "url": "https://ai.youdao.com",
-          "description": "有道智云，AI翻译与OCR服务提供商"
+          "description": "有道智云，AI翻译与OCR服务提供商",
+          "id": "resource-adb64be39e8719c3"
         },
         {
           "title": "灵办AI",
           "url": "https://ilingban.com",
-          "description": "全能AI助手，提升效率神器"
+          "description": "全能AI助手，提升效率神器",
+          "id": "resource-69521c056ecd621c"
         },
         {
           "title": "亿图脑图",
           "url": "https://www.edrawsoft.cn/mindmaster/ai",
-          "description": "AI智能脑图助手，高效创作工具"
+          "description": "AI智能脑图助手，高效创作工具",
+          "id": "resource-d96298f87a82e853"
         },
         {
           "title": "歌者PPT",
           "url": "https://gezhe.com",
-          "description": "免费AI智能PPT制作工具"
+          "description": "免费AI智能PPT制作工具",
+          "id": "resource-ae612df614297d32"
         },
         {
           "title": "息流FlowUs",
           "url": "https://flowus.cn",
-          "description": "知识管理协作平台"
+          "description": "知识管理协作平台",
+          "id": "resource-c927b034500930a1"
         },
         {
           "title": "GitMind · 思乎",
           "url": "https://gitmind.cn",
-          "description": "GitMind（思乎）是一款全平台 在线思维导图脑图架构图制作软件工具，支持手机手机思维导图，Windows/Mac/L多平台操作及内容同步。它提供有海量的架构图，流程图、思维导图模板可供用户直接使用，支持在线制作流程图、思维导图、组织结构图、类图、用例图、ER图、网络拓扑图以及UML图等十多种图形。"
+          "description": "GitMind（思乎）是一款全平台 在线思维导图脑图架构图制作软件工具，支持手机手机思维导图，Windows/Mac/L多平台操作及内容同步。它提供有海量的架构图，流程图、思维导图模板可供用户直接使用，支持在线制作流程图、思维导图、组织结构图、类图、用例图、ER图、网络拓扑图以及UML图等十多种图形。",
+          "id": "resource-9b9b5bb4e271af61"
         },
         {
           "title": "iSlide",
           "url": "https://www.islide.cc",
-          "description": "简单好用的AiPPT插件"
+          "description": "简单好用的AiPPT插件",
+          "id": "resource-deee6fb6b409b212"
         },
         {
           "title": "豆包 Ola Friend 智能耳机",
           "url": "https://www.olafriend.cn",
-          "description": "字节跳动豆包的智能硬件产品"
+          "description": "字节跳动豆包的智能硬件产品",
+          "id": "resource-a291199248097790"
         },
         {
           "title": "SunSeek",
           "url": "https://sunseek.app",
-          "description": "精准跟踪阳光与维生素D"
+          "description": "精准跟踪阳光与维生素D",
+          "id": "resource-54faace25a0c31f7"
         },
         {
           "title": "Straighty.app",
           "url": "https://straighty.app",
-          "description": "实时监测姿势，智能瑜伽辅导，无需穿戴设备。"
+          "description": "实时监测姿势，智能瑜伽辅导，无需穿戴设备。",
+          "id": "resource-d88a074fb1565709"
         },
         {
           "title": "Vesse Food Tracker",
           "icon": "/red.svg",
           "url": "https://vesse.nl",
-          "description": "智能分析餐食，轻松追踪营养"
+          "description": "智能分析餐食，轻松追踪营养",
+          "id": "resource-98fde86e144d304a"
         },
         {
           "title": "Impakt AI App",
           "url": "https://www.impakt.com",
-          "description": "AI教练Kaikai，互动指导，定制健身"
+          "description": "AI教练Kaikai，互动指导，定制健身",
+          "id": "resource-c984c6ac47e3a533"
         },
         {
           "title": "UnitMate",
           "url": "https://nevr.app",
-          "description": "旅行转换助手UnitMate，轻松换算单位。"
+          "description": "旅行转换助手UnitMate，轻松换算单位。",
+          "id": "resource-ec882ba023e45e15"
         },
         {
           "title": "Home Assistant Voice",
           "url": "https://www.home-assistant.io/voice-pe",
-          "description": "家庭隐私语音助手，本地开放处理"
+          "description": "家庭隐私语音助手，本地开放处理",
+          "id": "resource-752ae391618cccaf"
         },
         {
           "title": "Soothe",
           "url": "https://www.sootheapp.co",
-          "description": "传递匿名善意，温暖心灵空间"
+          "description": "传递匿名善意，温暖心灵空间",
+          "id": "resource-a4e171580a3b5f00"
         }
-      ]
+      ],
+      "id": "category-24025e66a458"
     },
     {
       "title": "AI设计",
@@ -1059,65 +1224,78 @@
         {
           "title": "像素蛋糕",
           "url": "https://www.pixcakeai.com",
-          "description": "专业AI精修，色彩还原精准"
+          "description": "专业AI精修，色彩还原精准",
+          "id": "resource-73c4808b2c2cc90f"
         },
         {
           "title": "橙篇AI",
           "icon": "/red.svg",
           "url": "https://cp.baidu.com",
-          "description": "橙篇AI，AI生成有声画本"
+          "description": "橙篇AI，AI生成有声画本",
+          "id": "resource-e7b4c33411630fcd"
         },
         {
           "title": "触手AI绘画",
           "url": "https://acgnai.art",
-          "description": "AI绘画助手，轻松创作"
+          "description": "AI绘画助手，轻松创作",
+          "id": "resource-a1e692bf79910c8c"
         },
         {
           "title": "佐糖",
           "url": "https://picwish.cn",
-          "description": "佐糖(PicWish)是一款智能AI图像处理平台，支持在线抠图、去水印、模糊照片变清晰、无损放大、图片裁剪、图片压缩和黑白照片上色等功能，一键就能制作出精美图片，提高图片编辑效率。"
+          "description": "佐糖(PicWish)是一款智能AI图像处理平台，支持在线抠图、去水印、模糊照片变清晰、无损放大、图片裁剪、图片压缩和黑白照片上色等功能，一键就能制作出精美图片，提高图片编辑效率。",
+          "id": "resource-501a2cbfc734782e"
         },
         {
           "title": "美图设计室",
           "url": "https://www.designkit.com",
-          "description": "美图秀秀旗下智能设计在线协作平台"
+          "description": "美图秀秀旗下智能设计在线协作平台",
+          "id": "resource-4b71948bb23a16c0"
         },
         {
           "title": "MasterGo 莫高设计",
           "url": "https://mastergo.com",
-          "description": "MasterGo/莫高设计是AI时代企业级产品设计平台，贯穿产品设计研发的全链条在线协作工具,是可协作的在线sketch、国内版figma，提供在线产品设计、原型图制作设计、网页开发设计、产品交互设计、UI和UX设计工具等功能,支持多人实时协作,可快速搭建设计系统,为产品设计师、交互设计师、工程师以及产品经理提供更简单灵活的工作模式。"
+          "description": "MasterGo/莫高设计是AI时代企业级产品设计平台，贯穿产品设计研发的全链条在线协作工具,是可协作的在线sketch、国内版figma，提供在线产品设计、原型图制作设计、网页开发设计、产品交互设计、UI和UX设计工具等功能,支持多人实时协作,可快速搭建设计系统,为产品设计师、交互设计师、工程师以及产品经理提供更简单灵活的工作模式。",
+          "id": "resource-07749b082a32acdf"
         },
         {
           "title": "即时设计",
           "url": "https://js.design",
-          "description": "即时设计是一款支持在线协作的专业级 UI 设计工具，支持 Sketch、Figma、XD 格式导入，海量优质设计资源即拿即用。支持创建交互原型、获取设计标注，为产设研团队提供一站式协同办公体验。"
+          "description": "即时设计是一款支持在线协作的专业级 UI 设计工具，支持 Sketch、Figma、XD 格式导入，海量优质设计资源即拿即用。支持创建交互原型、获取设计标注，为产设研团队提供一站式协同办公体验。",
+          "id": "resource-4ed29799067bde74"
         },
         {
           "title": "稿定设计",
           "url": "https://gaoding.com",
-          "description": "在线快速图片和视频编辑,不会PS也能搞定设计。海报、简历、PPT、公众号配图、电商等海量模板快速出图。三秒抠图实用便捷,抖音快手热门视频轻松搞定。海量正版授权资源,商用无忧。"
+          "description": "在线快速图片和视频编辑,不会PS也能搞定设计。海报、简历、PPT、公众号配图、电商等海量模板快速出图。三秒抠图实用便捷,抖音快手热门视频轻松搞定。海量正版授权资源,商用无忧。",
+          "id": "resource-fa130cc0bd66f800"
         },
         {
           "title": "标小智LOGO设计",
           "url": "https://www.logosc.cn",
-          "description": "智能LOGO在线设计生成器"
+          "description": "智能LOGO在线设计生成器",
+          "id": "resource-bbf12b2ad5202000"
         },
         {
           "title": "创客贴",
           "url": "https://www.chuangkit.com/",
-          "description": "智能在线设计工具"
+          "description": "智能在线设计工具",
+          "id": "resource-559476ca9ceae2d1"
         },
         {
           "title": "Bigjpg",
           "url": "https://bigjpg.com",
-          "description": "无损放大图片的高级AI工具，保持图像细节和颜色的完整性。"
+          "description": "无损放大图片的高级AI工具，保持图像细节和颜色的完整性。",
+          "id": "resource-54c56f3dba3862ff"
         },
         {
           "title": "BgSub",
           "url": "https://bgsub.com",
-          "description": "在线图像处理项目"
+          "description": "在线图像处理项目",
+          "id": "resource-f27219b1df2a11f9"
         }
-      ]
+      ],
+      "id": "category-7a57edef257c"
     },
     {
       "title": "AI营销",
@@ -1126,65 +1304,78 @@
         {
           "title": "万兴播爆",
           "url": "https://virbo.wondershare.cn",
-          "description": "轻松打造个人IP，一键视频营销神器"
+          "description": "轻松打造个人IP，一键视频营销神器",
+          "id": "resource-a316f3b60ebabf17"
         },
         {
           "title": "轻舸",
           "icon": "/red.svg",
           "url": "https://qingge.baidu.com",
-          "description": "百度轻舸，AI赋能营销高效便捷"
+          "description": "百度轻舸，AI赋能营销高效便捷",
+          "id": "resource-3cad44ce6edc6237"
         },
         {
           "title": "硅基智能",
           "url": "https://www.guiji.ai",
-          "description": "AI赋能，虚拟人交互专家"
+          "description": "AI赋能，虚拟人交互专家",
+          "id": "resource-d328295a8c75094a"
         },
         {
           "title": "Aimfox",
           "url": "https://aimfox.com",
-          "description": "LinkedIn外联利器，促成交易无忧"
+          "description": "LinkedIn外联利器，促成交易无忧",
+          "id": "resource-9d93b4e9e8da0dd4"
         },
         {
           "title": "LangWatch Optimization Studio",
           "url": "https://langwatch.ai",
-          "description": "LangWatch优化工作室，AI性能加速利器。"
+          "description": "LangWatch优化工作室，AI性能加速利器。",
+          "id": "resource-dd901e2f1ede63ed"
         },
         {
           "title": "Reach from SalesStream.ai",
           "url": "https://salesstream.ai",
-          "description": "简易永久免费邮件短信营销工具"
+          "description": "简易永久免费邮件短信营销工具",
+          "id": "resource-05a410967a5f5309"
         },
         {
           "title": "OpenFunnel",
           "url": "https://openfunnel.dev",
-          "description": "为GTM团队定制AI智能聆听代理"
+          "description": "为GTM团队定制AI智能聆听代理",
+          "id": "resource-2da2d42e52b010c5"
         },
         {
           "title": "Affiliate From Lasso",
           "url": "https://getlasso.co/features/affiliate-plus",
-          "description": "Lasso Affiliate+，智能提升亚马逊佣金收益"
+          "description": "Lasso Affiliate+，智能提升亚马逊佣金收益",
+          "id": "resource-1d18cb8bdf304449"
         },
         {
           "title": "WhatsApp CRM by Dex",
           "url": "https://getdex.com",
-          "description": "自动跟踪WhatsApp互动的个人CRM工具"
+          "description": "自动跟踪WhatsApp互动的个人CRM工具",
+          "id": "resource-60499e704818f7a5"
         },
         {
           "title": "Agora Merchants",
           "url": "https://merchant.searchagora.com",
-          "description": "提升电商销量的AI搜索引擎"
+          "description": "提升电商销量的AI搜索引擎",
+          "id": "resource-dcb4e9964f95dc7a"
         },
         {
           "title": "JoinMC智能客服",
           "url": "https://panda.joinmc.cn",
-          "description": "专为跨境营销设计的多功能AI客服工具"
+          "description": "专为跨境营销设计的多功能AI客服工具",
+          "id": "resource-af344fb4192092c2"
         },
         {
           "title": "Pine",
           "url": "https://www.19pine.ai",
-          "description": "智能助手Pine，轻松管理账单，节省时间精力"
+          "description": "智能助手Pine，轻松管理账单，节省时间精力",
+          "id": "resource-6436ff8be07bd926"
         }
-      ]
+      ],
+      "id": "category-c424a4b39c33"
     },
     {
       "title": "AI学习",
@@ -1193,59 +1384,71 @@
         {
           "title": "Grammar Checker",
           "url": "https://grammarcheck.net",
-          "description": "在线语法纠错，提升写作质量"
+          "description": "在线语法纠错，提升写作质量",
+          "id": "resource-3d6ae990befad07f"
         },
         {
           "title": "Brainly.co",
           "url": "https://brainly.co",
-          "description": "学生专家共解难题"
+          "description": "学生专家共解难题",
+          "id": "resource-dd2605cb632de6fc"
         },
         {
           "title": "Khanmigo AI",
           "url": "https://khanmigo.ai",
-          "description": "AI助教，学习好帮手"
+          "description": "AI助教，学习好帮手",
+          "id": "resource-0e213825b42c7abb"
         },
         {
           "title": "DataCamp",
           "url": "https://datacamp.com",
-          "description": ""
+          "description": "",
+          "id": "resource-5247116e9d8f5291"
         },
         {
           "title": "WolframAlpha",
           "url": "https://wolframalpha.com",
-          "description": "Compute answers using Wolfram&#x27;s breakthrough technology &amp; knowledgebase, relied on by millions of students &amp; professionals. For math, science, nutrition, history, geography, engineering, mathematics, linguistics, sports, finance, music…"
+          "description": "Compute answers using Wolfram&#x27;s breakthrough technology &amp; knowledgebase, relied on by millions of students &amp; professionals. For math, science, nutrition, history, geography, engineering, mathematics, linguistics, sports, finance, music…",
+          "id": "resource-e315e7250a5c1a1d"
         },
         {
           "title": "Gauth",
           "url": "https://gauthmath.com",
-          "description": "Gauth(Formerly Gauthmath) is the best AI homework helper for all subjects, offering free online homework help through AI calculator, real live tutors, and expert assistance."
+          "description": "Gauth(Formerly Gauthmath) is the best AI homework helper for all subjects, offering free online homework help through AI calculator, real live tutors, and expert assistance.",
+          "id": "resource-cb875c558f2b7497"
         },
         {
           "title": "Semantic Scholar",
           "url": "https://semanticscholar.org",
-          "description": "Semantic Scholar uses groundbreaking AI and engineering to understand the semantics of scientific literature to help Scholars discover relevant research."
+          "description": "Semantic Scholar uses groundbreaking AI and engineering to understand the semantics of scientific literature to help Scholars discover relevant research.",
+          "id": "resource-a6001c4e8ce41b0e"
         },
         {
           "title": "Kaggle",
           "url": "https://kaggle.com",
-          "description": "Kaggle is the world&#x2019;s largest data science community with powerful tools and resources to help you achieve your data science goals."
+          "description": "Kaggle is the world&#x2019;s largest data science community with powerful tools and resources to help you achieve your data science goals.",
+          "id": "resource-b5a9135f839fe121"
         },
         {
           "title": "Course Hero",
           "url": "https://coursehero.com",
-          "description": "Pardon Our Interruption"
+          "description": "Pardon Our Interruption",
+          "id": "resource-fb602eda57ea7cb2"
         },
         {
           "title": "Coursera",
           "url": "https://coursera.org",
-          "description": "Learn new job skills in online courses from industry leaders like Google, IBM, &amp; Meta. Advance your career with top degrees from Michigan, Penn, Imperial &amp; more."
+          "description": "Learn new job skills in online courses from industry leaders like Google, IBM, &amp; Meta. Advance your career with top degrees from Michigan, Penn, Imperial &amp; more.",
+          "id": "resource-086c2d332009d262"
         },
         {
           "title": "Remento",
           "url": "https://www.remento.co",
-          "description": "将口语录音转化为定制传记的人工智能助手"
+          "description": "将口语录音转化为定制传记的人工智能助手",
+          "id": "resource-4050172370701fe6"
         }
-      ]
+      ],
+      "id": "category-591d3ef945c2"
     },
     {
       "title": "文档",
@@ -1255,52 +1458,61 @@
           "title": "go doc",
           "url": "https://golang.google.cn/",
           "icon": "/go.svg",
-          "description": "Go doc,Effective Go,官方文档,下载链接,example"
+          "description": "Go doc,Effective Go,官方文档,下载链接,example",
+          "id": "resource-ac66259153c9a6b6"
         },
         {
           "title": "go-zero",
           "url": "https://go-zero.dev/",
           "icon": "/go-zero.svg",
-          "description": "a web and rpc framework,go微服务框架"
+          "description": "a web and rpc framework,go微服务框架",
+          "id": "resource-8ba99942e2fc84b6"
         },
         {
           "title": "beego-v2 doc",
           "url": "https://beego.programnotes.cn",
           "icon": "/beego.jpg",
-          "description": "beego,go web框架,文档"
+          "description": "beego,go web框架,文档",
+          "id": "resource-d8cadf9d4834fa59"
         },
         {
           "title": "uber/go",
           "url": "https://github.com/xxjwxc/uber_go_guide_cn",
           "icon": "/go.svg",
-          "description": "uber/go code style guide,Uber go规范"
+          "description": "uber/go code style guide,Uber go规范",
+          "id": "resource-bc691e9e60f06dc1"
         },
         {
           "title": "shimohq/react",
           "url": "https://github.com/shimohq/react-cookbook",
           "icon": "/React.svg",
           "description": "shimo react cookbook,石墨文档 react",
-          "page": "react-cookbook.md"
+          "page": "react-cookbook.md",
+          "id": "resource-35a70b12fcb30855"
         },
         {
           "title": "犀牛书",
           "url": "https://xiniushu.com/",
           "description": "中文技术文档大全,Go,OpenAI,Rust,React,Next.js等",
-          "page": "xiniushu.md"
+          "page": "xiniushu.md",
+          "id": "resource-98db054584f049d1"
         },
         {
           "title": "mcp中文文档",
           "url": "https://mcp.programnotes.cn/",
           "description": "MCP是claude开源的开放协议标准,支持自定义各种工具集成到ai中,用于在AI模型和开发环境之间建立统一的上下文交互，让AI更好地理解和处理代码",
-          "page": "mcp.md"
+          "page": "mcp.md",
+          "id": "resource-384918933b8eab09"
         },
         {
           "title": "Vercel AI SDK",
           "url": "https://nav.programnotes.cn/page/vercel-ai-sdk",
           "description": "使用Vercel AI SDK可快速集成groq,grok,google/gemini等大模型到项目中",
-          "page": "vercel-ai-sdk.md"
+          "page": "vercel-ai-sdk.md",
+          "id": "resource-c8509828889ac17a"
         }
-      ]
+      ],
+      "id": "category-2687ccdbb1d2"
     },
     {
       "title": "工具",
@@ -1309,92 +1521,107 @@
         {
           "title": "1Panel",
           "url": "https://1panel.cn",
-          "description": "开源Linux 服务器运维管理面板,管理Linux服务器:主机监控、文件管理、数据库管理、容器管理..."
+          "description": "开源Linux 服务器运维管理面板,管理Linux服务器:主机监控、文件管理、数据库管理、容器管理...",
+          "id": "resource-42986759016f405b"
         },
         {
           "title": "flomo",
           "url": "https://flomoapp.com",
           "icon": "/flomologo.png",
-          "description": "notes tool,全平台的卡片笔记，聚焦帮你记录更多想法与灵感，以及更好回顾过往记录"
+          "description": "notes tool,全平台的卡片笔记，聚焦帮你记录更多想法与灵感，以及更好回顾过往记录",
+          "id": "resource-3fe09bf00766d76a"
         },
         {
           "title": "apifox echo",
           "url": "https://echo.apifox.com/",
           "icon": "/solus.svg",
-          "description": "Apifox Echo is a simple HTTP Request & Response Service,简单的monk接口"
+          "description": "Apifox Echo is a simple HTTP Request & Response Service,简单的monk接口",
+          "id": "resource-7b873f2fb6a416f7"
         },
         {
           "title": "frp",
           "url": "https://github.com/fatedier/frp",
           "icon": "/accenture.svg",
-          "description": "A fast reverse proxy,反向代理工具"
+          "description": "A fast reverse proxy,反向代理工具",
+          "id": "resource-aec42fe36647f546"
         },
         {
           "title": "simple icon",
           "url": "https://github.com/simple-icons/simple-icons",
           "icon": "/thirteen.svg",
-          "description": "svg icon"
+          "description": "svg icon",
+          "id": "resource-20a78464e02b5913"
         },
         {
           "title": "gitpod",
           "url": "https://gitpod.io/workspaces",
           "icon": "/Gitpod.svg",
-          "description": "browser editor:vscode,idea,goland...浏览器里用vscode,idea等"
+          "description": "browser editor:vscode,idea,goland...浏览器里用vscode,idea等",
+          "id": "resource-25e1590d31c4f05a"
         },
         {
           "title": "m3u8-downloader",
           "url": "https://www.yeyulingfeng.com/tools/m3u8-downloader/",
           "icon": "/docusign.svg",
-          "description": "m3u8 video downloader,视频下载器"
+          "description": "m3u8 video downloader,视频下载器",
+          "id": "resource-2c0c5dc619285330"
         },
         {
           "title": "avatar maker",
           "url": "https://avatar-tool.netlify.app/",
           "icon": "/avatar-tool.svg",
-          "description": "Make ID photo right in the browser,在浏览器生成头像,证件照..."
+          "description": "Make ID photo right in the browser,在浏览器生成头像,证件照...",
+          "id": "resource-693e693e9d0fa2c6"
         },
         {
           "title": "Jina Reader",
           "url": "https://tools.simonwillison.net/jina-reader",
           "icon": "",
-          "description": "支持调用Jina的API将网页转成Markdown/Text等格式,抓取网页内容很方便,对AI友好"
+          "description": "支持调用Jina的API将网页转成Markdown/Text等格式,抓取网页内容很方便,对AI友好",
+          "id": "resource-20abda21abf3515d"
         },
         {
           "title": "在线简历制作",
           "url": "https://resume.programnotes.cn/",
           "icon": "/red.svg",
-          "description": "简历生成工具，支持在线预览、打印 PDF"
+          "description": "简历生成工具，支持在线预览、打印 PDF",
+          "id": "resource-8f188cbb337be2c7"
         },
         {
           "title": "curlconverter",
           "url": "https://curlconverter.programnotes.cn/",
           "icon": "/red.svg",
-          "description": "将curl命令转换成python,go,js等代码"
+          "description": "将curl命令转换成python,go,js等代码",
+          "id": "resource-5b8177fdc8bf4d8c"
         },
         {
           "title": "smithery.ai",
           "url": "https://smithery.ai/",
           "description": "快速集成MCP server,搜集了很多开源mcp server,并提供Serverless部署mcp Server的工具",
-          "page": "smithery-ai.md"
+          "page": "smithery-ai.md",
+          "id": "resource-4fb0e93b26db1070"
         },
         {
           "title": "smallseotools",
           "url": "https://smallseotools.com/",
           "description": "在线工具集: domain age checker,plagiarism checker,video downloader,da pa checker,domain age checker",
-          "page": "smallseotools.md"
+          "page": "smallseotools.md",
+          "id": "resource-e4418b0406b73790"
         },
         {
           "title": "MCP广场",
           "url": "https://www.modelscope.cn/mcp",
           "description": "魔搭社区,MCP广场,提供了很多开源的MCP server,可以直接使用,在线调用MCP server,mcp-inspector",
-          "page": "modelscope-mcp.md"
+          "page": "modelscope-mcp.md",
+          "id": "resource-4cf209f4d8cce033"
         },
         {
           "title": "MyIP",
           "url": "https://ip.programnotes.cn",
           "description": "最好用的IP工具箱。轻松检查你的 IP，IP 地理位置，检查DNS泄漏，检查 WebRTC 连接，速度测试，ping 测试，MTR测试，检查网站可用性，查询 Whois 信息等等。",
           "page": "myip.md",
-          "icon": "/red.svg"
+          "icon": "/red.svg",
+          "id": "resource-9a5ba23fbd792abe"
         },
         {
           "title": "今日热榜",
@@ -1403,13 +1630,15 @@
           "subject": [
             "新闻",
             "榜单"
-          ]
+          ],
+          "id": "resource-26ef6c58ff23fdd1"
         },
         {
           "title": "高德地图",
           "url": "https://amap.com/",
           "description": "高德地图网页版，支持扫码登录",
-          "icon": "/aliyun.svg"
+          "icon": "/aliyun.svg",
+          "id": "resource-553b1bb3a3ebb346"
         },
         {
           "title": "微信文件助手",
@@ -1418,7 +1647,8 @@
           "subject": [
             "文件",
             "社交"
-          ]
+          ],
+          "id": "resource-bfff1c3ee83bba81"
         },
         {
           "title": "临时邮箱",
@@ -1426,12 +1656,14 @@
           "description": "临时邮箱，一次性地址收取邮件",
           "subject": [
             "邮箱"
-          ]
+          ],
+          "id": "resource-65131f7bbce9860c"
         },
         {
           "title": "网络诊断",
           "url": "https://ip.skk.moe",
-          "description": "网络诊断工具，IP与连接检测"
+          "description": "网络诊断工具，IP与连接检测",
+          "id": "resource-ac9f1170d36eccbc"
         },
         {
           "title": "二维码生成",
@@ -1439,12 +1671,14 @@
           "description": "草料二维码生成器，无代码模板与数据收集",
           "subject": [
             "二维码"
-          ]
+          ],
+          "id": "resource-2cda55be4095f66d"
         },
         {
           "title": "文档转换",
           "url": "https://pdfcandy.com/cn/",
-          "description": "PDF Candy 在线 PDF 工具，90+转换功能"
+          "description": "PDF Candy 在线 PDF 工具，90+转换功能",
+          "id": "resource-df92de23f972dda7"
         },
         {
           "title": "聚合直播",
@@ -1453,7 +1687,8 @@
           "subject": [
             "直播"
           ],
-          "icon": "/red.svg"
+          "icon": "/red.svg",
+          "id": "resource-f2bddcf059de2c7b"
         },
         {
           "title": "临时分享",
@@ -1462,13 +1697,15 @@
           "subject": [
             "文件",
             "社交"
-          ]
+          ],
+          "id": "resource-e0ddb147783c1450"
         },
         {
           "title": "一键激活",
           "url": "https://kms.cx",
           "description": "Windows/Office KMS 激活教程",
-          "icon": "/red.svg"
+          "icon": "/red.svg",
+          "id": "resource-9a7b15879ceeafb7"
         },
         {
           "title": "视频无水印",
@@ -1476,20 +1713,24 @@
           "description": "抖音视频无水印下载工具",
           "subject": [
             "视频"
-          ]
+          ],
+          "id": "resource-c005eca664ad7064"
         },
         {
           "title": "网络收音机",
           "url": "https://radio5.cn",
           "description": "在线网络电台收听",
-          "icon": "/red.svg"
+          "icon": "/red.svg",
+          "id": "resource-79f85b2ba5b5daac"
         },
         {
           "title": "Font Awesome",
           "url": "https://fontawesome.com/v5/search?o=r&m=free",
-          "description": "Font Awesome v5 免费图标搜索"
+          "description": "Font Awesome v5 免费图标搜索",
+          "id": "resource-6526dd9259931384"
         }
-      ]
+      ],
+      "id": "category-5ca6730d4415"
     },
     {
       "title": "云服务",
@@ -1499,39 +1740,46 @@
           "title": "Netlify",
           "url": "https://functions.netlify.com/",
           "icon": "/netlify.svg",
-          "description": "Serverless platforms,网站托管"
+          "description": "Serverless platforms,网站托管",
+          "id": "resource-ecdc69711e11b4a1"
         },
         {
           "title": "Vercel",
           "url": "https://vercel.com/",
           "icon": "/vercel.svg",
-          "description": "Serverless platforms,网站托管"
+          "description": "Serverless platforms,网站托管",
+          "id": "resource-6020247247a62e75"
         },
         {
           "title": "Claw.cloud",
           "url": "https://console.run.claw.cloud/signin?link=AXZL401YXZUJ",
           "description": "云服务商,免费额度,Serverless platforms,网站托管,支持部署:Alist,dify,chatgpt-next-web,FastGPT,LibreChat,LobeChat,ChatNio等众多热门应用",
-          "page": "claw.md"
+          "page": "claw.md",
+          "id": "resource-562b5392d77558dd"
         },
         {
           "title": "Sealos",
           "url": "https://cloud.sealos.run/?uid=ZyDIclwCa1",
           "description": "以 kubernetes 为内核的云操作系统,,FastGPT,Devbox,AI Proxy(集成各种大模型API)",
-          "page": "sealos.md"
+          "page": "sealos.md",
+          "id": "resource-dae98ee006fbf448"
         },
         {
           "title": "aliyun FC",
           "url": "https://help.aliyun.com/zh/fc/",
           "icon": "/aliyun.svg",
-          "description": "阿里云函数计算(FC),事件驱动的全托管计算服务。通过函数计算，无需管理服务器等基础设施，只需编写代码并上传"
+          "description": "阿里云函数计算(FC),事件驱动的全托管计算服务。通过函数计算，无需管理服务器等基础设施，只需编写代码并上传",
+          "id": "resource-c02248ddf73da779"
         },
         {
           "title": "Deno",
           "url": "https://deno.com",
           "icon": "",
-          "description": "Serverless服务商,快速部署应用"
+          "description": "Serverless服务商,快速部署应用",
+          "id": "resource-416855a6f8a0013b"
         }
-      ]
+      ],
+      "id": "category-fc405798dcb7"
     },
     {
       "title": "前端",
@@ -1541,21 +1789,25 @@
           "title": "Next.js",
           "url": "https://nextjs.org/",
           "icon": "/next.svg",
-          "description": "React framework,React 框架"
+          "description": "React framework,React 框架",
+          "id": "resource-0afb3bbf6662051f"
         },
         {
           "title": "Haikei",
           "url": "https://app.haikei.app",
           "icon": "/layered-steps.svg",
-          "description": "纯色图片生成"
+          "description": "纯色图片生成",
+          "id": "resource-fd3df876c388bf54"
         },
         {
           "title": "Page Spy",
           "url": "https://github.com/HuolalaTech/page-spy-web",
           "icon": "/circle-scatter.svg",
-          "description": "前端调试工具,提供类控制台可交互式的功能界面将数据呈现出来"
+          "description": "前端调试工具,提供类控制台可交互式的功能界面将数据呈现出来",
+          "id": "resource-ef888d2d85f67d05"
         }
-      ]
+      ],
+      "id": "category-866a4fa82c25"
     },
     {
       "title": "远程",
@@ -1565,9 +1817,11 @@
           "title": "eleduck",
           "url": "https://eleduck.com/",
           "icon": "",
-          "description": "eleduck,电鸭,远程工作社区"
+          "description": "eleduck,电鸭,远程工作社区",
+          "id": "resource-9f0ec7374e8c1d71"
         }
-      ]
+      ],
+      "id": "category-7ba00927dde9"
     }
   ]
 }

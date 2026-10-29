@@ -1,7 +1,9 @@
 "use client"
 
-import { useState, useRef } from "react"
-import { useRouter, useSearchParams } from "next/navigation"
+import { useState, useRef, useEffect } from "react"
+import { useRouter } from "next/navigation"
+import { useNavSearch } from "./nav-search-provider"
+import { searchHref } from "@/lib/nav-search"
 import { Search, Clapperboard, Film, ArrowRight } from "lucide-react"
 import { cn } from "@/lib/utils"
 import linksData from "@/data/links.json"
@@ -40,11 +42,12 @@ const SEARCH_DATA = [
 
 export default function InpageSearch() {
   const router = useRouter()
-  const params = useSearchParams()!
+  const { search } = useNavSearch()
   const [activeTabIndex, setActiveTabIndex] = useState(0)
   const [activeChildIndex, setActiveChildIndex] = useState(0)
   const [query, setQuery] = useState("")
   const inputRef = useRef<HTMLInputElement>(null)
+  useEffect(() => setQuery(search.q), [search.q])
 
   const currentTab = SEARCH_DATA[activeTabIndex]
   const currentChild = currentTab.child[activeChildIndex]
@@ -58,6 +61,10 @@ export default function InpageSearch() {
   const handleSearch = (e?: React.FormEvent, multi: boolean = false) => {
     e?.preventDefault()
     const q = query.trim()
+    if (!multi && currentChild.id === "internal") {
+      router.push(searchHref({ q, subject: search.subject }), { scroll: false })
+      return
+    }
     if (!q) return
 
     if (multi) {
@@ -66,22 +73,14 @@ export default function InpageSearch() {
         if (count >= 5) return
         if (item.id !== 'internal') {
           const targetUrl = item.url.includes('$q') ? item.url.replace('$q', encodeURIComponent(q)) : item.url + encodeURIComponent(q)
-          window.open(targetUrl, "_blank")
+          window.open(targetUrl, "_blank", "noopener,noreferrer")
           count++
         }
       })
       return
     }
 
-    const subject = (params?.get("subject") || "").trim()
-
-    if (currentChild.id === "internal") {
-      const search = new URLSearchParams()
-      if (q) search.set("q", q)
-      if (subject) search.set("subject", subject)
-      router.push(`/?${search.toString()}`)
-      return
-    }
+    const subject = search.subject.trim()
 
     let finalQ = q
     if (currentChild.id === "bing" && subject) {
@@ -95,11 +94,11 @@ export default function InpageSearch() {
     const targetUrl = currentChild.url.includes('$q')
       ? currentChild.url.replace('$q', encodeURIComponent(finalQ))
       : currentChild.url + encodeURIComponent(finalQ)
-    window.open(targetUrl, "_blank")
+    window.open(targetUrl, "_blank", "noopener,noreferrer")
   }
 
   const onKeyDown = (e: React.KeyboardEvent<HTMLInputElement>) => {
-    if (e.key === "Enter") {
+    if (e.key === "Enter" && !e.nativeEvent.isComposing && e.keyCode !== 229) {
       e.preventDefault()
       handleSearch(undefined, e.ctrlKey || e.metaKey)
     }
@@ -124,6 +123,8 @@ export default function InpageSearch() {
             return (
               <button
                 key={index}
+                type="button"
+                aria-pressed={isActive}
                 onClick={() => handleTabChange(index)}
                 className={cn(
                   // 基础样式
@@ -144,8 +145,10 @@ export default function InpageSearch() {
         </div>
 
         {/* 输入框区域 */}
-        <div className="relative w-3/5 mx-auto">
+        <div className="relative mx-auto w-full sm:w-4/5">
+          <label htmlFor="navigation-query" className="sr-only">搜索资源</label>
           <input
+            id="navigation-query"
             ref={inputRef}
             type="text"
             value={query}
@@ -156,10 +159,12 @@ export default function InpageSearch() {
             className="w-full h-11 px-4 pr-10 rounded-lg border border-input bg-background text-sm ring-offset-background file:border-0 file:bg-transparent file:text-sm file:font-medium placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-blue-600 focus-visible:ring-offset-0 disabled:cursor-not-allowed disabled:opacity-50 transition-shadow"
           />
           <button
+            type="button"
+            aria-label="提交搜索"
             onClick={(e) => handleSearch(e)}
             className="absolute right-2 top-1.5 p-1.5 text-muted-foreground hover:text-blue-600 transition-colors rounded-md focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-blue-600/50 focus-visible:ring-offset-2 focus-visible:ring-offset-background"
           >
-            <ArrowRight className="w-5 h-10" />
+            <ArrowRight className="h-5 w-5" />
           </button>
         </div>
 
@@ -174,6 +179,8 @@ export default function InpageSearch() {
             return (
               <button
                 key={item.id}
+                type="button"
+                aria-pressed={isActive}
                 onClick={() => setActiveChildIndex(index)}
                 className={cn(
                   // 基础样式：稍小的内边距

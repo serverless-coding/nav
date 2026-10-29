@@ -1,25 +1,21 @@
-const fs = require('fs')
-const path = require('path')
+const { getPublicPaths } = require("./lib/public-pages.cjs")
+const navigation = require("./config/navigation.json")
+const { baseUrl } = require("./config/url.json")
+
+const paths = getPublicPaths(navigation)
+const allowed = new Set(paths)
 
 /** @type {import('next-sitemap').IConfig} */
 module.exports = {
-  siteUrl: 'https://nav.programnotes.cn',
+  siteUrl: baseUrl,
+  sourceDir: process.env.NEXT_DIST_DIR || ".next",
   generateRobotsTxt: true,
-  changefreq: 'daily',
-  priority: 0.7,
+  autoLastmod: false,
   sitemapSize: 5000,
-  additionalPaths: async () => {
-    const linksPath = path.join(process.cwd(), 'data/links.json')
-    const links = JSON.parse(fs.readFileSync(linksPath, 'utf8'))
-    const pages = links.data
-      .flatMap((category) => category.links)
-      .filter((link) => link.page)
-      .map((link) => ({
-        loc: `/page/${link.page.replace('.md', '')}`,
-        lastmod: new Date().toISOString(),
-        changefreq: 'weekly',
-        priority: 0.6,
-      }))
-    return pages
+  exclude: ["/ai", "/api/*", "/server-sitemap.xml"],
+  transform: async (_config, url) => allowed.has(url) ? { loc: url } : null,
+  additionalPaths: async () => paths.map(loc => ({ loc })),
+  robotsTxtOptions: {
+    additionalSitemaps: [`${baseUrl}/server-sitemap.xml`],
   },
 }

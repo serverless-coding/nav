@@ -3,6 +3,7 @@ import { CategoryWithLinks } from "@/app/links"
 import { Link as SiteLink } from "@/types/nav";
 import NextLink from "next/link"
 import { Icons } from "./icons";
+import { searchHref } from "@/lib/nav-search"
 
 export function LinkItem({ link }: { link: SiteLink }) {
   return (
@@ -29,7 +30,7 @@ export function LinkItem({ link }: { link: SiteLink }) {
           </NextLink>
         </div>
         {link.page && (
-          <NextLink href={`/page/${link.page.replace(".md", "")}`} className="absolute top-2 right-2">
+          <NextLink href={`/page/${link.page.replace(".md", "")}`} className="absolute top-2 right-2" aria-label={`查看 ${link.title} 的介绍`}>
             <Icons.book className="h-4 w-4" />
           </NextLink>
         )}
@@ -46,17 +47,25 @@ export function LinkContent({ navResources, activeSubject, activeQuery }: { navR
   return (
     <div className="w-full pt-4">
       <div className="mx-auto w-full px-4 md:px-6">
+        {(activeQuery || activeSubject) && (
+          <div className="mb-6 flex items-center gap-4">
+            <p role="status">找到 {navResources.reduce((sum, category) => sum + category.links.length, 0)} 个资源</p>
+            <NextLink href="/" scroll={false} className="text-primary underline">清除所有筛选</NextLink>
+          </div>
+        )}
+        {navResources.length === 0 && <p className="py-12 text-center text-muted-foreground">没有找到匹配的资源，请尝试其他关键词。</p>}
         {
           navResources.map((category) => {
             return (
-              <div id={category.id} key={category.id} className="mb-12">
+              <div id={category.id} key={category.id} className="mb-12 scroll-mt-24">
                 <div className="my-4">
                   <div className="flex items-center flex-wrap gap-2">
-                    <h1 className="mb-2 text-2xl font-bold text-primary/80 sm:text-3xl mr-3">{category.title}</h1>
+                    <h2 className="mb-2 text-2xl font-bold text-primary/80 sm:text-3xl mr-3">{category.title}</h2>
                     {Array.from(new Set(category.links.flatMap(l => Array.isArray(l.subject) ? l.subject : [(l.subject || '').trim()]).filter(Boolean))).map((sub) => (
                       <NextLink
                         key={sub}
-                        href={`/?${new URLSearchParams({ ...(activeQuery ? { q: activeQuery } : {}), subject: sub }).toString()}`}
+                        href={searchHref({ q: activeQuery || "", subject: sub })}
+                        scroll={false}
                         className={`px-4 py-1.5 text-xs md:text-sm rounded-full transition-all duration-200 border border-transparent focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 ${activeSubject === sub ? 'bg-gradient-to-r from-blue-600 to-blue-700 text-white shadow-md shadow-blue-500/20 focus-visible:ring-white/70 focus-visible:ring-offset-blue-700' : 'text-muted-foreground bg-transparent hover:bg-muted/50 hover:text-foreground focus-visible:ring-blue-500/40 focus-visible:ring-offset-background'}`}
                         aria-label={`筛选 ${sub}`}
                       >
@@ -65,7 +74,8 @@ export function LinkContent({ navResources, activeSubject, activeQuery }: { navR
                     ))}
                     {(activeSubject) && (
                       <NextLink
-                        href={`/?${new URLSearchParams({ ...(activeQuery ? { q: activeQuery } : {}) }).toString()}`}
+                        href={searchHref({ q: activeQuery || "", subject: "" })}
+                        scroll={false}
                         className={`ml-2 px-4 py-1.5 text-xs md:text-sm rounded-full transition-all duration-200 border border-transparent focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 text-muted-foreground bg-transparent hover:bg-muted/50 hover:text-foreground focus-visible:ring-blue-500/40 focus-visible:ring-offset-background`}
                         aria-label={`清除筛选`}
                       >

@@ -1,0 +1,29 @@
+name: Quality
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: pnpm/action-setup@v4
+        with:
+          version: 8.15.9
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 18.20.8
+          cache: pnpm
+      - run: pnpm install --frozen-lockfile
+      - run: pnpm check:data
+      - run: pnpm test
+      - run: pnpm exec tsc --noEmit --incremental false
+      - run: pnpm exec next lint --no-cache
+      - run: pnpm build
+      - run: pnpm test:production
