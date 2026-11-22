@@ -1,30 +1,30 @@
-# AI聊天详情页草稿（第二批，2026-11-22）
+# AI搜索详情页草稿（第三批，2026-11-22）
 
-本目录不会上线（getAllPageSlugs 只读 pages/ 根目录）。审核后把 md 移到 `pages/`，并在 `data/links.json` 对应卡片加 `page` 字段。
+本目录不会上线。baixiaoying.md 为上一批暂缓的草稿。
 
-## 草稿对照表
-
-| 草稿文件 | links.json title（分类） | 建议 page 值 | 其他分类中的同名卡片（发布时一并加） | 未核实项 |
+| 草稿 | links.json 工具 title（分类） | 建议 page 值 | 未核实项 | 可信度 |
 |---|---|---|---|---|
-| doubao.md | 豆包（AI聊天） | doubao.md | 最热：豆包 | 免费额度；桌面端；专业版价格来自媒体报道，非官网直采 |
-| kimi.md | Kimi Chat（AI聊天） | kimi.md | AI搜索：Kimi搜索（同一网址，可考虑共用） | 免费额度；桌面端 |
-| chatglm.md | 智谱清言（AI聊天） | chatglm.md | 最热：智谱清言 | C 端会员价格；免费额度；清言当前默认模型 |
-| wenxin-yiyan.md | 文心一言（AI聊天） | wenxin-yiyan.md | — | 2025 年免费后是否新增付费档；当前模型版本 |
-| hailuo-ai.md | 海螺AI（AI聊天） | hailuo-ai.md | — | 国内站价格；对话功能是否仍保留（产品已转向视频） |
-| xinghuo.md | 讯飞星火大模型（AI聊天） | xinghuo.md | 最热：讯飞星火大模型 | 会员档位；免费额度；C 端默认模型 |
-| yuewen.md | 跃问（AI聊天） | yuewen.md | — | 价格；yuewen.cn 是否跳转到阶跃AI |
-| zhida.md | 知乎直答（AI聊天） | zhida.md | — | 付费档位与额度；除 DeepSeek-R1 外的模型 |
-| nami-ai.md | 纳米AI（AI聊天） | nami-ai.md | — | 会员价格；支持的模型列表 |
-| baixiaoying.md | 百小应（AI聊天） | baixiaoying.md | — | 价格、App、功能，整体资料少，建议人工复核或暂缓发布 |
+| deepseek.md | DeepSeek（AI搜索） | deepseek.md | API 单价；对话产品是否有付费档 | 较高（模型名来自官方文档） |
+| metaso.md | 秘塔AI搜索（AI搜索、最热） | metaso.md | 会员价格；免登录政策 | 中 |
+| tiangong-ai.md | 天工AI（AI搜索、最热） | tiangong-ai.md | 会员与智能体价格 | 中 |
+| genspark.md | Genspark（AI搜索） | genspark.md | 国内访问 | 较高（价格来自官方帮助中心） |
+| nami-search.md | 纳米搜索 n.cn（AI搜索） | nami-search.md | 付费功能；与 360AI搜索 的关系 | 中 |
+| kaisou-ai.md | 开搜AI问答搜索（AI搜索） | kaisou-ai.md | 开发公司、模型、付费 | 低 |
+| iflow.md | 心流·AI助手（AI搜索、最热） | iflow.md | C 端价格；iFlow CLI 免费政策 | 中 |
+| jiumo.md | 鸠摩搜索/Jiumo（AI搜索） | jiumo.md | 会员功能；版权风险提示 | 中 |
+| delilegal.md | 得理法搜（AI搜索） | delilegal.md | 价格；数据规模 | 中 |
 
 ## 跳过的工具
+- Kimi搜索：已挂 kimi.md。
+- 360AI搜索（sou.com）：与纳米搜索同属 360 AI 搜索，关系未核实；建议先共用 nami-search.md，确认后再决定是否单独成篇。“最热”分类也有一张 纳米搜索 卡片（url sou.com），同样可挂 nami-search.md。
+- Algolia、Felo、Globe：名额外未写。
 
-- **通义千问**：pages/ 已有 `qwen.md`，且“最热”分类的通义千问卡片已用它。建议直接给 AI聊天分类的通义千问卡片加 `"page": "qwen.md"`，不另写。
-- **腾讯元宝**：已有 `yuanbao.md`，卡片已挂载。
-- **万知**：本批名额已满，未写。
+## 其他分类的同名/同网址卡片（发布时同步加 page）
+- 最热：秘塔AI搜索、天工AI、心流·AI助手、纳米搜索（sou.com）。
 
-## 发布前需注意
-
-- 所有官网首页均抓取失败（反爬或需 JS），价格和功能主要来自官方帮助页（Kimi）、官方公告转载（文心一言）、应用商店和第三方媒体，可信度低于上一批。
-- links.json 卡片描述建议同步更新：纳米AI 原描述“AI招聘助手”疑似有误；海螺AI 现以视频生成为主；Kimi 网址 kimi.moonshot.cn 可更新为 www.kimi.com。
-- 草稿之间互相引用 /page/doubao、/page/kimi 等，需整批发布后才有效。
+## 建议修正的卡片信息
+- DeepSeek 描述“AI对话与编程助手”可补充“免费对话 + 开放 API”。
+- 鸠摩搜索/Jiumo 不是 AI 产品，建议移到“工具”分类；描述里堆砌关键词（摩鸠、鸠魔、jiumosoushu）建议精简。
+- 天工AI 描述“国内第一款AI搜索引擎”为自我宣传，建议改为客观表述。
+- 360AI搜索 与“最热”中的“纳米搜索”网址都是 sou.com，而 AI搜索 分类的纳米搜索是 n.cn，名称和网址对应关系建议统一。
+- Algolia 是开发者站内搜索服务，不是面向大众的 AI 搜索，描述“懂你所需，领先竞品一步”是营销语，建议改写或移到“工具/云服务”。

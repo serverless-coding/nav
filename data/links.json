@@ -146,7 +146,8 @@
         {
           "title": "秘塔AI搜索",
           "url": "https://metaso.cn",
-          "description": "秘塔AI搜索，没有广告，直达结果"
+          "description": "秘塔AI搜索，没有广告，直达结果",
+          "page": "metaso.md"
         },
         {
           "title": "Vidu",
@@ -156,7 +157,8 @@
         {
           "title": "心流·AI助手",
           "url": "https://iflow.cn",
-          "description": "心流是一款AI助手，帮助你高效获取知识，无论是日常娱乐生活百科还是专业学术论文知识，都可以轻松解答，让你快速进入心流状态，让知识随心流动！"
+          "description": "心流是一款AI助手，帮助你高效获取知识，无论是日常娱乐生活百科还是专业学术论文知识，都可以轻松解答，让你快速进入心流状态，让知识随心流动！",
+          "page": "iflow.md"
         },
         {
           "title": "可灵AI",
@@ -176,7 +178,8 @@
         {
           "title": "纳米搜索",
           "url": "https://sou.com",
-          "description": "纳米搜索,360AI搜索,Deepseek免费用，新一代智能答案引擎，值得信赖的智能搜索伙伴，为复杂搜索提供专业支持，解锁更相关、更全面的答案。AI对用户提问进行精准语义分析，并通过追问获取更多有价值信息，将问题拆分为多组关键词后再进行搜索引擎检索，深度阅读网页内容，最终呈现逻辑清晰、准确无误的答案。"
+          "description": "纳米搜索,360AI搜索,Deepseek免费用，新一代智能答案引擎，值得信赖的智能搜索伙伴，为复杂搜索提供专业支持，解锁更相关、更全面的答案。AI对用户提问进行精准语义分析，并通过追问获取更多有价值信息，将问题拆分为多组关键词后再进行搜索引擎检索，深度阅读网页内容，最终呈现逻辑清晰、准确无误的答案。",
+          "page": "nami-ai.md"
         },
         {
           "title": "mcp中文文档",
@@ -198,7 +201,8 @@
         {
           "title": "天工AI",
           "url": "https://tiangong.cn",
-          "description": "天工是国内第一款AI搜索引擎，它能够理解用户意图，搜索全网海量信息，并通过人工智能技术，归纳、概括、整合这些信息，输出高质量、无广告的搜索结果，还能够把搜索结果自动整理为脑图和大纲，支持专业的学术科研类搜索。此外，天工还具备聊天、写作、问答、画画的能力。天工通过自然语言与用户进行问答交互，可满足知识问答、文章创作、逻辑推演、数理推算、代码编程、AI画画、虚拟人聊天、情感陪伴等多元化需求。天工还具有大量的智能体，在学习、职场、生活等多类场景中都能辅助你。"
+          "description": "昆仑万维推出的AI搜索与智能体平台，整合AI搜索、写作、文档分析等功能，支持学术搜索和结果整理为脑图大纲",
+          "page": "tiangong-ai.md"
         },
         {
           "title": "ai 导航",
@@ -569,25 +573,20 @@
         {
           "title": "秘塔AI搜索",
           "url": "https://metaso.cn",
-          "description": "秘塔AI搜索，没有广告，直达结果"
-        },
-        {
-          "title": "鸠摩搜索/Jiumo",
-          "url": "https://www.jiumodiary.com/",
-          "description": "鸠摩搜索, 文档, 电子书, 摩鸠, 鸠魔, kindle, ebook, jiumosoushu, 找书",
-          "subject": [
-            "电子书"
-          ]
+          "description": "秘塔AI搜索，没有广告，直达结果",
+          "page": "metaso.md"
         },
         {
           "title": "得理法搜",
           "url": "https://data.delilegal.com",
-          "description": "智能法律工具，助力律师高效工作"
+          "description": "智能法律工具，助力律师高效工作",
+          "page": "delilegal.md"
         },
         {
           "title": "DeepSeek",
           "url": "https://chat.deepseek.com",
-          "description": "AI对话与编程助手"
+          "description": "深度求索推出的大模型，网页和App可免费对话，同时开放兼容OpenAI格式的API",
+          "page": "deepseek.md"
         },
         {
           "title": "开搜AI问答搜索",
@@ -597,27 +596,32 @@
         {
           "title": "心流·AI助手",
           "url": "https://iflow.cn",
-          "description": "心流是一款AI助手，帮助你高效获取知识，无论是日常娱乐生活百科还是专业学术论文知识，都可以轻松解答，让你快速进入心流状态，让知识随心流动！"
+          "description": "心流是一款AI助手，帮助你高效获取知识，无论是日常娱乐生活百科还是专业学术论文知识，都可以轻松解答，让你快速进入心流状态，让知识随心流动！",
+          "page": "iflow.md"
         },
         {
           "title": "360AI搜索",
           "url": "https://sou.com",
-          "description": "360AI搜索，新一代智能答案引擎，值得信赖的智能搜索伙伴，为复杂搜索提供专业支持，解锁更相关、更全面的答案。AI对用户提问进行精准语义分析，并通过追问获取更多有价值信息，将问题拆分为多组关键词后再进行搜索引擎检索，深度阅读网页内容，最终呈现逻辑清晰、准确无误的答案。"
+          "description": "360AI搜索，新一代智能答案引擎，值得信赖的智能搜索伙伴，为复杂搜索提供专业支持，解锁更相关、更全面的答案。AI对用户提问进行精准语义分析，并通过追问获取更多有价值信息，将问题拆分为多组关键词后再进行搜索引擎检索，深度阅读网页内容，最终呈现逻辑清晰、准确无误的答案。",
+          "page": "nami-ai.md"
         },
         {
           "title": "天工AI",
           "url": "https://tiangong.cn",
-          "description": "天工是国内第一款AI搜索引擎，它能够理解用户意图，搜索全网海量信息，并通过人工智能技术，归纳、概括、整合这些信息，输出高质量、无广告的搜索结果，还能够把搜索结果自动整理为脑图和大纲，支持专业的学术科研类搜索。此外，天工还具备聊天、写作、问答、画画的能力。天工通过自然语言与用户进行问答交互，可满足知识问答、文章创作、逻辑推演、数理推算、代码编程、AI画画、虚拟人聊天、情感陪伴等多元化需求。天工还具有大量的智能体，在学习、职场、生活等多类场景中都能辅助你。"
+          "description": "昆仑万维推出的AI搜索与智能体平台，整合AI搜索、写作、文档分析等功能，支持学术搜索和结果整理为脑图大纲",
+          "page": "tiangong-ai.md"
         },
         {
           "title": "纳米搜索 n.cn",
           "url": "https://n.cn",
-          "description": "360旗下AI搜索引擎"
+          "description": "360旗下AI搜索引擎",
+          "page": "nami-ai.md"
         },
         {
           "title": "Genspark",
           "url": "https://genspark.ai",
-          "description": "AI搜索助手，高效便捷"
+          "description": "AI搜索助手，高效便捷",
+          "page": "genspark.md"
         },
         {
           "title": "Algolia",
@@ -980,7 +984,8 @@
         {
           "title": "得理法搜",
           "url": "https://data.delilegal.com",
-          "description": "智能法律工具，助力律师高效工作"
+          "description": "智能法律工具，助力律师高效工作",
+          "page": "delilegal.md"
         },
         {
           "title": "苏打办公",
@@ -1512,6 +1517,15 @@
           "title": "Font Awesome",
           "url": "https://fontawesome.com/v5/search?o=r&m=free",
           "description": "Font Awesome v5 免费图标搜索"
+        },
+        {
+          "title": "鸠摩搜索/Jiumo",
+          "url": "https://www.jiumodiary.com/",
+          "description": "电子书检索工具，可按书名搜索第三方网盘与书站中的电子书资源",
+          "subject": [
+            "电子书"
+          ],
+          "page": "jiumo.md"
         }
       ]
     },
