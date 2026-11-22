@@ -1,3 +1,6 @@
+import { sanitizeDocument, escapeHtml } from '@/lib/sanitize';
+import JsonLd from '@/components/JsonLd';
+import { getCategorySlug } from '@/app/links';
 import fs from 'fs';
 import path from 'path';
 import { marked } from 'marked';
@@ -8,26 +11,44 @@ import ClientMarkdownContent from './markdown-content';
 import { Metadata } from 'next';
 import { JSDOM } from 'jsdom';
 import { siteConfig } from '@/config/site';
+import { notFound } from 'next/navigation';
+import { getAllPageSlugs, getPageMeta, pageExists } from '@/lib/pages';
 
 // Configure marked with header IDs
 const renderer = new marked.Renderer();
 
+// 预生成 pages/ 下所有 md；未预生成的 slug 在运行时按需渲染，
+// 文件不存在时由下方 pageExists() 判断返回 404
+export const dynamicParams = true;
+
 export async function generateMetadata({ params }: { params: { slug: string } }): Promise<Metadata> {
   const { slug } = params;
-  const filePath = path.join(process.cwd(), 'pages', `${slug}.md`);
-  const content = fs.readFileSync(filePath, 'utf8');
-  const firstHeading = content.match(/^#\s(.*?)$/m)?.[1] || 'Default Title';
-
-  // Extract keywords from the first three headings
-  const headings = [...content.matchAll(/^#+\s(.*?)$/gm)].slice(0, 3).map(match => {
-    const linkMatch = match[1].match(/\[(.*?)\]\((.*?)\)/);
-    return linkMatch ? linkMatch[1] : match[1];
-  }).filter(heading => heading.trim() !== '');
-  const keywords = headings.join(', ');
+  if (!pageExists(slug)) return {};
+  const meta = getPageMeta(slug);
+  const url = `/page/${slug}`;
+  const images = meta.image ? [{ url: meta.image }] : undefined;
 
   return {
-    title: firstHeading,
-    keywords: keywords,
+    title: meta.title,
+    description: meta.description,
+    keywords: meta.keywords,
+    alternates: { canonical: url },
+    openGraph: {
+      type: 'article',
+      url,
+      title: meta.title,
+      description: meta.description,
+      siteName: siteConfig.name,
+      locale: 'zh_CN',
+      modifiedTime: meta.updated.toISOString(),
+      images,
+    },
+    twitter: {
+      card: images ? 'summary_large_image' : 'summary',
+      title: meta.title,
+      description: meta.description,
+      images: meta.image ? [meta.image] : undefined,
+    },
   };
 }
 
@@ -50,20 +71,15 @@ marked.setOptions({
 });
 
 export async function generateStaticParams() {
-  const links = (await import('@/data/links.json')).default;
-  const pages = links.data
-    .flatMap(category => category.links)
-    .filter((link): link is typeof link & { page: string } => Boolean(link.page))
-    .map(link => ({
-      slug: link.page.replace('.md', '')
-    }));
-  return pages;
+  // 预生成 pages/ 下所有 md（包括 about/mirror/devtool/free/haoka 等导航页）
+  return getAllPageSlugs().map(slug => ({ slug }));
 }
 
 export default async function Page({ params }: { params: { slug: string } }) {
   const { slug } = params;
-  const filePath = path.join(process.cwd(), 'pages', `${slug}.md`);
-  const content = fs.readFileSync(filePath, 'utf8');
+  if (!pageExists(slug)) notFound();
+  const meta = getPageMeta(slug);
+  const { content } = meta;
   let htmlContent = await marked(content);
 
   // Add alt attributes to images
@@ -104,21 +120,26 @@ export default async function Page({ params }: { params: { slug: string } }) {
   }
 
   // Insert navigation links after h1
+  // 先清洗 markdown 渲染结果，再插入由数据生成的导航（数据字段做转义）
+  sanitizeDocument(dom.window.document);
   const h1 = dom.window.document.querySelector('h1');
   if (h1) {
     const nav = dom.window.document.createElement('div');
     nav.className = 'flex justify-between items-center mt-4 mb-8 text-sm text-muted-foreground';
 
+    const safeUrl = /^https?:\/\//i.test(currentUrl) ? currentUrl : '';
+    const refUrl = safeUrl ? `${safeUrl}${safeUrl.includes('?') ? '&' : '?'}ref=${encodeURIComponent(siteConfig.baseUrl)}` : '';
+    const pageHref = (p?: string) => `/page/${encodeURIComponent((p || '').replace(/\.md$/, ''))}`;
     nav.innerHTML = `
       <div class="space-x-4">
       ${categoryTitle ? `
-        <span>分类：${categoryTitle}</span>
-        ${currentUrl ? `<a href="${currentUrl}?ref=${siteConfig.baseUrl || 'https://nav.programnotes.cn'}" target="_blank" class="hover:text-foreground">前往</a>` : ''}
+        <span>分类：${escapeHtml(categoryTitle)}</span>
+        ${refUrl ? `<a href="${escapeHtml(refUrl)}" target="_blank" rel="noopener noreferrer" class="hover:text-foreground">前往官网</a>` : ''}
       ` : ''}
       </div>
       <div class="space-x-4">
-      ${prevLink?.page ? `<a href="/page/${prevLink.page?.replace('.md', '')}" class="hover:text-foreground">← ${prevLink.title}</a>` : ''}
-      ${nextLink?.page ? `<a href="/page/${nextLink.page?.replace('.md', '')}" class="hover:text-foreground">${nextLink.title} →</a>` : ''}
+      ${prevLink?.page ? `<a href="${pageHref(prevLink.page)}" class="hover:text-foreground">← ${escapeHtml(prevLink.title || '')}</a>` : ''}
+      ${nextLink?.page ? `<a href="${pageHref(nextLink.page)}" class="hover:text-foreground">${escapeHtml(nextLink.title || '')} →</a>` : ''}
       </div>
     `;
 
@@ -127,8 +148,49 @@ export default async function Page({ params }: { params: { slug: string } }) {
 
   htmlContent = dom.window.document.body.innerHTML;
 
+  // 详情页结构化数据：Article（含工具信息）+ BreadcrumbList
+  const base = siteConfig.baseUrl;
+  const pageUrl = `${base}/page/${slug}`;
+  const toolLink = links.data.flatMap(c => c.links).find((l: any) => l.page === currentPage) as any;
+  const articleLd: Record<string, any> = {
+    '@context': 'https://schema.org',
+    '@type': 'Article',
+    '@id': `${pageUrl}#article`,
+    headline: meta.title,
+    description: meta.description,
+    url: pageUrl,
+    mainEntityOfPage: pageUrl,
+    inLanguage: 'zh-CN',
+    dateModified: meta.updated.toISOString(),
+    author: { '@id': `${base}/#organization` },
+    publisher: { '@id': `${base}/#organization` },
+    isPartOf: { '@id': `${base}/#website` },
+    ...(meta.image ? { image: meta.image.startsWith('http') ? meta.image : `${base}${meta.image}` } : {}),
+    ...(meta.keywords.length ? { keywords: meta.keywords.join(',') } : {}),
+  };
+  if (toolLink) {
+    articleLd.about = {
+      '@type': 'SoftwareApplication',
+      name: toolLink.title,
+      url: toolLink.url,
+      description: toolLink.description,
+      applicationCategory: categoryTitle || 'WebApplication',
+      operatingSystem: 'Web',
+    };
+  }
+  const breadcrumbLd = {
+    '@context': 'https://schema.org',
+    '@type': 'BreadcrumbList',
+    itemListElement: [
+      { '@type': 'ListItem', position: 1, name: '首页', item: base },
+      ...(categoryTitle ? [{ '@type': 'ListItem', position: 2, name: categoryTitle, item: `${base}/category/${getCategorySlug(categoryTitle, links.data.findIndex(c => c.title === categoryTitle))}` }] : []),
+      { '@type': 'ListItem', position: categoryTitle ? 3 : 2, name: meta.title, item: pageUrl },
+    ],
+  };
+
   return (
     <div className="min-h-screen bg-background">
+      <JsonLd data={[articleLd, breadcrumbLd]} />
       <div className="mx-auto max-w-7xl px-4 py-8 sm:px-6 lg:px-8">
         <Link
           href="/"
@@ -142,6 +204,9 @@ export default async function Page({ params }: { params: { slug: string } }) {
           <TableOfContents />
           <article className="prose max-w-4xl flex-1 dark:prose-invert">
             <ClientMarkdownContent htmlContent={htmlContent} />
+            <p className="mt-8 text-sm text-muted-foreground not-prose">
+              最后更新：<time dateTime={meta.updated.toISOString()}>{meta.updated.toISOString().slice(0, 10)}</time> · 由 {siteConfig.name} 整理
+            </p>
           </article>
         </div>
       </div>

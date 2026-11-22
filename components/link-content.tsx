@@ -15,7 +15,7 @@ export function LinkItem({ link }: { link: SiteLink }) {
                 <Image
                   src={link.icon}
                   className="object-fill"
-                  alt=""
+                  alt={`${link.title} logo`}
                   width={40}
                   height={40}
                 />
@@ -29,7 +29,7 @@ export function LinkItem({ link }: { link: SiteLink }) {
           </NextLink>
         </div>
         {link.page && (
-          <NextLink href={`/page/${link.page.replace(".md", "")}`} className="absolute top-2 right-2">
+          <NextLink href={`/page/${link.page.replace(".md", "")}`} className="absolute top-2 right-2" title={`${link.title} 介绍与使用教程`} aria-label={`${link.title} 介绍与使用教程`}>
             <Icons.book className="h-4 w-4" />
           </NextLink>
         )}
@@ -41,7 +41,7 @@ export function LinkItem({ link }: { link: SiteLink }) {
   );
 }
 
-export function LinkContent({ navResources, activeSubject, activeQuery }: { navResources: CategoryWithLinks[], activeSubject?: string, activeQuery?: string }) {
+export function LinkContent({ navResources, activeSubject, activeQuery, hideMore }: { navResources: CategoryWithLinks[], activeSubject?: string, activeQuery?: string, hideMore?: boolean }) {
 
   return (
     <div className="w-full pt-4">
@@ -49,10 +49,19 @@ export function LinkContent({ navResources, activeSubject, activeQuery }: { navR
         {
           navResources.map((category) => {
             return (
-              <div id={category.id} key={category.id} className="mb-12">
+              <section id={category.id} key={category.id} className="mb-12 scroll-mt-20" aria-labelledby={`${category.id}-title`}>
                 <div className="my-4">
                   <div className="flex items-center flex-wrap gap-2">
-                    <h1 className="mb-2 text-2xl font-bold text-primary/80 sm:text-3xl mr-3">{category.title}</h1>
+                    <h2 id={`${category.id}-title`} className="mb-2 text-2xl font-bold text-primary/80 sm:text-3xl mr-3">
+                      {hideMore ? category.title : (
+                        <NextLink href={`/category/${category.id}`} className="hover:underline">{category.title}</NextLink>
+                      )}
+                    </h2>
+                    {!hideMore && (
+                      <NextLink href={`/category/${category.id}`} className="order-last ml-auto text-sm text-muted-foreground hover:text-foreground" aria-label={`查看全部${category.title}工具`}>
+                        查看全部 →
+                      </NextLink>
+                    )}
                     {Array.from(new Set(category.links.flatMap(l => Array.isArray(l.subject) ? l.subject : [(l.subject || '').trim()]).filter(Boolean))).map((sub) => (
                       <NextLink
                         key={sub}
@@ -81,7 +90,7 @@ export function LinkContent({ navResources, activeSubject, activeQuery }: { navR
                     ))
                   }
                 </div>
-              </div>
+              </section>
             )
           })
         }

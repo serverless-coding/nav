@@ -29,7 +29,8 @@
           "description": "豆包是你的 AI 聊天智能对话问答助手，写作文案翻译情感陪伴编程全能工具。豆包为你答疑解惑，提供灵感，辅助创作，也可以和你畅聊任何你感兴趣的话题。",
           "subject": [
             "AI"
-          ]
+          ],
+          "page": "doubao.md"
         },
         {
           "title": "SiliconFlow",
@@ -82,7 +83,8 @@
         {
           "title": "讯飞星火大模型",
           "url": "https://xinghuo.xfyun.cn",
-          "description": "科大讯飞推出的认知智能大模型"
+          "description": "科大讯飞推出的认知智能大模型",
+          "page": "xinghuo.md"
         },
         {
           "title": "免费gpt",
@@ -107,7 +109,7 @@
         },
         {
           "title": "Windsurf Editor by Codeium",
-          "url": "https://codeium.com/windsurf",
+          "url": "https://windsurf.com",
           "description": "Codeium AI编程助手"
         },
         {
@@ -190,7 +192,8 @@
         {
           "title": "智谱清言",
           "url": "https://chatglm.cn",
-          "description": "中国版对话语言模型，与GLM大模型进行对话。"
+          "description": "中国版对话语言模型，与GLM大模型进行对话。",
+          "page": "chatglm.md"
         },
         {
           "title": "天工AI",
@@ -332,22 +335,26 @@
         {
           "title": "Bolt.new",
           "url": "https://bolt.new/?rid=1gguvu",
-          "description": "AI编程,在线编译器,在线编辑,运行,部署,注册送200K tokens"
+          "description": "AI编程,在线编译器,在线编辑,运行,部署,注册送200K tokens",
+          "page": "bolt-new.md"
         },
         {
           "title": "GitHub Copilot",
           "url": "https://github.com/features/copilot?ref=https://nav.programnotes.cn",
-          "description": "人工智能编程助手"
+          "description": "人工智能编程助手",
+          "page": "github-copilot.md"
         },
         {
           "title": "Cursor",
-          "url": "https://www.cursor.so",
-          "description": "智能AI代码编辑器"
+          "url": "https://cursor.com",
+          "description": "智能AI代码编辑器",
+          "page": "cursor.md"
         },
         {
           "title": "Windsurf",
-          "url": "https://codeium.com/windsurf?ref=https://nav.programnotes.cn",
-          "description": "智能AI代码编辑器,由codeium开发"
+          "url": "https://windsurf.com?ref=https://nav.programnotes.cn",
+          "description": "智能AI代码编辑器,由codeium开发",
+          "page": "windsurf.md"
         },
         {
           "title": "Trae",
@@ -358,7 +365,8 @@
         {
           "title": "通义灵码",
           "url": "https://tongyi.aliyun.com/lingma?ref=https://nav.programnotes.cn",
-          "description": "阿里旗下智能编码助手"
+          "description": "阿里旗下智能编码助手",
+          "page": "tongyi-lingma.md"
         },
         {
           "title": "小浣熊家族",
@@ -369,17 +377,20 @@
           "title": "CodeFuse",
           "icon": "/red.svg",
           "url": "https://codefuse.alipay.com",
-          "description": "AI代码助手，全周期开发支持"
+          "description": "AI代码助手，全周期开发支持",
+          "page": "codefuse.md"
         },
         {
           "title": "百度Comate",
           "url": "https://comate.baidu.com",
-          "description": ""
+          "description": "百度推出的智能编码助手（文心快码）",
+          "page": "baidu-comate.md"
         },
         {
           "title": "CodeSandbox",
           "url": "https://codesandbox.io",
-          "description": "云上协同开发，秒级重启环境"
+          "description": "云上协同开发，秒级重启环境",
+          "page": "codesandbox.md"
         },
         {
           "title": "Wordware",
@@ -389,12 +400,14 @@
         {
           "title": "CodeGeeX",
           "url": "https://codegeex.cn",
-          "description": "CodeGeeX is an AI-based coding assistant, which can suggest code in the current or following lines. It is powered by a large-scale multilingual code generation model with 13 billion parameters, pretrained on a large code corpus of more than 20 programming languages. CodeGeeX是一个基于AI大模型的编程辅助工具，可以实现自动代码生成、代码翻译、自动编写注释等功能，支持20多种编程语言。"
+          "description": "CodeGeeX is an AI-based coding assistant, which can suggest code in the current or following lines. It is powered by a large-scale multilingual code generation model with 13 billion parameters, pretrained on a large code corpus of more than 20 programming languages. CodeGeeX是一个基于AI大模型的编程辅助工具，可以实现自动代码生成、代码翻译、自动编写注释等功能，支持20多种编程语言。",
+          "page": "codegeex.md"
         },
         {
           "title": "Replit",
           "url": "https://replit.com",
-          "description": "Replit – Build software faster"
+          "description": "Replit – Build software faster",
+          "page": "replit.md"
         },
         {
           "title": "Devv",
@@ -415,17 +428,20 @@
         {
           "title": "豆包",
           "url": "https://doubao.com",
-          "description": "豆包是你的 AI 聊天智能对话问答助手，写作文案翻译情感陪伴编程全能工具。豆包为你答疑解惑，提供灵感，辅助创作，也可以和你畅聊任何你感兴趣的话题。"
+          "description": "豆包是你的 AI 聊天智能对话问答助手，写作文案翻译情感陪伴编程全能工具。豆包为你答疑解惑，提供灵感，辅助创作，也可以和你畅聊任何你感兴趣的话题。",
+          "page": "doubao.md"
         },
         {
           "title": "纳米AI",
           "url": "https://bot.360.com",
-          "description": "AI招聘助手，简化招聘流程,在线使用Deepseek-R1满血版"
+          "description": "360推出的AI助手，一个入口整合国内十余家大模型，支持DeepSeek-R1等模型在线使用",
+          "page": "nami-ai.md"
         },
         {
           "title": "知乎直答",
           "url": "https://zhida.zhihu.com",
-          "description": "AI赋能，快速问答,在线使用Deepseek-R1满血版"
+          "description": "AI赋能，快速问答,在线使用Deepseek-R1满血版",
+          "page": "zhida.md"
         },
         {
           "title": "百小应",
@@ -440,12 +456,14 @@
         {
           "title": "海螺AI",
           "url": "https://hailuoai.com",
-          "description": "是 MiniMax 基于通用大模型为用户打造的AI伙伴，可以帮你分析财报、速读长文、创作文案、智能搜索等、拍照答疑等等，也支持语音通话。10倍速获取信息、10倍速解决问题。有问题，找海螺AI。"
+          "description": "MiniMax推出的AI创作平台，以AI视频生成为主，同时提供智能对话、长文速读等功能",
+          "page": "hailuo-ai.md"
         },
         {
           "title": "智谱清言",
           "url": "https://chatglm.cn",
-          "description": "中国版对话语言模型，与GLM大模型进行对话。"
+          "description": "中国版对话语言模型，与GLM大模型进行对话。",
+          "page": "chatglm.md"
         },
         {
           "title": "腾讯元宝",
@@ -456,27 +474,32 @@
         {
           "title": "讯飞星火大模型",
           "url": "https://xinghuo.xfyun.cn/desk",
-          "description": "科大讯飞推出的认知智能大模型"
+          "description": "科大讯飞推出的认知智能大模型",
+          "page": "xinghuo.md"
         },
         {
           "title": "Kimi Chat",
-          "url": "https://kimi.moonshot.cn",
-          "description": "Moonshot AI的200K超长上下文人工智能工具"
+          "url": "https://www.kimi.com",
+          "description": "Moonshot AI的200K超长上下文人工智能工具",
+          "page": "kimi.md"
         },
         {
           "title": "通义千问",
           "url": "https://tongyi.aliyun.com",
-          "description": "阿里云旗下大语言模型"
+          "description": "阿里云旗下大语言模型",
+          "page": "qwen.md"
         },
         {
           "title": "文心一言",
           "url": "https://yiyan.baidu.com",
-          "description": "百度旗下知识增强大语言模型"
+          "description": "百度旗下知识增强大语言模型",
+          "page": "wenxin-yiyan.md"
         },
         {
           "title": "跃问",
           "url": "https://yuewen.cn/",
-          "description": "在线使用Deepseek-R1满血版"
+          "description": "在线使用Deepseek-R1满血版",
+          "page": "yuewen.md"
         }
       ]
     },
@@ -539,8 +562,9 @@
         },
         {
           "title": "Kimi搜索",
-          "url": "https://kimi.moonshot.cn",
-          "description": "Moonshot AI的200K超长上下文人工智能工具"
+          "url": "https://www.kimi.com",
+          "description": "Moonshot AI的200K超长上下文人工智能工具",
+          "page": "kimi.md"
         },
         {
           "title": "秘塔AI搜索",

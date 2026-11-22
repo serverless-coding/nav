@@ -33,13 +33,16 @@ const components: Partial<Components> = {
       </span>
     );
   },
-  a: ({ node, children, ...props }) => {
+  a: ({ node, children, href, ...props }) => {
+    // AI 回复里的链接可能没有 href，此时按普通文本显示
+    if (!href) return <span {...(props as any)}>{children}</span>;
     return (
       <Link
         className="text-blue-500 hover:underline"
         target="_blank"
-        rel="noreferrer"
+        rel="noopener noreferrer nofollow"
         {...props}
+        href={href}
       >
         {children}
       </Link>

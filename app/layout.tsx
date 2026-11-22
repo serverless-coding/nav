@@ -1,5 +1,6 @@
 import "@/styles/globals.css"
-import type { Metadata } from "next"
+import type { Metadata, Viewport } from "next"
+import Script from "next/script"
 
 import { siteConfig } from "@/config/site"
 import { fontSans } from "@/lib/fonts"
@@ -13,11 +14,11 @@ import { Analytics } from "@vercel/analytics/react"
 export const metadata: Metadata = {
   metadataBase: new URL(siteConfig.baseUrl),
   title: {
-    default: "ProgramNotes程序导航 - AI工具、开发工具、程序员资源导航",
-    template: "%s - ProgramNotes程序导航",
+    default: siteConfig.title,
+    template: `%s - ${siteConfig.name}`,
   },
-  description:
-    "ProgramNotes程序导航，精选AI工具、编程开发工具、效率工具、设计资源和技术社区，为程序员提供高质量互联网资源导航。",
+  description: siteConfig.description,
+  applicationName: siteConfig.name,
   keywords: [
     "程序员导航",
     "AI工具导航",
@@ -29,17 +30,29 @@ export const metadata: Metadata = {
   ],
   authors: [
     {
-      name: "ProgramNotes",
+      name: siteConfig.shortName,
+      url: siteConfig.baseUrl,
     },
   ],
-  creator: "ProgramNotes",
+  creator: siteConfig.shortName,
+  publisher: siteConfig.shortName,
+  alternates: {
+    canonical: "/",
+  },
   openGraph: {
-    title: "ProgramNotes程序导航 - AI工具和开发资源大全",
-    description: "发现优秀AI工具、开发工具和程序员资源。",
+    title: siteConfig.title,
+    description: siteConfig.description,
     url: siteConfig.baseUrl,
-    siteName: "ProgramNotes",
+    siteName: siteConfig.name,
     locale: "zh_CN",
     type: "website",
+    images: [{ url: "/images/nav.png", alt: siteConfig.name }],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: siteConfig.title,
+    description: siteConfig.description,
+    images: ["/images/nav.png"],
   },
   robots: {
     index: true,
@@ -49,15 +62,26 @@ export const metadata: Metadata = {
       follow: true,
     },
   },
-  themeColor: [
-    { media: "(prefers-color-scheme: light)", color: "white" },
-    { media: "(prefers-color-scheme: dark)", color: "black" },
-  ],
+  verification: {
+    other: {
+      "msvalidate.01": "B6FE76A783A1770409EC903DE2C7AC6A",
+    },
+  },
   icons: {
     icon: siteConfig.icon.site,
     shortcut: siteConfig.icon.site,
     apple: siteConfig.icon.site,
   },
+}
+
+// Next 14 起 themeColor 需放在 viewport 导出中
+export const viewport: Viewport = {
+  width: "device-width",
+  initialScale: 1,
+  themeColor: [
+    { media: "(prefers-color-scheme: light)", color: "white" },
+    { media: "(prefers-color-scheme: dark)", color: "black" },
+  ],
 }
 
 interface RootLayoutProps {
@@ -82,6 +106,18 @@ export default function RootLayout({ children }: RootLayoutProps) {
             <Toaster />
           </ThemeProvider>
           <Analytics />
+          <Script
+            id="adsbygoogle"
+            src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3614504270218797"
+            strategy="afterInteractive"
+            crossOrigin="anonymous"
+          />
+          <Script
+            id="umami"
+            src="https://cloud.umami.is/script.js"
+            data-website-id="24038dd3-5c82-4fff-86dd-be73d8b1731b"
+            strategy="afterInteractive"
+          />
         </body>
       </html>
     </>

@@ -2,9 +2,12 @@ export type SiteConfig = typeof siteConfig
 
 export const siteConfig = {
   baseUrl: "https://nav.programnotes.cn",
-  name: "AI工具箱",
+  // 统一品牌名：title / OG / JSON-LD 都从这里取
+  name: "ProgramNotes程序导航",
+  shortName: "ProgramNotes",
+  title: "ProgramNotes程序导航 - AI工具、开发工具、程序员资源导航",
   description:
-    "AI工具箱,AI生成,影视,音乐,开发工具,免费资源,流量卡,Discover a variety of AI tools, frameworks, and resources for developers on this comprehensive platform",
+    "ProgramNotes程序导航，精选AI工具、编程开发工具、效率工具、设计资源和技术社区，为程序员提供高质量互联网资源导航。",
   mainNav: [
     {
       title: "首页",
