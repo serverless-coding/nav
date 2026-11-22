@@ -62,13 +62,6 @@
           ]
         },
         {
-          "title": "免费gpt,Gemini",
-          "url": "https://gemini.programnotes.cn",
-          "description": "google提供的Gemini系列大模型,提供免费大模型(类chatgpt),可在线使用",
-          "icon": "/red.svg",
-          "page": "gemini.md"
-        },
-        {
           "title": "Openrouter",
           "url": "https://openrouter.ai",
           "icon": "",
@@ -177,8 +170,8 @@
         },
         {
           "title": "纳米搜索",
-          "url": "https://sou.com",
-          "description": "纳米搜索,360AI搜索,Deepseek免费用，新一代智能答案引擎，值得信赖的智能搜索伙伴，为复杂搜索提供专业支持，解锁更相关、更全面的答案。AI对用户提问进行精准语义分析，并通过追问获取更多有价值信息，将问题拆分为多组关键词后再进行搜索引擎检索，深度阅读网页内容，最终呈现逻辑清晰、准确无误的答案。",
+          "url": "https://n.cn",
+          "description": "360推出的AI搜索引擎，支持文字、语音、图片、视频多种方式提问",
           "page": "nami-ai.md"
         },
         {
@@ -602,7 +595,7 @@
         {
           "title": "360AI搜索",
           "url": "https://sou.com",
-          "description": "360AI搜索，新一代智能答案引擎，值得信赖的智能搜索伙伴，为复杂搜索提供专业支持，解锁更相关、更全面的答案。AI对用户提问进行精准语义分析，并通过追问获取更多有价值信息，将问题拆分为多组关键词后再进行搜索引擎检索，深度阅读网页内容，最终呈现逻辑清晰、准确无误的答案。",
+          "description": "360推出的AI搜索，先理解问题、拆分关键词检索，再阅读网页整理出带来源的答案",
           "page": "nami-ai.md"
         },
         {
@@ -612,9 +605,9 @@
           "page": "tiangong-ai.md"
         },
         {
-          "title": "纳米搜索 n.cn",
+          "title": "纳米搜索",
           "url": "https://n.cn",
-          "description": "360旗下AI搜索引擎",
+          "description": "360推出的AI搜索引擎，支持文字、语音、图片、视频多种方式提问",
           "page": "nami-ai.md"
         },
         {
@@ -622,11 +615,6 @@
           "url": "https://genspark.ai",
           "description": "AI搜索助手，高效便捷",
           "page": "genspark.md"
-        },
-        {
-          "title": "Algolia",
-          "url": "https://algolia.com",
-          "description": "AI搜索，懂你所需，领先竞品一步。"
         },
         {
           "title": "Felo",
@@ -1526,6 +1514,11 @@
             "电子书"
           ],
           "page": "jiumo.md"
+        },
+        {
+          "title": "Algolia",
+          "url": "https://algolia.com",
+          "description": "面向开发者的站内搜索服务（SaaS），提供搜索API、AI语义搜索和推荐，常用于网站和文档搜索"
         }
       ]
     },
