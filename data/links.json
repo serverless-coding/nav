@@ -330,6 +330,54 @@
       "icon": "",
       "links": [
         {
+          "title": "Claude Code",
+          "url": "https://www.anthropic.com/claude-code",
+          "description": "Anthropic 官方终端编程 Agent，擅长多文件重构与长任务，支持 Skills、Subagents、Hooks 和 MCP，可用 Claude 订阅或 API",
+          "page": "claude-code.md"
+        },
+        {
+          "title": "OpenAI Codex",
+          "url": "https://github.com/openai/codex",
+          "description": "OpenAI 开源的终端编程 Agent（Apache-2.0），默认在沙箱中执行命令，可用 ChatGPT 订阅或 API，并可把任务交给 Codex Cloud",
+          "page": "codex.md"
+        },
+        {
+          "title": "DeepSeek Harness",
+          "url": "https://deepseek.com/en/harness/",
+          "description": "DeepSeek 开源的编程 Agent 框架（MIT），一切皆插件，支持网页界面和桌面端，可接入多家模型，并可调用 Claude Code、Codex 作为子 Agent",
+          "page": "deepseek-harness.md"
+        },
+        {
+          "title": "OpenCode",
+          "url": "https://opencode.ai",
+          "description": "开源终端编程 Agent（MIT），不绑定模型厂商，支持 Ollama 等本地模型，内置 build / plan 两种 Agent、LSP 与 MCP",
+          "page": "opencode.md"
+        },
+        {
+          "title": "Cline",
+          "url": "https://cline.bot",
+          "description": "开源编程 Agent，可在 IDE、命令行和 SDK 中使用，支持多家模型与本地模型",
+          "page": "cline.md"
+        },
+        {
+          "title": "Kiro",
+          "url": "https://kiro.dev",
+          "description": "亚马逊推出的 AI 编程 IDE 与 CLI（Kiro CLI 前身为 Amazon Q Developer CLI），主打规格驱动开发",
+          "page": "kiro.md"
+        },
+        {
+          "title": "OpenHands",
+          "url": "https://github.com/All-Hands-AI/OpenHands",
+          "description": "开源自主编程 Agent（MIT），在沙箱中运行，适合无人值守任务和 CI/CD",
+          "page": "openhands.md"
+        },
+        {
+          "title": "Qwen Code",
+          "url": "https://github.com/QwenLM/qwen-code",
+          "description": "阿里通义开源的终端编程 Agent（Apache-2.0），基于 Gemini CLI 分支，适配 Qwen 等开源权重模型",
+          "page": "qwen-code.md"
+        },
+        {
           "title": "Bolt.new",
           "url": "https://bolt.new/?rid=1gguvu",
           "description": "AI编程,在线编译器,在线编辑,运行,部署,注册送200K tokens",
@@ -414,7 +462,7 @@
         {
           "title": "Gemini Code Assist",
           "url": "https://cloud.google.com/products/gemini/code-assist",
-          "description": "谷歌AI智能代码辅助，加速开发效率"
+          "description": "谷歌面向企业和付费API用户的AI代码辅助服务，提供IDE插件与代码补全、对话和Agent能力"
         }
       ]
     },

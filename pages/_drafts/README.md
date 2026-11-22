@@ -1,30 +1,27 @@
-# AI搜索详情页草稿（第三批，2026-11-22）
+# 草稿审核说明（第四批：编程 Agent，2026-11-22）
 
-本目录不会上线。baixiaoying.md 为上一批暂缓的草稿。
+本目录不会上线（getAllPageSlugs 只读 pages/ 根目录）。
+baixiaoying.md、kaisou-ai.md、nami-search.md 为之前暂缓的草稿，本批未改动。
 
-| 草稿 | links.json 工具 title（分类） | 建议 page 值 | 未核实项 | 可信度 |
+| 草稿 | links.json title（AI编程） | 建议 page 值 | 可信度 | 未核实项 |
 |---|---|---|---|---|
-| deepseek.md | DeepSeek（AI搜索） | deepseek.md | API 单价；对话产品是否有付费档 | 较高（模型名来自官方文档） |
-| metaso.md | 秘塔AI搜索（AI搜索、最热） | metaso.md | 会员价格；免登录政策 | 中 |
-| tiangong-ai.md | 天工AI（AI搜索、最热） | tiangong-ai.md | 会员与智能体价格 | 中 |
-| genspark.md | Genspark（AI搜索） | genspark.md | 国内访问 | 较高（价格来自官方帮助中心） |
-| nami-search.md | 纳米搜索 n.cn（AI搜索） | nami-search.md | 付费功能；与 360AI搜索 的关系 | 中 |
-| kaisou-ai.md | 开搜AI问答搜索（AI搜索） | kaisou-ai.md | 开发公司、模型、付费 | 低 |
-| iflow.md | 心流·AI助手（AI搜索、最热） | iflow.md | C 端价格；iFlow CLI 免费政策 | 中 |
-| jiumo.md | 鸠摩搜索/Jiumo（AI搜索） | jiumo.md | 会员功能；版权风险提示 | 中 |
-| delilegal.md | 得理法搜（AI搜索） | delilegal.md | 价格；数据规模 | 中 |
+| claude-code.md | Claude Code | claude-code.md | 中 | 订阅价格（第三方）、默认模型、国内访问 |
+| openai-codex.md | OpenAI Codex | openai-codex.md | 中 | 默认模型、价格、国内访问 |
+| deepseek-harness.md | DeepSeek Harness | deepseek-harness.md | 中 | API 单价、国内实测 |
+| opencode.md | OpenCode | opencode.md | 中 | 仓库迁移以官方为准 |
+| cline.md | Cline | cline.md | 中 | 官方付费额度、非 VS Code 编辑器支持 |
+| kiro.md | Kiro | kiro.md | 低 | 价格与免费额度、规格驱动具体流程、国内访问 |
+| openhands.md | OpenHands | openhands.md | 中 | 云服务与价格、仓库地址 |
+| qwen-code.md | Qwen Code | qwen-code.md | 中 | 免费额度、启动命令 |
 
-## 跳过的工具
-- Kimi搜索：已挂 kimi.md。
-- 360AI搜索（sou.com）：与纳米搜索同属 360 AI 搜索，关系未核实；建议先共用 nami-search.md，确认后再决定是否单独成篇。“最热”分类也有一张 纳米搜索 卡片（url sou.com），同样可挂 nami-search.md。
-- Algolia、Felo、Globe：名额外未写。
+信息来源：主要为第三方评测汇总（Pinggy 2026-08、2026-10）与官方仓库/官网说明；未逐一打开官网定价页核实。
+本批未写 star 数和版本号。
 
-## 其他分类的同名/同网址卡片（发布时同步加 page）
-- 最热：秘塔AI搜索、天工AI、心流·AI助手、纳米搜索（sou.com）。
+## 与已有文章的关系
+- pages/codex.md 是早期 Codex CLI 文章，参数已过时（如 --approval-mode、--provider）。建议：把 openai-codex.md 发布后，给 /page/codex 加 301 到 /page/openai-codex，或用新稿覆盖 codex.md 并让卡片 page 填 "codex.md"。
 
-## 建议修正的卡片信息
-- DeepSeek 描述“AI对话与编程助手”可补充“免费对话 + 开放 API”。
-- 鸠摩搜索/Jiumo 不是 AI 产品，建议移到“工具”分类；描述里堆砌关键词（摩鸠、鸠魔、jiumosoushu）建议精简。
-- 天工AI 描述“国内第一款AI搜索引擎”为自我宣传，建议改为客观表述。
-- 360AI搜索 与“最热”中的“纳米搜索”网址都是 sou.com，而 AI搜索 分类的纳米搜索是 n.cn，名称和网址对应关系建议统一。
-- Algolia 是开发者站内搜索服务，不是面向大众的 AI 搜索，描述“懂你所需，领先竞品一步”是营销语，建议改写或移到“工具/云服务”。
+## links.json 网址修正建议
+- OpenHands：https://github.com/All-Hands-AI/OpenHands → https://github.com/OpenHands/OpenHands（据第三方，仓库已迁移）
+- Claude Code：https://www.anthropic.com/claude-code 可用，也可改为官方文档 https://docs.anthropic.com/en/docs/claude-code/overview（未实测哪个更稳定）
+- OpenCode：opencode.ai 正确；如引用 GitHub 应为 anomalyco/opencode（原 sst/opencode）
+- Gemini Code Assist（现有卡片）：Gemini CLI 已于 2026-06-18 停止向个人用户提供，建议描述注明“面向企业 / 付费 API”
