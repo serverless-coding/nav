@@ -18,6 +18,7 @@ export function LinkItem({ link }: { link: SiteLink }) {
                   alt={`${link.title} logo`}
                   width={40}
                   height={40}
+                  unoptimized
                 />
               ) : (
                 <span className="h-full w-full rounded-full bg-purple-500 text-center font-bold leading-10">

@@ -102,7 +102,9 @@ function getDomainFromUrl(url: string): string {
 
 function getSiteIcon(url: string): string {
   const site = getDomainFromUrl(url);
-  return `https://nav.programnotes.cn/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&size=48&url=${site}`;
+  if (!site) return '';
+  // 相对路径：线上由 edgeone.json 转发到谷歌图标服务，本地由 next.config.mjs 的 rewrites 转发
+  return `/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&size=48&url=${encodeURIComponent(site)}`;
 }
 
 // 从 JSON 文件构建导航数据

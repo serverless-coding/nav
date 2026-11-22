@@ -52,6 +52,7 @@ export function Sidebar({ className, navItems, onNavigate, activeId }: SidebarPr
                                 className="block"
                                 width={20}
                                 height={20}
+                                unoptimized
                               />
                             </div>
                             <span className="overflow-hidden text-ellipsis whitespace-nowrap">{category.title}</span>

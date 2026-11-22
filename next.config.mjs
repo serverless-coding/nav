@@ -13,6 +13,13 @@ const nextConfig = {
   eslint: {
     ignoreDuringBuilds: true,
   },
+  // 本地 next dev / next start 时转发；线上以 edgeone.json 为准
+  async rewrites() {
+    return [
+      { source: "/faviconV2", destination: "https://t2.gstatic.com/faviconV2" },
+      { source: "/translate", destination: "https://deeplx.ai-2b9.workers.dev/translate" },
+    ]
+  },
   async redirects() {
     return [
       { source: "/page/cursor-guide", destination: "/page/cursor", permanent: true },
