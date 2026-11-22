@@ -24,7 +24,7 @@ const AI_BOTS = [
   "meta-externalagent",
 ]
 
-const DISALLOW = ["/api/", "/*?q=", "/faviconV2", "/translate"]
+const DISALLOW = ["/api/", "/*?q=", "/favicon/", "/translate"]
 
 export default function robots(): MetadataRoute.Robots {
   return {

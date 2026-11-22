@@ -1,8 +1,8 @@
 {
   "rewrites": [
     {
-      "source": "/faviconV2",
-      "destination": "https://t2.gstatic.com/faviconV2"
+      "source": "/favicon/*.ico",
+      "destination": "https://icons.duckduckgo.com/ip3/:splat.ico"
     },
     {
       "source": "/translate",

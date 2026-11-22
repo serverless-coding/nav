@@ -101,10 +101,13 @@ function getDomainFromUrl(url: string): string {
 }
 
 function getSiteIcon(url: string): string {
-  const site = getDomainFromUrl(url);
-  if (!site) return '';
-  // 相对路径：线上由 edgeone.json 转发到谷歌图标服务，本地由 next.config.mjs 的 rewrites 转发
-  return `/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&size=48&url=${encodeURIComponent(site)}`;
+  try {
+    const { hostname } = new URL(url);
+    // 相对路径：线上由 edgeone.json、本地由 next.config.mjs 转发到 DuckDuckGo 图标服务
+    return `/favicon/${hostname}.ico`;
+  } catch {
+    return '';
+  }
 }
 
 // 从 JSON 文件构建导航数据
